@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "takahe:entity": {},
     "takahe_legs:entity_alphatest": {},
-    "tuatara:entity": {}
+    "tuatara:entity": {},
+    "snail:entity": {}
   }
 }
