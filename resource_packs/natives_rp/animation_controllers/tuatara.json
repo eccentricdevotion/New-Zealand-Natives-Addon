@@ -1,0 +1,17 @@
+{
+  "format_version":"1.8.0",
+  "animation_controllers": {
+    "controller.animation.tuatara.move": {
+      "states": {
+        "default": {
+          "parameters": [ "query.modified_move_speed" ],
+          "animations": [
+            { "default_pose": [] },
+            { "walk": [] },
+            { "look_at_target": [] }
+          ]
+        }
+      }
+    }
+  }
+}

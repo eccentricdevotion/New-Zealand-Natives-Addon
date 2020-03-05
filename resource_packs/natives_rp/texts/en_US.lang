@@ -1,0 +1,4 @@
+item.spawn_egg.entity.ccl:takahe.name=Spawn Takahe
+entity.ccl:takahe.name=Takahe
+item.spawn_egg.entity.ccl:tuatara.name=Spawn Tuatara
+entity.ccl:tuatara.name=Tuatara
