@@ -9,6 +9,9 @@
     },
     "component_groups": {
       "minecraft:baby": {
+        "minecraft:loot": {
+          "table": "loot_tables/snail.json"
+        },
         "minecraft:scale": {
           "value": 0.33
         },
@@ -16,21 +19,24 @@
           "damage": 1
         },
         "minecraft:health": {
-          "value": 4
+          "value": 2
         },
         "minecraft:movement": {
           "value": 0.05
         }
       },
       "minecraft:adult": {
+        "minecraft:loot": {
+          "table": "loot_tables/snail.json"
+        },
 		"minecraft:scale": {
           "value": 0.5
         },
         "minecraft:health": {
-          "value": 20
+          "value": 2
         },
         "minecraft:attack": {
-          "damage": 5
+          "damage": 1
         },
         "minecraft:movement": {
           "value": 0.05
@@ -91,7 +97,7 @@
       "minecraft:entity_spawned": {
         "randomize": [
           {
-            "weight": 20,
+            "weight": 50,
             "remove": {
             },
             "add": {
@@ -101,7 +107,7 @@
             }
           },
           {
-            "weight": 80,
+            "weight": 50,
             "remove": {
             },
             "add": {

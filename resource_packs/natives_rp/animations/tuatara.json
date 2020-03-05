@@ -1,7 +1,23 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.tuatara.walk": {
+		"animation.tuatara.baby_transform": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"scale": 2.0
+				}
+			}
+		},
+		"animation.tuatara.general": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [ "-this", 0.0, 0.0 ]
+				}
+			}
+		},
+		"animation.tuatara.move": {
 			"loop": true,
 			"animation_length": 0.8,
 			"bones": {
@@ -116,56 +132,6 @@
 						"0.6": [-0.25, -0.5, 2.25],
 						"0.8": [0, 0, 0]
 					}
-				}
-			}
-		},
-		"animation.tuatara.look_at_target": {
-			"loop": true,
-			"bones": {
-				"head": {
-					"relative_to": { "rotation": "entity" },
-					"rotation": [ "Math.clamp(query.target_x_rotation, -20, 20)", "Math.clamp(query.target_y_rotation, 0, 15)", 0.0 ]
-				}
-			}
-		},
-		"animation.tuatara.default_pose": {
-			"animation_length": 0,
-			"bones": {
-				"head": {
-					"rotation": [0, 0, 0],
-					"position": [0, 0, 0]
-				},
-				"body": {
-					"rotation": [0, 0, 0],
-					"position": [0, 0, 0]
-				},
-				"tail_1": {
-					"rotation": [0, 0, 0],
-					"position": [0, 0, 0]
-				},
-				"tail_2": {
-					"rotation": [0, 0, 0],
-					"position": [0, 0, 0]
-				},
-				"tail_3": {
-					"rotation": [0, 0, 0],
-					"position": [0, 0, 0]
-				},
-				"front_leg_1": {
-					"rotation": [0, 0, 0],
-					"position": [0, 0, 0]
-				},
-				"front_leg_2": {
-					"rotation": [0, 0, 0],
-					"position": [0, 0, 0]
-				},
-				"back_leg_1": {
-					"rotation": [0, 0, 0],
-					"position": [0, 0, 0]
-				},
-				"back_leg_2": {
-					"rotation": [0, 0, 0],
-					"position": [0, 0, 0]
 				}
 			}
 		}
