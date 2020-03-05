@@ -1,0 +1,54 @@
+{
+  "ccl.takahe.say": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "sounds/takahe/takahe1",
+        "load_on_low_memory": true
+      },
+      "sounds/takahe/takahe2",
+      "sounds/takahe/takahe3",
+      "sounds/takahe/takahe4"
+    ]
+  },
+  "ccl.takahe.hurt": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "sounds/takahe/takahe5",
+        "load_on_low_memory": true
+      }
+    ]
+  },
+  "ccl.takahe.step": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "sounds/takahe/step1",
+        "load_on_low_memory": true
+      },
+      "sounds/takahe/step2"
+    ]
+  },
+  "ccl.tuatara.say": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "sounds/tuatara/tuatara1",
+        "load_on_low_memory": true
+      },
+      "sounds/tuatara/tuatara2",
+      "sounds/tuatara/tuatara3"
+    ]
+  },
+  "ccl.tuatara.step": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "sounds/tuatara/step1",
+        "load_on_low_memory": true
+      },
+      "sounds/tuatara/step2"
+    ]
+  }
+}

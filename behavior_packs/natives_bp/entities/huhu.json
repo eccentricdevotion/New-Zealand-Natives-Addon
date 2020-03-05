@@ -2,7 +2,7 @@
   "format_version": "1.8.0",
   "minecraft:entity": {
     "description": {
-      "identifier": "ccl:tuatara",
+      "identifier": "ccl:huhu",
       "is_spawnable": true,
       "is_summonable": true,
       "is_experimental": false
@@ -19,7 +19,7 @@
           "value": 4
         },
         "minecraft:movement": {
-          "value": 0.4
+          "value": 0.05
         }
       },
       "minecraft:adult": {
@@ -33,16 +33,15 @@
           "damage": 5
         },
         "minecraft:movement": {
-          "value": 0.25
+          "value": 0.05
         }
       }
     },
-
     "components": {
       "minecraft:nameable": {
       },
       "minecraft:type_family": {
-        "family": [ "tuatara" ]
+        "family": [ "huhu", "arthropod" ]
       },
       "minecraft:navigation.walk": {
         "can_path_over_water": false,
@@ -50,14 +49,13 @@
         "avoid_damage_blocks": true
       },
       "minecraft:movement.basic": {
-
       },
       "minecraft:breathable": {
         "totalSupply": 15,
         "suffocateTime": 0
       },
       "minecraft:collision_box": {
-        "width": 1.2,
+        "width": 0.4,
         "height": 0.3
       },
       "minecraft:behavior.melee_attack": {
@@ -89,7 +87,6 @@
         "has_gravity": true
       }
     },
-
     "events": {
       "minecraft:entity_spawned": {
         "randomize": [
@@ -111,7 +108,6 @@
               "component_groups": [
                 "minecraft:baby"
               ]
-
             }
           }
         ]

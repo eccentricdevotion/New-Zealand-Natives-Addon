@@ -4,3 +4,5 @@ item.spawn_egg.entity.ccl:tuatara.name=Spawn Tuatara
 entity.ccl:tuatara.name=Tuatara
 item.spawn_egg.entity.ccl:snail.name=Spawn Powelliphanta
 entity.ccl:snail.name=Powelliphanta
+item.spawn_egg.entity.ccl:huhu.name=Spawn Huhu Grub
+entity.ccl:huhu.name=Huhu Grub

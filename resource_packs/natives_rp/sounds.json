@@ -1,0 +1,48 @@
+{
+  "entity_sounds": {
+    "entities": {
+      "ccl:takahe": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "ccl.takahe.say",
+          "hurt": "ccl.takahe.hurt",
+          "death": "ccl.takahe.hurt",
+          "step": {
+            "sound": "ccl.takahe.step",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      },
+      "ccl:tuatara": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "ccl.tuatara.say",
+          "hurt": "ccl.tuatara.say",
+          "death": "ccl.tuatara.say",
+          "step": {
+            "sound": "ccl.tuatara.step",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      },
+      "ccl:kunekune": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "ccl.kunekune.say",
+          "hurt": "ccl.kunekune.say",
+          "death": "ccl.kunekune.death",
+          "step": {
+            "sound": "ccl.kunekune.step",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      }
+    }
+  }
+}

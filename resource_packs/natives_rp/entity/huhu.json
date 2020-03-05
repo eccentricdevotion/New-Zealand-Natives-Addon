@@ -1,0 +1,28 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ccl:huhu",
+      "materials": { "default": "huhu" },
+      "textures": {
+        "default": "textures/entity/huhu/huhu"
+      },
+      "geometry": {
+        "default": "geometry.huhu"
+      },
+      "animations": {
+        "default_pose": "animation.huhu.default_pose",
+        "wiggle": "animation.huhu.wiggle",
+        "look_at_target": "animation.huhu.look_at_target"
+      },
+      "animation_controllers": [
+        { "move": "controller.animation.huhu.move" }
+      ],
+      "render_controllers": [ "controller.render.huhu" ],
+      "spawn_egg": {
+        "base_color": "#E0D6AC",
+        "overlay_color": "#6D5412"
+      }
+    }
+  }
+}
