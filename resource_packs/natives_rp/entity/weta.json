@@ -1,0 +1,28 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ccl:weta",
+      "materials": { "default": "weta" },
+      "textures": {
+        "default": "textures/entity/weta/weta"
+      },
+      "geometry": {
+        "default": "geometry.weta"
+      },
+      "animations": {
+        "default_pose": "animation.weta.default_pose",
+        "walk": "animation.weta.walk",
+        "look_at_target": "animation.weta.look_at_target"
+      },
+      "animation_controllers": [
+        { "move": "controller.animation.weta.move" }
+      ],
+      "render_controllers": [ "controller.render.weta" ],
+      "spawn_egg": {
+        "base_color": "#6A4A06",
+        "overlay_color": "#AE8830"
+      }
+    }
+  }
+}

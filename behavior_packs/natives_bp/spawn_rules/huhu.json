@@ -2,7 +2,7 @@
   "format_version": "1.8.0",
   "minecraft:spawn_rules": {
     "description": {
-      "identifier": "ccl:snail",
+      "identifier": "ccl:huhu",
       "population_control": "animal"
     },
     "conditions": [
@@ -19,15 +19,9 @@
         },
         "minecraft:biome_filter": {
           "any_of": [
-            {
-              "test": "has_biome_tag", "operator": "==", "value": "forest"
-            },
-            {
-              "test": "has_biome_tag", "operator": "==", "value": "dark_forest"
-            },
-            {
-              "test": "has_biome_tag", "operator": "==", "value": "jungle"
-            }
+            { "test": "has_biome_tag", "operator": "==", "value": "forest" },
+            { "test": "has_biome_tag", "operator": "==", "value": "dark_forest" },
+            { "test": "has_biome_tag", "operator": "==", "value": "jungle" }
           ]
         }
       }

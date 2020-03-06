@@ -2,7 +2,7 @@
   "format_version": "1.8.0",
   "minecraft:entity": {
     "description": {
-      "identifier": "ccl:huhu",
+      "identifier": "ccl:weta",
       "is_spawnable": true,
       "is_summonable": true,
       "is_experimental": false
@@ -10,7 +10,7 @@
     "component_groups": {
       "minecraft:baby": {
         "minecraft:loot": {
-          "table": "loot_tables/huhu.json"
+          "table": "loot_tables/weta.json"
         },
         "minecraft:scale": {
           "value": 0.33
@@ -27,7 +27,7 @@
       },
       "minecraft:adult": {
         "minecraft:loot": {
-          "table": "loot_tables/huhu.json"
+          "table": "loot_tables/weta.json"
         },
 		"minecraft:scale": {
           "value": 0.5
@@ -47,7 +47,7 @@
       "minecraft:nameable": {
       },
       "minecraft:type_family": {
-        "family": [ "huhu", "arthropod" ]
+        "family": [ "weta", "arthropod" ]
       },
       "minecraft:navigation.walk": {
         "can_path_over_water": false,

@@ -6,5 +6,7 @@ item.spawn_egg.entity.ccl:snail.name=Spawn Powelliphanta §5Carnivorous Snail
 entity.ccl:snail.name=Powelliphanta
 item.spawn_egg.entity.ccl:huhu.name=Spawn Huhu Grub
 entity.ccl:huhu.name=Huhu Grub
+item.spawn_egg.entity.ccl:weta.name=Spawn Giant Weta
+entity.ccl:weta.name=Giant Weta
 item.ccl:huhu_grub.name=Huhu Grub
 tile.ccl:rotten_log.name=Rotten Log

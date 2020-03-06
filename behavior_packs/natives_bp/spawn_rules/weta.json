@@ -2,12 +2,13 @@
   "format_version": "1.8.0",
   "minecraft:spawn_rules": {
     "description": {
-      "identifier": "ccl:tuatara",
+      "identifier": "ccl:weta",
       "population_control": "animal"
     },
     "conditions": [
       {
         "minecraft:spawns_on_surface": {},
+        "minecraft:spawns_on_block_filter": "minecraft:log",
         "minecraft:brightness_filter": {
           "min": 0,
           "max": 15,
@@ -18,8 +19,6 @@
         },
         "minecraft:biome_filter": {
           "any_of": [
-            { "test": "has_biome_tag", "operator": "==", "value": "desert" },
-            { "test": "has_biome_tag", "operator": "==", "value": "mesa" },
             { "test": "has_biome_tag", "operator": "==", "value": "forest" },
             { "test": "has_biome_tag", "operator": "==", "value": "dark_forest" },
             { "test": "has_biome_tag", "operator": "==", "value": "jungle" }
