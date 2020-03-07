@@ -1,0 +1,15 @@
+{
+	"format_version": "1.8.0",
+	"animation_controllers": {
+		"controller.animation.vile_spider.particles": {
+			"states": {
+				"default": {
+					"particle_effects": [
+						{ "effect": "spawn_effect" },
+						{ "effect": "trail_effect" }
+					]
+				}
+			}
+		}
+	}
+}

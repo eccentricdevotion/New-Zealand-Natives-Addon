@@ -87,6 +87,9 @@
       },
       "minecraft:physics": {
         "has_gravity": true
+      },
+      "minecraft:navigation.walk": {
+        "avoid_damage_blocks": true
       }
     },
 

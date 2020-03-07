@@ -1,3 +1,5 @@
+item.spawn_egg.entity.ccl:katipo.name=Spawn Katipo
+entity.ccl:katipo.name=Katipo
 item.spawn_egg.entity.ccl:takahe.name=Spawn Takahe
 entity.ccl:takahe.name=Takahe
 item.spawn_egg.entity.ccl:tuatara.name=Spawn Tuatara
