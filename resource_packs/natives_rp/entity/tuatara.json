@@ -1,28 +1,28 @@
 {
-  "format_version": "1.8.0",
-  "minecraft:client_entity": {
-    "description": {
-      "identifier": "ccl:tuatara",
-      "materials": { "default": "tuatara" },
-      "textures": {
-        "default": "textures/entity/tuatara/tuatara"
-      },
-      "geometry": {
-        "default": "geometry.tuatara"
-      },
-      "animations": {
-        "default_pose": "animation.tuatara.default_pose",
-        "walk": "animation.tuatara.walk",
-        "look_at_target": "animation.tuatara.look_at_target"
-      },
-      "animation_controllers": [
-        { "move": "controller.animation.tuatara.move" }
-      ],
-      "render_controllers": [ "controller.render.tuatara" ],
-      "spawn_egg": {
-        "base_color": "#A0A794",
-        "overlay_color": "#707962"
-      }
-    }
-  }
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "ccl:tuatara",
+			"materials": { "default": "tuatara" },
+			"textures": { "default": "textures/entity/tuatara/tuatara" },
+			"geometry": { "default": "geometry.tuatara" },
+			"animations": {
+				"default_pose": "animation.tuatara.default_pose",
+				"walk": "animation.tuatara.walk",
+				"look_at_target": "animation.tuatara.look_at_target"
+			},
+			"scripts": {
+				"animate": [
+					"default_pose",
+					"walk",
+					"look_at_target"
+				]
+			},
+			"render_controllers": [ "controller.render.tuatara" ],
+			"spawn_egg": {
+				"base_color": "#A0A794",
+				"overlay_color": "#707962"
+			}
+		}
+	}
 }

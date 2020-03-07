@@ -1,5 +1,5 @@
 {
-    "format_version": "1.10",
+    "format_version": "1.12.0",
     "minecraft:block": {
         "description": {
             "identifier": "ccl:rotten_log",
@@ -8,10 +8,10 @@
         },
         "components": {
             "minecraft:loot": {
-                "table": "loot_tables/blocks/example_unique_block.json"
+                "table": "loot_tables/rotten_log.json"
             },
             "minecraft:destroy_time": {
-                "value": 10.0
+                "value": 1.0
             },
             "minecraft:explosion_resistance": {
                 "value": 10
@@ -19,9 +19,6 @@
             "minecraft:flammable": {
                 "flame_odds": 1,
                 "burn_odds": 1
-            },
-            "minecraft:map_color": {
-                "color": "#654605"
             },
             "minecraft:block_light_absorption": {
                 "value": 0

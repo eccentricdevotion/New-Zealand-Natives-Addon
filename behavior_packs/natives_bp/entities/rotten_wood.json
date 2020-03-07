@@ -1,0 +1,63 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "ccl:rotten_wood",
+			"is_summonable": true,
+			"is_spawnable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"ccl:log": {
+				"minecraft:loot": {
+					"table": "loot_tables/rotten_log.json"
+				},
+				"minecraft:tameable": {
+					"probability": 1.0,
+					"tame_items": [ "wooden_axe", "stone_axe", "iron_axe", "golden_axe", "diamond_axe" ],
+					"tame_event": {
+						"event": "minecraft:on_tame",
+						"target": "self"
+					}
+				}
+			},
+			"ccl:split": {
+				"minecraft:loot": {
+					"table": "loot_tables/rotten_log_split.json"
+				},
+				"minecraft:is_tamed": {
+				}
+			}
+		},
+		"components": {
+			"minecraft:physics": {
+			},
+			"minecraft:type_family": {
+				"family": [ "log", "inanimate", "mob" ]
+			},
+			"minecraft:collision_box": {
+				"width": 1.0,
+				"height": 1.0
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": "ccl:log"
+				}
+			},
+			"minecraft:on_tame": {
+				"remove": {
+					"component_groups": "ccl:log"
+				},
+				"add": {
+					"component_groups": "ccl:split"
+				}
+			}
+		}
+	}
+}
