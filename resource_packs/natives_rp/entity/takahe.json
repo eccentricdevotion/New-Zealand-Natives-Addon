@@ -9,7 +9,7 @@
 			},
 			"textures": {
 				"default": "textures/entity/takahe/takahe",
-				"baby": "textures/entity/takahe/takahe"
+				"baby": "textures/entity/takahe/takahe_baby"
 			},
 			"geometry": { "default": "geometry.takahe" },
 			"animations": {
