@@ -1,9 +1,10 @@
 .DS_Store
-/db/
-/level.dat
-/level.dat_old
-/world_icon.jpeg
+db/*
 level.dat
 level.dat_old
+levelname.txt
+world_behavior_pack_history.json
+world_behavior_packs.json
 world_icon.jpeg
-db/CURRENT
+world_resource_pack_history.json
+world_resource_packs.json
