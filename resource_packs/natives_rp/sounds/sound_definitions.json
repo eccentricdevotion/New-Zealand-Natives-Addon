@@ -50,5 +50,36 @@
       },
       "sounds/tuatara/step2"
     ]
+  },
+  "ccl.sea_lion.say": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "sounds/sea_lion/sea_lion1",
+        "load_on_low_memory": true
+      },
+      "sounds/sea_lion/sea_lion2",
+      "sounds/sea_lion/sea_lion3",
+      "sounds/sea_lion/sea_lion4"
+    ]
+  },
+  "ccl.sea_lion.hurt": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "sounds/sea_lion/sea_lion5",
+        "load_on_low_memory": true
+      }
+    ]
+  },
+  "ccl.sea_lion.step": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "sounds/sea_lion/step1",
+        "load_on_low_memory": true
+      },
+      "sounds/sea_lion/step2"
+    ]
   }
 }

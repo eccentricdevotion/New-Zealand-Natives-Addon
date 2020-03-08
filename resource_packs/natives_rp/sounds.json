@@ -29,15 +29,15 @@
           }
         }
       },
-      "ccl:kunekune": {
+      "ccl:sea_lion": {
         "volume": 1.0,
         "pitch": [ 0.8, 1.2 ],
         "events": {
-          "ambient": "ccl.kunekune.say",
-          "hurt": "ccl.kunekune.say",
-          "death": "ccl.kunekune.death",
+          "ambient": "ccl.sea_lion.say",
+          "hurt": "ccl.sea_lion.hurt",
+          "death": "ccl.sea_lion.hurt",
           "step": {
-            "sound": "ccl.kunekune.step",
+            "sound": "ccl.sea_lion.step",
             "volume": 1.0,
             "pitch": 1.0
           }

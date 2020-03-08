@@ -1,3 +1,5 @@
+item.spawn_egg.entity.ccl:sea_lion.name=Spawn Sea Lion
+entity.ccl:sea_lion.name=Sea Lion
 item.spawn_egg.entity.ccl:katipo.name=Spawn Katipo
 entity.ccl:katipo.name=Katipo
 item.spawn_egg.entity.ccl:takahe.name=Spawn Takahe
