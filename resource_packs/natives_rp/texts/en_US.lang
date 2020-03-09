@@ -16,3 +16,4 @@ item.spawn_egg.entity.ccl:weta.name=Spawn Giant Weta
 entity.ccl:weta.name=Giant Weta
 item.ccl:huhu_grub.name=Huhu Grub
 tile.ccl:rotten_log.name=Rotten Log
+tile.ccl:basket_fungus.name=Basket Fungus §5Ileodictyon cibarium
