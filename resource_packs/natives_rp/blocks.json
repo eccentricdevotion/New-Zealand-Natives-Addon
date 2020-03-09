@@ -7,5 +7,13 @@
 			"side": "rotten_log_side"
 		},
 		"sound": "wood"
+	},
+	"ccl:basket_fungus": {
+		"textures": {
+			"up": "basket_fungus_top",
+			"down": "basket_fungus_bottom",
+			"side": "basket_fungus_side"
+		},
+		"sound": "wood"
 	}
 }
