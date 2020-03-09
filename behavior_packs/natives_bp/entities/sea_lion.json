@@ -295,6 +295,8 @@
                 ]
             },
             "entity_born":{
+                "remove": {
+                },
                 "add":{
                     "component_groups":[
                         "ccl:sea_lion_baby"
@@ -302,14 +304,14 @@
                 }
             },
             "ageable_grow_up":{
-                "remove":{
-                    "component_groups":[
-                        "ccl:sea_lion_baby"
-                    ]
-                },
                 "randomize":[
                     {
                         "weight":50,
+                        "remove":{
+                            "component_groups":[
+                                "ccl:sea_lion_baby"
+                            ]
+                        },
                         "add":{
                             "component_groups":[
                                 "ccl:sea_lion_adult_male"
@@ -318,6 +320,11 @@
                     },
                     {
                         "weight":50,
+                        "remove":{
+                            "component_groups":[
+                                "ccl:sea_lion_baby"
+                            ]
+                        },
                         "add":{
                             "component_groups":[
                                 "ccl:sea_lion_adult_female"
