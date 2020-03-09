@@ -2,7 +2,6 @@
 	"resource_pack_name": "NZ Natives Resource Pack",
 	"texture_name": "atlas.items",
 	"texture_data": {
-		"huhu_grub": { "textures": "textures/items/huhu_grub" },
-		"rotten_log": { "textures": "textures/items/rotten_log" }
+		"huhu_grub": { "textures": "textures/items/huhu_grub" }
 	}
 }

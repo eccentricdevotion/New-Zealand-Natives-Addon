@@ -5,7 +5,7 @@
 			"up": "rotten_log_top",
 			"down": "rotten_log_top",
 			"side": "rotten_log_side"
-		}
+		},
 		"sound": "wood"
 	}
 }

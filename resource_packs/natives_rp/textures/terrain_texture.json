@@ -4,7 +4,7 @@
 	"padding": 8,
 	"num_mip_levels": 4,
 	"texture_data": {
-		"rotten_log_top": { "textures": "textures/blocks/rotten_log_top" },
-		"rotten_log_side": { "textures": "textures/blocks/rotten_log_side" }
+		"rotten_log_top": { "textures": [ "textures/blocks/rotten_log_top" ] },
+		"rotten_log_side": { "textures": [ "textures/blocks/rotten_log_side" ] }
 	}
 }

@@ -11,7 +11,7 @@
                 "table": "loot_tables/rotten_log.json"
             },
             "minecraft:destroy_time": {
-                "value": 1.0
+                "value": 0.5
             },
             "minecraft:explosion_resistance": {
                 "value": 10

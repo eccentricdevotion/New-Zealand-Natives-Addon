@@ -14,7 +14,5 @@ item.spawn_egg.entity.ccl:huhu.name=Spawn Huhu Grub
 entity.ccl:huhu.name=Huhu Grub
 item.spawn_egg.entity.ccl:weta.name=Spawn Giant Weta
 entity.ccl:weta.name=Giant Weta
-item.spawn_egg.entity.ccl:rotten_wood.name=Rotten Log
-entity.ccl:rotten_wood.name=Rotten Log
 item.ccl:huhu_grub.name=Huhu Grub
 tile.ccl:rotten_log.name=Rotten Log
