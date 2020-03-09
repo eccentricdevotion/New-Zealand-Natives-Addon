@@ -1,0 +1,41 @@
+{
+	"format_version" : "1.8.0",
+  "animations": {
+    "animation.bird.general.v1.0": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "rotation": [ "90.0 - this", 0.0, 0.0 ]
+        }
+      }
+    },
+    "animation.bird.baby_transform": {
+      "loop": true,
+      "bones": {
+        "head": {
+          "scale": 1.0
+        }
+      }
+    },
+    "animation.bird.general": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "rotation": [ "-this", 0.0, 0.0 ]
+        }
+      }
+    },
+    "animation.bird.move": {
+      "anim_time_update": "query.modified_distance_moved",
+      "loop": true,
+      "bones": {
+        "leg0": {
+          "rotation": [ "math.cos(query.anim_time * 38.17) *  80.0", 0.0, 0.0 ]
+        },
+        "leg1": {
+          "rotation": [ "math.cos(query.anim_time * 38.17) * -80.0", 0.0, 0.0 ]
+        }
+      }
+    }
+  }
+}

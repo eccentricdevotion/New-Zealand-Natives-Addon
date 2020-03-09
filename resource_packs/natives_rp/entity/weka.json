@@ -2,16 +2,16 @@
 	"format_version": "1.10.0",
 	"minecraft:client_entity": {
 		"description": {
-			"identifier": "ccl:takahe",
+			"identifier": "ccl:weka",
 			"materials": {
-				"default": "takahe",
-				"legs": "takahe_legs"
+				"default": "weka",
+				"legs": "weka_legs"
 			},
 			"textures": {
-				"default": "textures/entity/takahe/takahe",
-				"baby": "textures/entity/takahe/takahe_baby"
+				"default": "textures/entity/weka/weka",
+				"baby": "textures/entity/weka/weka_baby"
 			},
-			"geometry": { "default": "geometry.takahe" },
+			"geometry": { "default": "geometry.weka" },
 			"animations": {
 				"move": "animation.bird.move",
 				"general": "animation.bird.general",
@@ -26,10 +26,10 @@
 					{ "baby_transform": "query.is_baby" }
 				]
 			},
-			"render_controllers": [ "controller.render.takahe" ],
+			"render_controllers": [ "controller.render.weka" ],
 			"spawn_egg": {
-				"base_color": "#12A0B9",
-				"overlay_color": "#3F2AF8"
+				"base_color": "#837143",
+				"overlay_color": "#A83f0C"
 			}
 		}
 	}

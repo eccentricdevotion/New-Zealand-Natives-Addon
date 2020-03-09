@@ -51,6 +51,28 @@
       "sounds/tuatara/step2"
     ]
   },
+  "ccl.weka.say": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "sounds/weka/weka1",
+        "load_on_low_memory": true
+      },
+      "sounds/weka/weka2",
+      "sounds/weka/weka3",
+      "sounds/weka/weka4"
+    ]
+  },
+  "ccl.weka.step": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "sounds/weka/step1",
+        "load_on_low_memory": true
+      },
+      "sounds/weka/step2"
+    ]
+  },
   "ccl.sea_lion.say": {
     "category": "neutral",
     "sounds": [

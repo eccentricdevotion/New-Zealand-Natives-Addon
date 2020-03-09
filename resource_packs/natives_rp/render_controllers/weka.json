@@ -1,0 +1,18 @@
+{
+  "format_version":"1.8.0",
+  "render_controllers": {
+    "controller.render.weka": {
+      "arrays": {
+        "textures": {
+          "Array.textures": [ "Texture.default", "Texture.baby" ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [
+        { "*": "Material.default" },
+        { "leg*": "Material.legs" }
+      ],
+      "textures": [ "Array.textures[query.is_baby]" ]
+    }
+  }
+}

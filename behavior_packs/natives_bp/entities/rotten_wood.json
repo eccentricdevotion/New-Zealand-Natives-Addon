@@ -33,7 +33,7 @@
 			"minecraft:physics": {
 			},
 			"minecraft:type_family": {
-				"family": [ "log", "inanimate", "mob" ]
+				"family": [ "log", "inanimate" ]
 			},
 			"minecraft:collision_box": {
 				"width": 1.0,

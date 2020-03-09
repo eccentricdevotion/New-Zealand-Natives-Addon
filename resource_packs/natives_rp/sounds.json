@@ -42,6 +42,20 @@
             "pitch": 1.0
           }
         }
+      },
+      "ccl:weka": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "ccl.weka.say",
+          "hurt": "ccl.weka.say",
+          "death": "ccl.weka.say",
+          "step": {
+            "sound": "ccl.weka.step",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
       }
     }
   }
