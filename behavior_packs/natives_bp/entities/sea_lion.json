@@ -43,7 +43,7 @@
                         "salmon"
                     ],
                     "grow_up":{
-                        "event":"ageable_grow_up",
+                        "event":"minecraft:ageable_grow_up",
                         "target":"self"
                     }
                 },
@@ -86,7 +86,7 @@
                         "mate_type":"ccl:sea_lion",
                         "baby_type":"ccl:sea_lion",
                         "breed_event": {
-							"event": "entity_born",
+							"event": "minecraft:entity_born",
 							"target": "baby"
 						}
                     },
@@ -143,7 +143,7 @@
                         "mate_type":"ccl:sea_lion",
                         "baby_type":"ccl:sea_lion",
                         "breed_event": {
-							"event": "entity_born",
+							"event": "minecraft:entity_born",
 							"target": "baby"
 						}
                     },
@@ -325,13 +325,6 @@
                         }
                     }
                 ]
-            },
-            "minecraft:become_pregnant":{
-                "add":{
-                    "component_groups":[
-                        "minecraft:pregnant"
-                    ]
-                }
             }
         }
     }
