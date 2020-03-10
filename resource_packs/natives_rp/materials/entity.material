@@ -1,6 +1,7 @@
 {
   "materials": {
     "version": "1.0.0",
+    "haasts_eagle:entity": {},
     "hectors_dolphin:entity": {},
     "huhu:entity": {},
     "sea_lion:entity": {},

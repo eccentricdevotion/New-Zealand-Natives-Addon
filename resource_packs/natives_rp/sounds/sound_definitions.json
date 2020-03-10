@@ -103,5 +103,17 @@
       },
       "sounds/sea_lion/step2"
     ]
+  },
+  "ccl.haasts_eagle.say": {
+    "category": "monster",
+    "sounds": [
+      {
+        "name": "sounds/haasts_eagle/haasts_eagle1",
+        "load_on_low_memory": true
+      },
+      "sounds/haasts_eagle/haasts_eagle2",
+      "sounds/haasts_eagle/haasts_eagle2",
+      "sounds/haasts_eagle/haasts_eagle2"
+    ]
   }
 }

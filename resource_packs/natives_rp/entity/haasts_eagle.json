@@ -1,0 +1,34 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ccl:haasts_eagle",
+      "materials": {
+        "default": "haasts_eagle"
+      },
+      "textures": {
+        "default": "textures/entity/haasts_eagle/haasts_eagle"
+      },
+      "geometry": {
+        "default": "geometry.haasts_eagle"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.wingRotZ = 16.0 * Math.sin((variable.RuntimeID * 3 + query.life_time * 20.0) * 7.448454);",
+          "variable.tailRotX = -5.0 * Math.sin((variable.RuntimeID * 3 + query.life_time * 20.0) * 14.896908) - 5.0;"
+        ]
+      },
+      "animations": {
+        "move": "animation.phantom.move"
+      },
+      "animation_controllers": [
+        { "move": "controller.animation.phantom.move" }
+      ],
+      "render_controllers": [ "controller.render.haasts_eagle" ],
+      "spawn_egg": {
+        "base_color": "#D5D39E",
+		"overlay_color": "#BF7620"
+      }
+    }
+  }
+}

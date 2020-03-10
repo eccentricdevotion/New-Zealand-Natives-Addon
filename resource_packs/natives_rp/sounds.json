@@ -56,6 +56,15 @@
             "pitch": 1.0
           }
         }
+      },
+      "ccl:haasts_eagle": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "ccl.haasts_eagle.say",
+          "hurt": "ccl.haasts_eagle.say",
+          "death": "ccl.haasts_eagle.say"
+        }
       }
     }
   }

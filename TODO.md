@@ -15,7 +15,6 @@
 - Frogs (Archey’s frog was mentioned)
 - Fungi, esp. basket fungi
 - Giraffe weevil
-- Haast’s eagle - use Phantom mechanics
 - Harakeke
 - Harvestmen
 - Hoiho (yellow-eyed penguin), and other past birds of the year
@@ -50,6 +49,7 @@
 
 - Dolphins, Hector’s / Maui’s
 - Eels
+- Haast’s eagle
 - Huhu Grubs
 - Katipo
 - Kiwi

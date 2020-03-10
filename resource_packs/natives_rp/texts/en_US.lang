@@ -1,3 +1,4 @@
+entity.ccl:haasts_eagle.name=Haast's Eagle
 entity.ccl:hectors_dolphin.name=Hector's Dolphin
 entity.ccl:huhu.name=Huhu Grub
 entity.ccl:katipo.name=Katipo
@@ -8,6 +9,7 @@ entity.ccl:tuatara.name=Tuatara
 entity.ccl:weka.name=Weka
 entity.ccl:weta.name=Giant Weta
 item.ccl:huhu_grub.name=Huhu Grub
+item.spawn_egg.entity.ccl:haasts_eagle.name=Spawn Haast's Eagle
 item.spawn_egg.entity.ccl:hectors_dolphin.name=Spawn Hector's / Maui's Dolphin
 item.spawn_egg.entity.ccl:huhu.name=Spawn Huhu Grub
 item.spawn_egg.entity.ccl:katipo.name=Spawn Katipo
