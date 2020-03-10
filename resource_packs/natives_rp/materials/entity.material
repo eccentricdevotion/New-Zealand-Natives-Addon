@@ -1,14 +1,15 @@
 {
   "materials": {
     "version": "1.0.0",
-    "takahe:entity": {},
-    "takahe_legs:entity_alphatest": {},
-    "tuatara:entity": {},
+    "hectors_dolphin:entity": {},
     "huhu:entity": {},
-    "weka:entity": {},
-    "weka_legs:entity_alphatest": {},
-    "weta:entity": {},
     "sea_lion:entity": {},
-    "snail:entity": {}
+    "snail:entity": {},
+    "takahe_legs:entity_alphatest": {},
+    "takahe:entity": {},
+    "tuatara:entity": {},
+    "weka_legs:entity_alphatest": {},
+    "weka:entity": {},
+    "weta:entity": {}
   }
 }
