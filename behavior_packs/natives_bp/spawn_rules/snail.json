@@ -8,6 +8,7 @@
     "conditions": [
       {
         "minecraft:spawns_on_surface": {},
+        "minecraft:spawns_underwater": {},
         "minecraft:brightness_filter": {
           "min": 0,
           "max": 15,
@@ -17,11 +18,7 @@
           "default": 8
         },
         "minecraft:biome_filter": {
-          "any_of": [
-            { "test": "has_biome_tag", "operator": "==", "value": "forest" },
-            { "test": "has_biome_tag", "operator": "==", "value": "dark_forest" },
-            { "test": "has_biome_tag", "operator": "==", "value": "jungle" }
-          ]
+          "test": "has_biome_tag", "operator": "==", "value": "animal" }
         }
       }
     ]

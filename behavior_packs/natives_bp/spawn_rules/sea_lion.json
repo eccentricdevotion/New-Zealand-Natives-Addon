@@ -8,6 +8,7 @@
     "conditions": [
       {
         "minecraft:spawns_on_surface": {},
+        "minecraft:spawns_underwater": {},
         "minecraft:brightness_filter": {
           "min": 0,
           "max": 15,
@@ -18,14 +19,8 @@
         },
         "minecraft:biome_filter": {
           "any_of": [
-            { "test": "has_biome_tag", "operator": "==", "value": "river" },
-            { "test": "has_biome_tag", "operator": "==", "value": "beach" },
-            { "test": "has_biome_tag", "operator": "==", "value": "cold_beach" },
-            { "test": "has_biome_tag", "operator": "==", "value": "warm_ocean" },
-            { "test": "has_biome_tag", "operator": "==", "value": "cold_ocean" },
-            { "test": "has_biome_tag", "operator": "==", "value": "lukewarm_ocean" },
-            { "test": "has_biome_tag", "operator": "==", "value": "frozen_ocean" },
-            { "test": "has_biome_tag", "operator": "==", "value": "ocean" }
+            { "test": "has_biome_tag", "operator": "==", "value": "ocean" },
+            { "test": "has_biome_tag", "operator": "==", "value": "frozen"}
           ]
         }
       }
