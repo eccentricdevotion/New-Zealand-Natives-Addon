@@ -3,6 +3,7 @@
   "minecraft:entity": {
     "description": {
       "identifier": "ccl:hectors_dolphin",
+      "runtime_identifier": "minecraft:dolphin",
       "is_spawnable": true,
       "is_summonable": true,
       "is_experimental": false
