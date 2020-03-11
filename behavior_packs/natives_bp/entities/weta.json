@@ -94,6 +94,17 @@
       },
       "minecraft:navigation.walk": {
         "avoid_damage_blocks": true
+      },
+      "minecraft:navigation.climb": {
+        "can_float": true
+      },
+      "minecraft:can_climb": {
+      },
+      "minecraft:behavior.mount_pathing": {
+        "priority": 5,
+        "speed_multiplier": 0.8,
+        "target_dist": 0.0,
+        "track_target": true
       }
     },
     "events": {

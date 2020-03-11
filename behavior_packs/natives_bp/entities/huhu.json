@@ -29,7 +29,7 @@
         "minecraft:loot": {
           "table": "loot_tables/huhu.json"
         },
-		"minecraft:scale": {
+		    "minecraft:scale": {
           "value": 0.5
         },
         "minecraft:health": {

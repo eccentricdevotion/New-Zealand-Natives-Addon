@@ -9,11 +9,6 @@
 		"sound": "wood"
 	},
 	"ccl:basket_fungus": {
-		"materials": {
-			"top": "basket_fungus_top",
-			"bottom": "basket_fungus_bottom",
-			"side": "basket_fungus_side"
-		}
 		"textures": {
 			"up": "basket_fungus_top",
 			"down": "basket_fungus_bottom",
