@@ -54,6 +54,7 @@
 - Katipo
 - Kiwi
 - Kunekune
+- Monarch butterfly
 - Piwakawaka/fantail
 - Powelliphanta
 - Sea Lions

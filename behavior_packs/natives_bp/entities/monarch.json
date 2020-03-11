@@ -1,0 +1,305 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "ccl:monarch",
+			"runtime_identifier": "minecraft:bee",
+            "is_spawnable": true,
+            "is_summonable": true,
+            "is_experimental": false
+        },
+        "component_groups": {
+            "monarch_baby": {
+                "minecraft:is_baby": {},
+                "minecraft:scale": {
+                    "value": 0.3
+                },
+                "minecraft:ageable": {
+                    "duration": 1200,
+                    "feed_items": [
+                        "minecraft:red_flower",
+                        "minecraft:yellow_flower",
+                        "minecraft:wither_rose",
+                        "minecraft:double_plant:0",
+                        "minecraft:double_plant:1",
+                        "minecraft:double_plant:4",
+                        "minecraft:double_plant:5"
+                    ],
+                    "grow_up": {
+                        "event": "minecraft:ageable_grow_up",
+                        "target": "self"
+                    }
+                },
+                "minecraft:behavior.follow_parent": {
+                    "priority": 8,
+                    "speed_multiplier": 1.1
+                }
+            },
+            "monarch_adult": {
+            	"minecraft:scale": {
+                    "value": 0.5
+                },
+				"minecraft:physics": {
+					"has_gravity": false
+				},
+                "minecraft:experience_reward": {
+                    "on_bred": "Math.Random(1,7)",
+                    "on_death": "query.last_hit_by_player ? Math.Random(1,3) : 0"
+                },
+                "minecraft:behavior.breed": {
+                    "priority": 6,
+                    "speed_multiplier": 1.0
+                },
+                "minecraft:breedable": {
+                    "require_tame": false,
+                    "breeds_with": {
+                        "mate_type": "ccl:monarch",
+                        "baby_type": "ccl:monarch",
+                        "breed_event": {
+                            "event": "minecraft:entity_born",
+                            "target": "baby"
+                        }
+                    },
+                    "breed_items": [
+                        "minecraft:red_flower",
+                        "minecraft:yellow_flower",
+                        "minecraft:wither_rose",
+                        "minecraft:double_plant:0",
+                        "minecraft:double_plant:1",
+                        "minecraft:double_plant:4",
+                        "minecraft:double_plant:5"
+                    ]
+                }
+            },
+            "track_attacker": {
+                "minecraft:behavior.hurt_by_target": {
+                    "priority": 2
+                }
+            },
+            "look_for_food": {
+                "minecraft:behavior.move_to_block": {
+                    "priority": 11,
+                    "tick_interval": 1,
+                    "start_chance": 0.5,
+                    "search_range": 6,
+                    "search_height": 4,
+                    "goal_radius": 1.0,
+                    "stay_duration": 20.0,
+                    "target_selection_method": "random",
+                    "target_offset": [0, 0.25, 0],
+                    "target_blocks": [
+                        "minecraft:red_flower",
+                        "minecraft:yellow_flower",
+                        "minecraft:wither_rose",
+                        "minecraft:sweet_berry_bush",
+                        "minecraft:double_plant:8",
+                        "minecraft:double_plant:9",
+                        "minecraft:double_plant:12",
+                        "minecraft:double_plant:13"
+                    ],
+                    "on_stay_completed": [
+                        {
+                            "event": "collected_nectar",
+                            "target": "self"
+                        }
+                    ]
+                },
+                "minecraft:ambient_sound_interval" :{
+                    "event_name" : "ambient.pollinate",
+                    "range" : 3.0,
+                    "value" : 2.0
+                }
+            },
+            "has_nectar": {
+                "minecraft:is_charged": {},
+                "minecraft:grows_crop": {
+                    "charges": 10,
+                    "chance": 0.03
+                }
+            },
+            "default_sound" : {
+                "minecraft:ambient_sound_interval" :{
+                    "event_name" : "ambient",
+                    "range" : 0.0,
+                    "value" : 0.0
+                }
+            }
+        },
+        "components": {
+			"minecraft:can_fly": {
+			},
+            "minecraft:behavior.tempt": {
+                "priority": 7,
+                "speed_multiplier": 1.25,
+                "within_radius": 8,
+                "can_tempt_vertically": true,
+                "items": [
+                    "minecraft:red_flower",
+                    "minecraft:yellow_flower",
+                    "minecraft:wither_rose",
+                    "minecraft:double_plant:0",
+                    "minecraft:double_plant:1",
+                    "minecraft:double_plant:4",
+                    "minecraft:double_plant:5"
+                ]
+            },
+            "minecraft:behavior.random_hover": {
+                "priority": 12,
+                "xz_dist": 8,
+                "y_dist": 8,
+                "y_offset": -1,
+                "interval": 1,
+                "hover_height": [1, 4]
+            },
+            "minecraft:leashable": {
+                "soft_distance": 4.0,
+                "hard_distance": 6.0,
+                "max_distance": 10.0
+            },
+            "minecraft:behavior.float": {
+                "priority": 20
+            },
+            "minecraft:type_family": {
+                "family": [ "monarch", "mob", "arthropod" ]
+            },
+            "minecraft:breathable": {
+                "totalSupply": 15,
+                "suffocateTime": 0
+            },
+            "minecraft:collision_box": {
+                "width": 0.55,
+                "height": 0.5
+            },
+            "minecraft:home": {},
+            "minecraft:follow_range": {
+                "value": 1024
+            },
+            "minecraft:damage_sensor": {
+                "triggers": {
+                    "cause": "fall",
+                    "deals_damage": false
+                }
+            },
+            "minecraft:hurt_on_condition": {
+                "damage_conditions": [
+                    {
+                        "filters": {
+                            "test": "in_lava",
+                            "subject": "self",
+                            "operator": "==",
+                            "value": true
+                        },
+                        "cause": "lava",
+                        "damage_per_tick": 4
+                    }
+                ]
+            },
+            "minecraft:movement": {
+                "value": 0.3
+            },
+            "minecraft:flying_speed": {
+                "value": 0.15
+            },
+            "minecraft:navigation.hover": {
+                "can_path_over_water": true,
+                "can_sink": false,
+                "can_path_from_air": true,
+                "avoid_water": true,
+                "avoid_damage_blocks": true,
+                "avoid_sun": false
+            },
+            "minecraft:movement.hover": {},
+      "minecraft:movement.basic": {
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:behavior.float_wander": {
+        "xz_dist": 10,
+        "y_dist": 7,
+        "y_offset": -2.0,
+        "random_reselect": true,
+        "float_duration": [ 0.1, 0.35 ]
+      },
+            "minecraft:can_fly": {},
+            "minecraft:health": {
+                "value": 10,
+                "max": 10
+            },
+            "minecraft:nameable": {},
+            "minecraft:physics": {},
+            "minecraft:pushable": {
+                "is_pushable": true,
+                "is_pushable_by_piston": true
+              }
+        },
+        "events": {
+            "minecraft:entity_spawned": {
+                "sequence": [
+                    {
+                        "randomize": [
+                            {
+                                "weight": 95,
+                                "add": {
+                                    "component_groups": [
+                                        "monarch_adult"
+                                    ]
+                                }
+                            },
+                            {
+                                "weight": 5,
+                                "add": {
+                                    "component_groups": [
+                                        "monarch_baby"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "add": {
+                            "component_groups": [
+                                "look_for_food"
+                            ]
+                        }
+                    }
+                ]
+            },
+            "minecraft:entity_born": {
+                "add": {
+                    "component_groups": [
+                        "monarch_baby",
+                        "look_for_food"
+                    ]
+                }
+            },
+            "minecraft:ageable_grow_up": {
+                "remove": {
+                    "component_groups": [
+                        "monarch_baby"
+                    ]
+                },
+                "add": {
+                    "component_groups": [
+                        "monarch_adult"
+                    ]
+                }
+            },
+            "collected_nectar": {
+                "remove": {
+                    "component_groups": [
+                        "look_for_food"
+                    ]
+                },
+                "add": {
+                    "component_groups": [
+                        "has_nectar",
+                        "default_sound"
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "format_version":"1.10.0",
+    "minecraft:client_entity":{
+        "description":{
+            "identifier":"ccl:monarch",
+            "materials":{
+                "default":"monarch"
+            },
+            "textures":{
+                "default":"textures/entity/monarch/monarch",
+                "baby":"textures/entity/monarch/caterpillar"
+            },
+            "geometry":{
+                "default":"geometry.monarch",
+                "caterpillar":"geometry.caterpillar"
+            },
+            "animations":{
+                "flying":"animation.monarch.flying",
+                "caterpillar_inch":"animation.caterpillar.inch"
+            },
+            "scripts":{
+                "animate":[
+                    { "flying":"!query.is_baby" },
+                    { "caterpillar_inch":"query.is_baby" }
+                ]
+            },
+            "render_controllers":[
+                "controller.render.monarch"
+            ],
+            "spawn_egg":{
+                "overlay_color":"#333333",
+                "base_color":"#FF8004"
+            }
+        }
+    }
+}
