@@ -7,7 +7,7 @@
           "Array.textures": [ "Texture.default", "Texture.baby" ]
         }
       },
-      "geometry": "Geometry.default",
+      "geometry": "query.is_baby ? Geometry.caterpillar : Geometry.default",
       "materials": [
         { "*": "Material.default" }
       ],
