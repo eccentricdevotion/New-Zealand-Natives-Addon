@@ -1,126 +1,133 @@
 {
-  "format_version": "1.8.0",
-  "minecraft:entity": {
-    "description": {
-      "identifier": "ccl:huhu",
-      "is_spawnable": true,
-      "is_summonable": true,
-      "is_experimental": false
-    },
-    "component_groups": {
-      "minecraft:baby": {
-        "minecraft:loot": {
-          "table": "loot_tables/huhu.json"
-        },
-        "minecraft:scale": {
-          "value": 0.33
-        },
-        "minecraft:attack": {
-          "damage": 1
-        },
-        "minecraft:health": {
-          "value": 2
-        },
-        "minecraft:movement": {
-          "value": 0.05
-        }
+   "format_version":"1.8.0",
+   "minecraft:entity":{
+      "description":{
+         "identifier":"ccl:huhu",
+         "is_spawnable":true,
+         "is_summonable":true,
+         "is_experimental":false
       },
-      "minecraft:adult": {
-        "minecraft:loot": {
-          "table": "loot_tables/huhu.json"
-        },
-		    "minecraft:scale": {
-          "value": 0.5
-        },
-        "minecraft:health": {
-          "value": 2
-        },
-        "minecraft:attack": {
-          "damage": 1
-        },
-        "minecraft:movement": {
-          "value": 0.05
-        }
-      }
-    },
-    "components": {
-      "minecraft:nameable": {
-      },
-      "minecraft:type_family": {
-        "family": [ "huhu", "arthropod" ]
-      },
-      "minecraft:navigation.walk": {
-        "can_path_over_water": false,
-        "avoid_water": true,
-        "avoid_damage_blocks": true
-      },
-      "minecraft:movement.basic": {
-      },
-      "minecraft:breathable": {
-        "totalSupply": 15,
-        "suffocateTime": 0
-      },
-      "minecraft:collision_box": {
-        "width": 0.4,
-        "height": 0.3
-      },
-      "minecraft:behavior.melee_attack": {
-        "priority": 3,
-        "speed_multiplier": 1.0,
-        "track_target": true,
-        "random_stop_interval": 100,
-        "reach_multiplier": 1.4
-      },
-      "minecraft:behavior.float": {
-        "priority": 1
-      },
-      "minecraft:behavior.random_stroll": {
-        "priority": 6,
-        "speed_multiplier": 0.8
-      },
-      "minecraft:behavior.look_at_player": {
-        "priority": 7,
-        "look_distance": 6.0,
-        "probability": 0.02
-      },
-      "minecraft:behavior.random_look_around": {
-        "priority": 7
-      },
-      "minecraft:behavior.hurt_by_target": {
-        "priority": 1
-      },
-      "minecraft:physics": {
-        "has_gravity": true
-      },
-      "minecraft:navigation.walk": {
-        "avoid_damage_blocks": true
-      }
-    },
-    "events": {
-      "minecraft:entity_spawned": {
-        "randomize": [
-          {
-            "weight": 80,
-            "remove": {
+      "component_groups":{
+         "minecraft:baby":{
+            "minecraft:loot":{
+               "table":"loot_tables/huhu.json"
             },
-            "add": {
-              "component_groups": [
-                "minecraft:adult"
-              ]
-            }
-          },
-          {
-            "weight": 20,
-            "remove": {
+            "minecraft:scale":{
+               "value":0.33
             },
-            "add": {
-              "component_groups": [
-                "minecraft:baby"
-              ]
+            "minecraft:attack":{
+               "damage":1
+            },
+            "minecraft:health":{
+               "value":2
+            },
+            "minecraft:movement":{
+               "value":0.05
             }
-          }
-        ]
+         },
+         "minecraft:adult":{
+            "minecraft:loot":{
+               "table":"loot_tables/huhu.json"
+            },
+            "minecraft:scale":{
+               "value":0.5
+            },
+            "minecraft:health":{
+               "value":2
+            },
+            "minecraft:attack":{
+               "damage":1
+            },
+            "minecraft:movement":{
+               "value":0.05
+            }
+         }
+      },
+      "components":{
+         "minecraft:nameable":{
+
+         },
+         "minecraft:type_family":{
+            "family":[
+               "huhu",
+               "arthropod"
+            ]
+         },
+         "minecraft:navigation.walk":{
+            "can_path_over_water":false,
+            "avoid_water":true,
+            "avoid_damage_blocks":true
+         },
+         "minecraft:movement.basic":{
+
+         },
+         "minecraft:breathable":{
+            "totalSupply":15,
+            "suffocateTime":0
+         },
+         "minecraft:collision_box":{
+            "width":0.4,
+            "height":0.3
+         },
+         "minecraft:behavior.melee_attack":{
+            "priority":3,
+            "speed_multiplier":1.0,
+            "track_target":true,
+            "random_stop_interval":100,
+            "reach_multiplier":1.4
+         },
+         "minecraft:behavior.float":{
+            "priority":1
+         },
+         "minecraft:behavior.random_stroll":{
+            "priority":6,
+            "speed_multiplier":0.8
+         },
+         "minecraft:behavior.look_at_player":{
+            "priority":7,
+            "look_distance":6.0,
+            "probability":0.02
+         },
+         "minecraft:behavior.random_look_around":{
+            "priority":7
+         },
+         "minecraft:behavior.hurt_by_target":{
+            "priority":1
+         },
+         "minecraft:physics":{
+            "has_gravity":true
+         },
+         "minecraft:navigation.walk":{
+            "avoid_damage_blocks":true
+         }
+      },
+      "events":{
+         "minecraft:entity_spawned":{
+            "randomize":[
+               {
+                  "weight":80,
+                  "remove":{
+
+                  },
+                  "add":{
+                     "component_groups":[
+                        "minecraft:adult"
+                     ]
+                  }
+               },
+               {
+                  "weight":20,
+                  "remove":{
+
+                  },
+                  "add":{
+                     "component_groups":[
+                        "minecraft:baby"
+                     ]
+                  }
+               }
+            ]
+         }
       }
-    }
-  }
+   }
 }

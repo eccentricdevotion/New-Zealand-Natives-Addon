@@ -1,36 +1,39 @@
 {
-	"format_version": "1.10.0",
-	"minecraft:client_entity": {
-		"description": {
-			"identifier": "ccl:takahe",
-			"materials": {
-				"default": "takahe",
-				"legs": "takahe_legs"
-			},
-			"textures": {
-				"default": "textures/entity/takahe/takahe",
-				"baby": "textures/entity/takahe/takahe_baby"
-			},
-			"geometry": { "default": "geometry.takahe" },
-			"animations": {
-				"move": "animation.bird.move",
-				"general": "animation.bird.general",
-				"look_at_target": "animation.common.look_at_target",
-				"baby_transform": "animation.bird.baby_transform"
-			},
-			"scripts": {
-				"animate": [
-					"general",
-					{ "move": "query.modified_move_speed" },
-					"look_at_target",
-					{ "baby_transform": "query.is_baby" }
-				]
-			},
-			"render_controllers": [ "controller.render.takahe" ],
-			"spawn_egg": {
-				"base_color": "#12A0B9",
-				"overlay_color": "#3F2AF8"
-			}
-		}
-	}
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"ccl:takahe",
+         "materials":{
+            "default":"takahe"
+         },
+         "textures":{
+            "default":"textures/entity/takahe/takahe",
+            "baby":"textures/entity/takahe/takahe_baby"
+         },
+         "geometry":{
+            "default":"geometry.takahe"
+         },
+         "animations":{
+            "move":"animation.bird.move",
+            "general":"animation.bird.general",
+            "look_at_target":"animation.common.look_at_target",
+            "baby_transform":"animation.bird.baby_transform"
+         },
+         "scripts":{
+            "animate":[
+               "general",
+               { "move":"query.modified_move_speed" },
+               "look_at_target",
+               { "baby_transform":"query.is_baby" }
+            ]
+         },
+         "render_controllers":[
+            "controller.render.takahe"
+         ],
+         "spawn_egg":{
+            "base_color":"#12A0B9",
+            "overlay_color":"#3F2AF8"
+         }
+      }
+   }
 }

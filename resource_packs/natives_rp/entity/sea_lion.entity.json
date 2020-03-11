@@ -1,36 +1,40 @@
 {
-	"format_version": "1.10.0",
-	"minecraft:client_entity": {
-		"description": {
-			"identifier": "ccl:sea_lion",
-			"materials": {
-				"default": "sea_lion",
-				"male": "sea_lion_male",
-				"female": "sea_lion_female"
-			},
-			"textures": {
-				"baby": "textures/entity/sea_lion/sea_lion_baby",
-				"female": "textures/entity/sea_lion/sea_lion_female",
-				"male": "textures/entity/sea_lion/sea_lion_male"
-			},
-			"geometry": { "default": "geometry.sea_lion" },
-			"animations": {
-				"default_pose": "animation.sea_lion.default_pose",
-				"walk": "animation.sea_lion.walk",
-				"look_at_target": "animation.sea_lion.look_at_target"
-			},
-			"scripts": {
-				"animate": [
-					"walk",
-					"default_pose",
-					"look_at_target"
-				]
-			},
-			"render_controllers": [ "controller.render.sea_lion" ],
-			"spawn_egg": {
-				"base_color": "#9A8460",
-				"overlay_color": "#AD7587"
-			}
-		}
-	}
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"ccl:sea_lion",
+         "materials":{
+            "default":"sea_lion",
+            "male":"sea_lion_male",
+            "female":"sea_lion_female"
+         },
+         "textures":{
+            "baby":"textures/entity/sea_lion/sea_lion_baby",
+            "female":"textures/entity/sea_lion/sea_lion_female",
+            "male":"textures/entity/sea_lion/sea_lion_male"
+         },
+         "geometry":{
+            "default":"geometry.sea_lion"
+         },
+         "animations":{
+            "default_pose":"animation.sea_lion.default_pose",
+            "walk":"animation.sea_lion.walk",
+            "look_at_target":"animation.sea_lion.look_at_target"
+         },
+         "scripts":{
+            "animate":[
+               "walk",
+               "default_pose",
+               "look_at_target"
+            ]
+         },
+         "render_controllers":[
+            "controller.render.sea_lion"
+         ],
+         "spawn_egg":{
+            "base_color":"#9A8460",
+            "overlay_color":"#AD7587"
+         }
+      }
+   }
 }

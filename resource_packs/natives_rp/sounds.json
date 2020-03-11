@@ -1,71 +1,71 @@
 {
-  "entity_sounds": {
-    "entities": {
-      "ccl:takahe": {
-        "volume": 1.0,
-        "pitch": [ 0.8, 1.2 ],
-        "events": {
-          "ambient": "ccl.takahe.say",
-          "hurt": "ccl.takahe.hurt",
-          "death": "ccl.takahe.hurt",
-          "step": {
-            "sound": "ccl.takahe.step",
-            "volume": 1.0,
-            "pitch": 1.0
-          }
-        }
-      },
-      "ccl:tuatara": {
-        "volume": 1.0,
-        "pitch": [ 0.8, 1.2 ],
-        "events": {
-          "ambient": "ccl.tuatara.say",
-          "hurt": "ccl.tuatara.say",
-          "death": "ccl.tuatara.say",
-          "step": {
-            "sound": "ccl.tuatara.step",
-            "volume": 1.0,
-            "pitch": 1.0
-          }
-        }
-      },
-      "ccl:sea_lion": {
-        "volume": 1.0,
-        "pitch": [ 0.8, 1.2 ],
-        "events": {
-          "ambient": "ccl.sea_lion.say",
-          "hurt": "ccl.sea_lion.hurt",
-          "death": "ccl.sea_lion.hurt",
-          "step": {
-            "sound": "ccl.sea_lion.step",
-            "volume": 1.0,
-            "pitch": 1.0
-          }
-        }
-      },
-      "ccl:weka": {
-        "volume": 1.0,
-        "pitch": [ 0.8, 1.2 ],
-        "events": {
-          "ambient": "ccl.weka.say",
-          "hurt": "ccl.weka.say",
-          "death": "ccl.weka.say",
-          "step": {
-            "sound": "ccl.weka.step",
-            "volume": 1.0,
-            "pitch": 1.0
-          }
-        }
-      },
-      "ccl:haasts_eagle": {
-        "volume": 1.0,
-        "pitch": [ 0.8, 1.2 ],
-        "events": {
-          "ambient": "ccl.haasts_eagle.say",
-          "hurt": "ccl.haasts_eagle.say",
-          "death": "ccl.haasts_eagle.say"
-        }
+   "entity_sounds":{
+      "entities":{
+         "ccl:takahe":{
+            "volume":1.0,
+            "pitch":[ 0.8, 1.2 ],
+            "events":{
+               "ambient":"ccl.takahe.say",
+               "hurt":"ccl.takahe.hurt",
+               "death":"ccl.takahe.hurt",
+               "step":{
+                  "sound":"ccl.takahe.step",
+                  "volume":1.0,
+                  "pitch":1.0
+               }
+            }
+         },
+         "ccl:tuatara":{
+            "volume":1.0,
+            "pitch":[ 0.8, 1.2 ],
+            "events":{
+               "ambient":"ccl.tuatara.say",
+               "hurt":"ccl.tuatara.say",
+               "death":"ccl.tuatara.say",
+               "step":{
+                  "sound":"ccl.tuatara.step",
+                  "volume":1.0,
+                  "pitch":1.0
+               }
+            }
+         },
+         "ccl:sea_lion":{
+            "volume":1.0,
+            "pitch":[ 0.8, 1.2 ],
+            "events":{
+               "ambient":"ccl.sea_lion.say",
+               "hurt":"ccl.sea_lion.hurt",
+               "death":"ccl.sea_lion.hurt",
+               "step":{
+                  "sound":"ccl.sea_lion.step",
+                  "volume":1.0,
+                  "pitch":1.0
+               }
+            }
+         },
+         "ccl:weka":{
+            "volume":1.0,
+            "pitch":[ 0.8, 1.2 ],
+            "events":{
+               "ambient":"ccl.weka.say",
+               "hurt":"ccl.weka.say",
+               "death":"ccl.weka.say",
+               "step":{
+                  "sound":"ccl.weka.step",
+                  "volume":1.0,
+                  "pitch":1.0
+               }
+            }
+         },
+         "ccl:haasts_eagle":{
+            "volume":1.0,
+            "pitch":[ 0.8, 1.2 ],
+            "events":{
+               "ambient":"ccl.haasts_eagle.say",
+               "hurt":"ccl.haasts_eagle.say",
+               "death":"ccl.haasts_eagle.say"
+            }
+         }
       }
-    }
-  }
+   }
 }

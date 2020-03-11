@@ -1,36 +1,39 @@
 {
-	"format_version": "1.10.0",
-	"minecraft:client_entity": {
-		"description": {
-			"identifier": "ccl:weka",
-			"materials": {
-				"default": "weka",
-				"legs": "weka_legs"
-			},
-			"textures": {
-				"default": "textures/entity/weka/weka",
-				"baby": "textures/entity/weka/weka_baby"
-			},
-			"geometry": { "default": "geometry.weka" },
-			"animations": {
-				"move": "animation.bird.move",
-				"general": "animation.bird.general",
-				"look_at_target": "animation.common.look_at_target",
-				"baby_transform": "animation.bird.baby_transform"
-			},
-			"scripts": {
-				"animate": [
-					"general",
-					{ "move": "query.modified_move_speed" },
-					"look_at_target",
-					{ "baby_transform": "query.is_baby" }
-				]
-			},
-			"render_controllers": [ "controller.render.weka" ],
-			"spawn_egg": {
-				"base_color": "#837143",
-				"overlay_color": "#A83f0C"
-			}
-		}
-	}
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"ccl:weka",
+         "materials":{
+            "default":"weka"
+         },
+         "textures":{
+            "default":"textures/entity/weka/weka",
+            "baby":"textures/entity/weka/weka_baby"
+         },
+         "geometry":{
+            "default":"geometry.weka"
+         },
+         "animations":{
+            "move":"animation.bird.move",
+            "general":"animation.bird.general",
+            "look_at_target":"animation.common.look_at_target",
+            "baby_transform":"animation.bird.baby_transform"
+         },
+         "scripts":{
+            "animate":[
+               "general",
+               { "move":"query.modified_move_speed" },
+               "look_at_target",
+               { "baby_transform":"query.is_baby" }
+            ]
+         },
+         "render_controllers":[
+            "controller.render.weka"
+         ],
+         "spawn_egg":{
+            "base_color":"#837143",
+            "overlay_color":"#A83f0C"
+         }
+      }
+   }
 }

@@ -1,119 +1,119 @@
 {
-  "ccl.takahe.say": {
-    "category": "neutral",
-    "sounds": [
-      {
-        "name": "sounds/takahe/takahe1",
-        "load_on_low_memory": true
-      },
-      "sounds/takahe/takahe2",
-      "sounds/takahe/takahe3",
-      "sounds/takahe/takahe4"
-    ]
-  },
-  "ccl.takahe.hurt": {
-    "category": "neutral",
-    "sounds": [
-      {
-        "name": "sounds/takahe/takahe5",
-        "load_on_low_memory": true
-      }
-    ]
-  },
-  "ccl.takahe.step": {
-    "category": "neutral",
-    "sounds": [
-      {
-        "name": "sounds/takahe/step1",
-        "load_on_low_memory": true
-      },
-      "sounds/takahe/step2"
-    ]
-  },
-  "ccl.tuatara.say": {
-    "category": "neutral",
-    "sounds": [
-      {
-        "name": "sounds/tuatara/tuatara1",
-        "load_on_low_memory": true
-      },
-      "sounds/tuatara/tuatara2",
-      "sounds/tuatara/tuatara3"
-    ]
-  },
-  "ccl.tuatara.step": {
-    "category": "neutral",
-    "sounds": [
-      {
-        "name": "sounds/tuatara/step1",
-        "load_on_low_memory": true
-      },
-      "sounds/tuatara/step2"
-    ]
-  },
-  "ccl.weka.say": {
-    "category": "neutral",
-    "sounds": [
-      {
-        "name": "sounds/weka/weka1",
-        "load_on_low_memory": true
-      },
-      "sounds/weka/weka2",
-      "sounds/weka/weka3",
-      "sounds/weka/weka4"
-    ]
-  },
-  "ccl.weka.step": {
-    "category": "neutral",
-    "sounds": [
-      {
-        "name": "sounds/weka/step1",
-        "load_on_low_memory": true
-      },
-      "sounds/weka/step2"
-    ]
-  },
-  "ccl.sea_lion.say": {
-    "category": "neutral",
-    "sounds": [
-      {
-        "name": "sounds/sea_lion/sea_lion1",
-        "load_on_low_memory": true
-      },
-      "sounds/sea_lion/sea_lion2",
-      "sounds/sea_lion/sea_lion3",
-      "sounds/sea_lion/sea_lion4"
-    ]
-  },
-  "ccl.sea_lion.hurt": {
-    "category": "neutral",
-    "sounds": [
-      {
-        "name": "sounds/sea_lion/sea_lion5",
-        "load_on_low_memory": true
-      }
-    ]
-  },
-  "ccl.sea_lion.step": {
-    "category": "neutral",
-    "sounds": [
-      {
-        "name": "sounds/sea_lion/step1",
-        "load_on_low_memory": true
-      },
-      "sounds/sea_lion/step2"
-    ]
-  },
-  "ccl.haasts_eagle.say": {
-    "category": "monster",
-    "sounds": [
-      {
-        "name": "sounds/haasts_eagle/haasts_eagle1",
-        "load_on_low_memory": true
-      },
-      "sounds/haasts_eagle/haasts_eagle2",
-      "sounds/haasts_eagle/haasts_eagle2",
-      "sounds/haasts_eagle/haasts_eagle2"
-    ]
-  }
+   "ccl.takahe.say":{
+      "category":"neutral",
+      "sounds":[
+         {
+            "name":"sounds/takahe/takahe1",
+            "load_on_low_memory":true
+         },
+         "sounds/takahe/takahe2",
+         "sounds/takahe/takahe3",
+         "sounds/takahe/takahe4"
+      ]
+   },
+   "ccl.takahe.hurt":{
+      "category":"neutral",
+      "sounds":[
+         {
+            "name":"sounds/takahe/takahe5",
+            "load_on_low_memory":true
+         }
+      ]
+   },
+   "ccl.takahe.step":{
+      "category":"neutral",
+      "sounds":[
+         {
+            "name":"sounds/takahe/step1",
+            "load_on_low_memory":true
+         },
+         "sounds/takahe/step2"
+      ]
+   },
+   "ccl.tuatara.say":{
+      "category":"neutral",
+      "sounds":[
+         {
+            "name":"sounds/tuatara/tuatara1",
+            "load_on_low_memory":true
+         },
+         "sounds/tuatara/tuatara2",
+         "sounds/tuatara/tuatara3"
+      ]
+   },
+   "ccl.tuatara.step":{
+      "category":"neutral",
+      "sounds":[
+         {
+            "name":"sounds/tuatara/step1",
+            "load_on_low_memory":true
+         },
+         "sounds/tuatara/step2"
+      ]
+   },
+   "ccl.weka.say":{
+      "category":"neutral",
+      "sounds":[
+         {
+            "name":"sounds/weka/weka1",
+            "load_on_low_memory":true
+         },
+         "sounds/weka/weka2",
+         "sounds/weka/weka3",
+         "sounds/weka/weka4"
+      ]
+   },
+   "ccl.weka.step":{
+      "category":"neutral",
+      "sounds":[
+         {
+            "name":"sounds/weka/step1",
+            "load_on_low_memory":true
+         },
+         "sounds/weka/step2"
+      ]
+   },
+   "ccl.sea_lion.say":{
+      "category":"neutral",
+      "sounds":[
+         {
+            "name":"sounds/sea_lion/sea_lion1",
+            "load_on_low_memory":true
+         },
+         "sounds/sea_lion/sea_lion2",
+         "sounds/sea_lion/sea_lion3",
+         "sounds/sea_lion/sea_lion4"
+      ]
+   },
+   "ccl.sea_lion.hurt":{
+      "category":"neutral",
+      "sounds":[
+         {
+            "name":"sounds/sea_lion/sea_lion5",
+            "load_on_low_memory":true
+         }
+      ]
+   },
+   "ccl.sea_lion.step":{
+      "category":"neutral",
+      "sounds":[
+         {
+            "name":"sounds/sea_lion/step1",
+            "load_on_low_memory":true
+         },
+         "sounds/sea_lion/step2"
+      ]
+   },
+   "ccl.haasts_eagle.say":{
+      "category":"monster",
+      "sounds":[
+         {
+            "name":"sounds/haasts_eagle/haasts_eagle1",
+            "load_on_low_memory":true
+         },
+         "sounds/haasts_eagle/haasts_eagle2",
+         "sounds/haasts_eagle/haasts_eagle2",
+         "sounds/haasts_eagle/haasts_eagle2"
+      ]
+   }
 }

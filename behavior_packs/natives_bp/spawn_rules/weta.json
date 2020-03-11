@@ -1,26 +1,30 @@
 {
-  "format_version": "1.8.0",
-  "minecraft:spawn_rules": {
-    "description": {
-      "identifier": "ccl:weta",
-      "population_control": "animal"
-    },
-    "conditions": [
-      {
-        "minecraft:spawns_on_surface": {},
-        "minecraft:spawns_on_block_filter": "minecraft:log",
-        "minecraft:brightness_filter": {
-          "min": 0,
-          "max": 15,
-          "adjust_for_weather": false
-        },
-        "minecraft:weight": {
-          "default": 8
-        },
-        "minecraft:biome_filter": {
-          "test": "has_biome_tag", "operator": "==", "value": "animal"
-        }
-      }
-    ]
-  }
+   "format_version":"1.8.0",
+   "minecraft:spawn_rules":{
+      "description":{
+         "identifier":"ccl:weta",
+         "population_control":"animal"
+      },
+      "conditions":[
+         {
+            "minecraft:spawns_on_surface":{
+
+            },
+            "minecraft:spawns_on_block_filter":"minecraft:log",
+            "minecraft:brightness_filter":{
+               "min":0,
+               "max":15,
+               "adjust_for_weather":false
+            },
+            "minecraft:weight":{
+               "default":8
+            },
+            "minecraft:biome_filter":{
+               "test":"has_biome_tag",
+               "operator":"==",
+               "value":"animal"
+            }
+         }
+      ]
+   }
 }

@@ -1,29 +1,41 @@
 {
-  "format_version": "1.8.0",
-  "minecraft:spawn_rules": {
-    "description": {
-      "identifier": "ccl:sea_lion",
-      "population_control": "animal"
-    },
-    "conditions": [
-      {
-        "minecraft:spawns_on_surface": {},
-        "minecraft:spawns_underwater": {},
-        "minecraft:brightness_filter": {
-          "min": 0,
-          "max": 15,
-          "adjust_for_weather": false
-        },
-        "minecraft:weight": {
-          "default": 8
-        },
-        "minecraft:biome_filter": {
-          "any_of": [
-            { "test": "has_biome_tag", "operator": "==", "value": "ocean" },
-            { "test": "has_biome_tag", "operator": "==", "value": "frozen"}
-          ]
-        }
-      }
-    ]
-  }
+   "format_version":"1.8.0",
+   "minecraft:spawn_rules":{
+      "description":{
+         "identifier":"ccl:sea_lion",
+         "population_control":"animal"
+      },
+      "conditions":[
+         {
+            "minecraft:spawns_on_surface":{
+
+            },
+            "minecraft:spawns_underwater":{
+
+            },
+            "minecraft:brightness_filter":{
+               "min":0,
+               "max":15,
+               "adjust_for_weather":false
+            },
+            "minecraft:weight":{
+               "default":8
+            },
+            "minecraft:biome_filter":{
+               "any_of":[
+                  {
+                     "test":"has_biome_tag",
+                     "operator":"==",
+                     "value":"ocean"
+                  },
+                  {
+                     "test":"has_biome_tag",
+                     "operator":"==",
+                     "value":"frozen"
+                  }
+               ]
+            }
+         }
+      ]
+   }
 }

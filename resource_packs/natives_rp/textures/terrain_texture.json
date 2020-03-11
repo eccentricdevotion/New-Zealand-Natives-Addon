@@ -1,13 +1,33 @@
 {
-	"resource_pack_name": "NZ Natives Resource Pack",
-	"texture_name": "atlas.terrain",
-	"padding": 8,
-	"num_mip_levels": 4,
-	"texture_data": {
-		"rotten_log_top": { "textures": [ "textures/blocks/rotten_log_top" ] },
-		"rotten_log_side": { "textures": [ "textures/blocks/rotten_log_side" ] },
-		"basket_fungus_top": { "textures": [ "textures/blocks/basket_fungus_top" ] },
-		"basket_fungus_bottom": { "textures": [ "textures/blocks/basket_fungus_bottom" ] },
-		"basket_fungus_side": { "textures": [ "textures/blocks/basket_fungus_side" ] }
-	}
+   "resource_pack_name":"NZ Natives Resource Pack",
+   "texture_name":"atlas.terrain",
+   "padding":8,
+   "num_mip_levels":4,
+   "texture_data":{
+      "rotten_log_top":{
+         "textures":[
+            "textures/blocks/rotten_log_top"
+         ]
+      },
+      "rotten_log_side":{
+         "textures":[
+            "textures/blocks/rotten_log_side"
+         ]
+      },
+      "basket_fungus_top":{
+         "textures":[
+            "textures/blocks/basket_fungus_top"
+         ]
+      },
+      "basket_fungus_bottom":{
+         "textures":[
+            "textures/blocks/basket_fungus_bottom"
+         ]
+      },
+      "basket_fungus_side":{
+         "textures":[
+            "textures/blocks/basket_fungus_side"
+         ]
+      }
+   }
 }

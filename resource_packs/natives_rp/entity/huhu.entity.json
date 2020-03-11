@@ -1,28 +1,36 @@
 {
-	"format_version": "1.10.0",
-	"minecraft:client_entity": {
-		"description": {
-			"identifier": "ccl:huhu",
-			"materials": { "default": "huhu" },
-			"textures": { "default": "textures/entity/huhu/huhu" },
-			"geometry": { "default": "geometry.huhu" },
-			"animations": {
-				"default_pose": "animation.huhu.default_pose",
-				"wiggle": "animation.huhu.wiggle",
-				"look_at_target": "animation.huhu.look_at_target"
-			},
-			"scripts": {
-				"animate": [
-					"default_pose",
-					"wiggle",
-					"look_at_target"
-				]
-			},
-			"render_controllers": [ "controller.render.huhu" ],
-			"spawn_egg": {
-				"base_color": "#E0D6AC",
-				"overlay_color": "#6D5412"
-			}
-		}
-	}
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"ccl:huhu",
+         "materials":{
+            "default":"huhu"
+         },
+         "textures":{
+            "default":"textures/entity/huhu/huhu"
+         },
+         "geometry":{
+            "default":"geometry.huhu"
+         },
+         "animations":{
+            "default_pose":"animation.huhu.default_pose",
+            "wiggle":"animation.huhu.wiggle",
+            "look_at_target":"animation.huhu.look_at_target"
+         },
+         "scripts":{
+            "animate":[
+               "default_pose",
+               "wiggle",
+               "look_at_target"
+            ]
+         },
+         "render_controllers":[
+            "controller.render.huhu"
+         ],
+         "spawn_egg":{
+            "base_color":"#E0D6AC",
+            "overlay_color":"#6D5412"
+         }
+      }
+   }
 }
