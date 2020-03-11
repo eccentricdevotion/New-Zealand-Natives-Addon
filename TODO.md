@@ -54,7 +54,7 @@
 - Katipo
 - Kiwi
 - Kunekune
-- Monarch butterfly
+- Monarch butterfly / caterpillar _(need to change life cycle -> egg, caterpillar, chrysalis, butterfly)__
 - Piwakawaka/fantail
 - Powelliphanta
 - Sea Lions
