@@ -1,0 +1,121 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.hoiho.default_pose": {
+			"loop": true,
+			"animation_length": 0.8,
+			"bones": {
+				"bone": {
+					"rotation": [0, 0, 0]
+				}
+			}
+		},
+		"animation.hoiho.walk": {
+			"anim_time_update": "query.modified_distance_moved",
+			"loop": true,
+			"animation_length": 0.8,
+			"bones": {
+				"leftleg": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.2": [20, 0, 0],
+						"0.4": [0, 0, 0],
+						"0.6": [-15, 0, 0],
+						"0.8": [0, 0, 0]
+					}
+				},
+				"rightleg": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.2": [-15, 0, 0],
+						"0.4": [0, 0, 0],
+						"0.6": [15, 0, 0],
+						"0.8": [0, 0, 0]
+					}
+				},
+				"leftflipper": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.2": [-20, 0, 0],
+						"0.4": [0, 0, 0],
+						"0.6": [0, 0, 0],
+						"0.8": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.2": [0, 0.125, 0],
+						"0.4": [0, 0, 0],
+						"0.6": [0, 0, 0],
+						"0.8": [0, 0, 0]
+					}
+				},
+				"rightflipper": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.2": [0, 0, 0],
+						"0.4": [0, 0, 0],
+						"0.6": [-15, 0, 0],
+						"0.8": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.2": [0, 0, 0],
+						"0.4": [0, 0, 0],
+						"0.6": [0, 0.125, 0],
+						"0.8": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.hoiho.swim": {
+			"loop": true,
+			"animation_length": 0.8,
+			"bones": {
+				"head": {
+					"rotation": [-65, 0, 0]
+				},
+				"leftwing": {
+					"rotation": {
+						"0.0": [-75, 75, 0],
+						"0.2": [-75, 85, -20],
+						"0.4": [-75, 75, 0],
+						"0.6": [-75, 75, 15],
+						"0.8": [-75, 75, 0]
+					}
+				},
+				"rightwing": {
+					"rotation": {
+						"0.0": [-70, -75, 0],
+						"0.2": [-70, -75, 20],
+						"0.4": [-70, -75, 0],
+						"0.6": [-70, -75, -15],
+						"0.8": [-70, -75, 0]
+					}
+				},
+				"bone": {
+					"rotation": [70, 0, 0],
+					"position": [0, -8.25, 0]
+				},
+				"leftflipper": {
+					"rotation": [95, 0, 0]
+				},
+				"rightflipper": {
+					"rotation": [95, 0, 0]
+				},
+				"tail": {
+					"rotation": [-35, 0, 0],
+					"position": [0, -0.5, -0.75]
+				}
+			}
+		},
+		"animation.hoiho.look_at_target": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"relative_to": { "rotation": "entity" },
+					"rotation": [ "Math.clamp(query.target_x_rotation, -20, 20)", "Math.clamp(query.target_y_rotation, 0, 15)", 0.0 ]
+				}
+			}
+		}
+	}
+}

@@ -15,9 +15,10 @@
 - Frogs (Archey’s frog was mentioned)
 - Fungi, esp. basket fungi
 - Giraffe weevil
+- Glow worms
 - Harakeke
 - Harvestmen
-- Hoiho (yellow-eyed penguin), and other past birds of the year
+- Past birds of the year
 - Huia
 - Kakapo
 - Kauri
@@ -50,6 +51,7 @@
 - Dolphins, Hector’s / Maui’s
 - Eels
 - Haast’s eagle
+- Hoiho (yellow-eyed penguin)
 - Huhu Grubs
 - Katipo
 - Kiwi

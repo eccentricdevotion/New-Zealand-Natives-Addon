@@ -1,0 +1,39 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"ccl:hoiho",
+         "materials":{
+            "default":"hoiho"
+         },
+         "textures":{
+            "default":"textures/entity/hoiho/hoiho",
+            "baby":"textures/entity/hoiho/hoiho_baby"
+         },
+         "geometry":{
+            "default":"geometry.hoiho"
+         },
+         "animations":{
+            "default_pose":"animation.hoiho.default_pose",
+            "walk":"animation.hoiho.walk",
+            "swim":"animation.hoiho.swim",
+            "look_at_target":"animation.hoiho.look_at_target"
+         },
+         "scripts":{
+            "animate":[
+               "default_pose",
+               { "walk":"!query.is_swimming" },
+               { "swim":"query.is_swimming" },
+               "look_at_target"
+            ]
+         },
+         "render_controllers":[
+            "controller.render.hoiho"
+         ],
+         "spawn_egg":{
+            "base_color":"#9A8460",
+            "overlay_color":"#AD7587"
+         }
+      }
+   }
+}

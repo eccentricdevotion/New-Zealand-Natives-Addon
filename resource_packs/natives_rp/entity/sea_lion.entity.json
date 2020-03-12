@@ -4,9 +4,7 @@
       "description":{
          "identifier":"ccl:sea_lion",
          "materials":{
-            "default":"sea_lion",
-            "male":"sea_lion_male",
-            "female":"sea_lion_female"
+            "default":"sea_lion"
          },
          "textures":{
             "baby":"textures/entity/sea_lion/sea_lion_baby",
