@@ -3,7 +3,6 @@
 	"animations": {
 		"animation.hoiho.default_pose": {
 			"loop": true,
-			"animation_length": 0.8,
 			"bones": {
 				"bone": {
 					"rotation": [0, 0, 0]
@@ -71,8 +70,23 @@
 			"loop": true,
 			"animation_length": 0.8,
 			"bones": {
-				"head": {
-					"rotation": [-65, 0, 0]
+				"leftleg": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.2": [0, 0, 0],
+						"0.4": [0, 0, 0],
+						"0.6": [0, 0, 0],
+						"0.8": [0, 0, 0]
+					}
+				},
+				"rightleg": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.2": [0, 0, 0],
+						"0.4": [0, 0, 0],
+						"0.6": [0, 0, 0],
+						"0.8": [0, 0, 0]
+					}
 				},
 				"leftwing": {
 					"rotation": {
