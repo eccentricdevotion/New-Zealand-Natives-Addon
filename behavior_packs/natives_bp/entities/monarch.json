@@ -3,7 +3,7 @@
    "minecraft:entity":{
       "description":{
          "identifier":"ccl:monarch",
-         "runtime_identifier":"minecraft:bee",
+         "runtime_identifier":"minecraft:bat",
          "is_spawnable":true,
          "is_summonable":true,
          "is_experimental":false
