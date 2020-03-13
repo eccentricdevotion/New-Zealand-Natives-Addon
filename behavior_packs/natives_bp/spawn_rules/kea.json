@@ -1,0 +1,57 @@
+{
+   "format_version":"1.8.0",
+   "minecraft:spawn_rules":{
+      "description":{
+         "identifier":"ccl:kea",
+         "population_control":"animal"
+      },
+      "conditions":[
+         {
+            "minecraft:spawns_on_surface":{
+
+            },
+            "minecraft:spawns_underwater":{
+
+            },
+            "minecraft:brightness_filter":{
+               "min":7,
+               "max":15,
+               "adjust_for_weather":false
+            },
+            "minecraft:weight":{
+               "default":20
+            },
+            "minecraft:herd":{
+               "min_size":2,
+               "max_size":3,
+               "event":"entity_born",
+               "event_skip_count":2
+            },
+            "minecraft:biome_filter":{
+               "any_of":[
+                  {
+                     "test":"has_biome_tag",
+                     "operator":"==",
+                     "value":"hills"
+                  },
+                  {
+                     "test":"has_biome_tag",
+                     "operator":"==",
+                     "value":"mountains"
+                  },
+                  {
+                     "test":"has_biome_tag",
+                     "operator":"==",
+                     "value":"forest"
+                  },
+                  {
+                     "test":"has_biome_tag",
+                     "operator":"==",
+                     "value":"dark_forest"
+                  }
+               ]
+            }
+         }
+      ]
+   }
+}
