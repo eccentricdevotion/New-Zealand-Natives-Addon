@@ -112,8 +112,67 @@
             "load_on_low_memory":true
          },
          "sounds/haasts_eagle/haasts_eagle2",
-         "sounds/haasts_eagle/haasts_eagle2",
-         "sounds/haasts_eagle/haasts_eagle2"
+         "sounds/haasts_eagle/haasts_eagle3",
+         "sounds/haasts_eagle/haasts_eagle4"
+      ]
+   },
+   "ccl.hoiho.say":{
+      "category":"animal",
+      "sounds":[
+         {
+            "name":"sounds/hoiho/hoiho1",
+            "load_on_low_memory":true
+         },
+         "sounds/hoiho/hoiho2",
+         "sounds/hoiho/hoiho3",
+         "sounds/hoiho/hoiho4",
+         "sounds/hoiho/hoiho5"
+      ]
+   },
+   "ccl.kea.say":{
+      "category":"animal",
+      "sounds":[
+         {
+            "name":"sounds/kea/kea1",
+            "load_on_low_memory":true
+         },
+         "sounds/kea/kea2",
+         "sounds/kea/kea3",
+         "sounds/kea/kea4",
+         "sounds/kea/kea5"
+      ]
+   },
+   "ccl.kotuku.say":{
+      "category":"animal",
+      "sounds":[
+         {
+            "name":"sounds/kotuku/kotuku1",
+            "load_on_low_memory":true
+         },
+         "sounds/kotuku/kotuku2"
+      ]
+   },
+   "ccl.ruru.say":{
+      "category":"animal",
+      "sounds":[
+         {
+            "name":"sounds/ruru/ruru1",
+            "load_on_low_memory":true
+         },
+         "sounds/ruru/ruru2"
+      ]
+   },
+   "ccl.tui.say":{
+      "category":"animal",
+      "sounds":[
+         {
+            "name":"sounds/tui/tui1",
+            "load_on_low_memory":true
+         },
+         "sounds/tui/tui2",
+         "sounds/tui/tui3",
+         "sounds/tui/tui4",
+         "sounds/tui/tui5"
       ]
    }
 }

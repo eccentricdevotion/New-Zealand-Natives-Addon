@@ -65,6 +65,51 @@
                "hurt":"ccl.haasts_eagle.say",
                "death":"ccl.haasts_eagle.say"
             }
+         },
+         "ccl:hoiho":{
+            "volume":1.0,
+            "pitch":[ 0.8, 1.2 ],
+            "events":{
+               "ambient":"ccl.hoiho.say",
+               "hurt":"ccl.hoiho.say",
+               "death":"ccl.hoiho.say"
+            }
+         },
+         "ccl:kea":{
+            "volume":1.0,
+            "pitch":[ 0.8, 1.2 ],
+            "events":{
+               "ambient":"ccl.kea.say",
+               "hurt":"ccl.kea.say",
+               "death":"ccl.kea.say"
+            }
+         },
+         "ccl:kotuku":{
+            "volume":1.0,
+            "pitch":[ 0.8, 1.2 ],
+            "events":{
+               "ambient":"ccl.kotuku.say",
+               "hurt":"ccl.kotuku.say",
+               "death":"ccl.kotuku.say"
+            }
+         },
+         "ccl:ruru":{
+            "volume":1.0,
+            "pitch":[ 0.8, 1.2 ],
+            "events":{
+               "ambient":"ccl.ruru.say",
+               "hurt":"ccl.ruru.say",
+               "death":"ccl.ruru.say"
+            }
+         },
+         "ccl:tui":{
+            "volume":1.0,
+            "pitch":[ 0.8, 1.2 ],
+            "events":{
+               "ambient":"ccl.tui.say",
+               "hurt":"ccl.tui.say",
+               "death":"ccl.tui.say"
+            }
          }
       }
    }
