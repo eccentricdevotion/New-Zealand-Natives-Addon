@@ -15,21 +15,17 @@
             "flying":"geometry.kea.fly"
          },
          "animations":{
-            "move":"animation.bird.move",
-            "fly":"animation.phantom.move",
+            "walk":"animation.kea.walk",
+            "fly":"animation.kea.fly",
             "general":"animation.bird.general",
             "look_at_target":"animation.common.look_at_target",
             "baby_transform":"animation.bird.baby_transform"
          },
          "scripts":{
-            "pre_animation":[
-               "variable.wingRotZ = 32.0 * Math.sin((3 + query.life_time * 20.0) * 7.448454);",
-               "variable.tailRotX = -5.0 * Math.sin((3 + query.life_time * 20.0) * 14.896908) - 5.0;"
-            ],
             "animate":[
                "general",
                {
-                  "move":"query.modified_move_speed && query.is_on_ground"
+                  "walk":"query.modified_move_speed && query.is_on_ground"
                },
                {
                   "fly":"!query.is_on_ground"
