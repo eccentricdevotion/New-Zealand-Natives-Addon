@@ -11,13 +11,8 @@
             "baby":"textures/entity/kea/kea_baby"
          },
          "geometry":{
-            "default":"query.is_flying ? geometry.kea.fly : geometry.kea.walk"
-         },
-         "scripts":{
-            "pre_animation":[
-               "variable.wingRotZ = 16.0 * Math.sin((variable.RuntimeID * 3 + query.life_time * 20.0) * 7.448454);",
-               "variable.tailRotX = -5.0 * Math.sin((variable.RuntimeID * 3 + query.life_time * 20.0) * 14.896908) - 5.0;"
-            ]
+            "default":"geometry.kea.walk",
+            "flying":"geometry.kea.fly"
          },
          "animations":{
             "move":"animation.bird.move",
@@ -27,13 +22,17 @@
             "baby_transform":"animation.bird.baby_transform"
          },
          "scripts":{
+            "pre_animation":[
+               "variable.wingRotZ = 32.0 * Math.sin((3 + query.life_time * 20.0) * 7.448454);",
+               "variable.tailRotX = -5.0 * Math.sin((3 + query.life_time * 20.0) * 14.896908) - 5.0;"
+            ],
             "animate":[
                "general",
                {
-                  "move":"query.modified_move_speed"
+                  "move":"query.modified_move_speed && query.is_on_ground"
                },
                {
-                  "fly":"query.is_flying"
+                  "fly":"!query.is_on_ground"
                },
                "look_at_target",
                {

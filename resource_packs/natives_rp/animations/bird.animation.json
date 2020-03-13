@@ -1,14 +1,6 @@
 {
    "format_version":"1.8.0",
    "animations":{
-      "animation.bird.general.v1.0":{
-         "loop":true,
-         "bones":{
-            "body":{
-               "rotation":[ "90.0 - this", 0.0, 0.0 ]
-            }
-         }
-      },
       "animation.bird.baby_transform":{
          "loop":true,
          "bones":{

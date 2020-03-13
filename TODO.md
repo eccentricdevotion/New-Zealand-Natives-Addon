@@ -46,6 +46,8 @@
 - Tui
 - Whio (blue duck)
 
+Text for death cause from Haast's Eagle
+
 ## Done
 
 - Dolphins, Hector’s / Maui’s
