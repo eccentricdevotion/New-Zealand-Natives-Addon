@@ -52,7 +52,8 @@
                "y_offset":0,
                "speed_multiplier":1.0,
                "can_land_on_trees":true,
-               "avoid_damage_blocks":true
+               "avoid_damage_blocks":true,
+               "avoid_water":true
             },
             "minecraft:behavior.follow_mob":{
                "priority":3,
@@ -62,7 +63,16 @@
             },
             "minecraft:can_fly":{
                "value":true
-            }
+            },
+			"minecraft:navigation.fly":{
+				"can_path_over_water":true
+			},
+			"minecraft:movement.fly":{
+
+			},
+			"minecraft:movement":{
+				"value":0.4
+			}
          },
          "ccl:kea_baby":{
             "minecraft:type_family":{
@@ -113,7 +123,10 @@
             },
             "minecraft:navigation.walk": {
               "avoid_water":true
-            }
+            },
+			"minecraft:movement":{
+				"value":0.25
+			}
          }
       },
       "components":{
@@ -146,9 +159,6 @@
                }
             ]
          },
-         "minecraft:movement":{
-            "value":0.4
-         },
          "minecraft:damage_sensor":{
             "triggers":{
                "cause":"fall",
@@ -156,12 +166,6 @@
             }
          },
          "minecraft:jump.static":{
-
-         },
-         "minecraft:navigation.fly":{
-            "can_path_over_water":true
-         },
-         "minecraft:movement.fly":{
 
          },
          "minecraft:physics":{
