@@ -57,32 +57,13 @@
             "minecraft:behavior.breed":{
                "priority":3,
                "speed_multiplier":1.0
-            },
-            "minecraft:rideable":{
-               "seat_count":1,
-               "family_types":[
-                  "zombie"
-               ],
-               "seats":{
-                  "position":[
-                     0.0,
-                     0.4,
-                     0.0
-                  ]
-               }
-            }
-         },
-         "ccl:takahe_leashed":{
-            "minecraft:behavior.move_towards_restriction":{
-               "priority":2,
-               "speed_multiplier":1.0
             }
          }
       },
       "components":{
          "minecraft:type_family":{
             "family":[
-               "takahe"
+               "takahe", "mob"
             ]
          },
          "minecraft:breathable":{
@@ -105,19 +86,6 @@
          },
          "minecraft:fall_damage":{
             "value":0.0
-         },
-         "minecraft:leashable":{
-            "soft_distance":4.0,
-            "hard_distance":6.0,
-            "max_distance":10.0,
-            "on_leash":{
-               "event":"on_leash",
-               "target":"self"
-            },
-            "on_unleash":{
-               "event":"on_unleash",
-               "target":"self"
-            }
          },
          "minecraft:balloonable":{
             "mass":0.6
@@ -175,13 +143,6 @@
          }
       },
       "events":{
-         "from_egg":{
-            "add":{
-               "component_groups":[
-                  "takahe_baby"
-               ]
-            }
-         },
          "minecraft:entity_spawned":{
             "randomize":[
                {
