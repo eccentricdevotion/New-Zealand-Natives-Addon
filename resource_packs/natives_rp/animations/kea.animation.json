@@ -4,6 +4,7 @@
 		"animation.kea.walk": {
 			"loop": true,
 			"animation_length": 0.8,
+			"anim_time_update": "query.modified_distance_moved / 4.0",
 			"bones": {
 				"leg0": {
 					"rotation": {

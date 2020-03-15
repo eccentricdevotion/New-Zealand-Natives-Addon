@@ -64,15 +64,15 @@
             "minecraft:can_fly":{
                "value":true
             },
-			"minecraft:navigation.fly":{
-				"can_path_over_water":true
-			},
-			"minecraft:movement.fly":{
+            "minecraft:navigation.fly":{
+               "can_path_over_water":true
+            },
+            "minecraft:movement.fly":{
 
-			},
-			"minecraft:movement":{
-				"value":0.4
-			}
+            },
+            "minecraft:movement":{
+               "value":0.4
+            }
          },
          "ccl:kea_baby":{
             "minecraft:type_family":{
@@ -121,12 +121,17 @@
                "target_dist":0.0,
                "track_target":true
             },
-            "minecraft:navigation.walk": {
-              "avoid_water":true
+            "minecraft:navigation.generic":{
+               "can_float":true,
+               "avoid_water":true,
+               "avoid_damage_blocks":true
             },
-			"minecraft:movement":{
-				"value":0.25
-			}
+            "minecraft:navigation.walk":{
+               "avoid_water":true
+            },
+            "minecraft:movement":{
+               "value":0.25
+            }
          }
       },
       "components":{
@@ -165,7 +170,13 @@
                "deals_damage":false
             }
          },
+         "minecraft:movement.basic":{
+
+         },
          "minecraft:jump.static":{
+
+         },
+         "minecraft:can_climb":{
 
          },
          "minecraft:physics":{
