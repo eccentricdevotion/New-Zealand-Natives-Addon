@@ -4,6 +4,7 @@
 		"animation.tui.walk": {
 			"loop": true,
 			"animation_length": 0.4,
+			"anim_time_update": "query.modified_distance_moved / 4.0",
 			"bones": {
 				"head": {
 					"position": {
@@ -78,6 +79,7 @@
 		"animation.tui.fly": {
 			"loop": true,
 			"animation_length": 0.8,
+			"anim_time_update": "query.modified_distance_moved / 2.0",
 			"bones": {
 				"head": {
 					"rotation": {
