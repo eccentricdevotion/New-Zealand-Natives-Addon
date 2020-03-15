@@ -11,8 +11,7 @@
             "baby":"textures/entity/kea/kea_baby"
          },
          "geometry":{
-            "default":"geometry.kea.walk",
-            "flying":"geometry.kea.fly"
+            "default":"geometry.kea"
          },
          "animations":{
             "walk":"animation.kea.walk",
