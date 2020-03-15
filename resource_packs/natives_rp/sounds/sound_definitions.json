@@ -146,10 +146,13 @@
       "category":"animal",
       "sounds":[
          {
-            "name":"sounds/kotuku/kotuku1",
+            "name":"sounds/kotuku/kotuku3",
             "load_on_low_memory":true
          },
-         "sounds/kotuku/kotuku2"
+         "sounds/kotuku/kotuku1",
+         "sounds/kotuku/kotuku2",
+         "sounds/kotuku/kotuku4",
+         "sounds/kotuku/kotuku5"
       ]
    },
    "ccl.ruru.say":{

@@ -4,7 +4,7 @@
 		"animation.kotuku.walk": {
 			"loop": true,
 			"animation_length": 3,
-			"anim_time_update": "query.modified_distance_moved",
+			"anim_time_update": "query.modified_distance_moved / 3.0",
 			"bones": {
 				"upper0": {
 					"rotation": {
