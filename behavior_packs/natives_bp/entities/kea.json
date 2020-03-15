@@ -30,9 +30,10 @@
                   "mateType":"ccl:kea",
                   "babyType":"ccl:kea",
                   "breed_event":{
-                     "event":"entity_born",
+                     "event":"minecraft:entity_born",
                      "target":"baby"
-                  }
+                  },
+                  "causes_pregnancy": false
                },
                "breedItems":[
                   "wheat_seeds",
@@ -42,7 +43,7 @@
                ]
             },
             "minecraft:behavior.breed":{
-               "priority":3,
+               "priority":5,
                "speed_multiplier":1.0
             },
             "minecraft:behavior.random_fly":{
@@ -57,22 +58,22 @@
             },
             "minecraft:behavior.follow_mob":{
                "priority":3,
-               "speed_multiplier":1.0,
+               "speed_multiplier":0.2,
                "stop_distance":3,
                "search_range":20
             },
             "minecraft:can_fly":{
                "value":true
             },
-			"minecraft:navigation.fly":{
-				"can_path_over_water":true
-			},
-			"minecraft:movement.fly":{
+            "minecraft:navigation.fly":{
+               "can_path_over_water":true
+            },
+            "minecraft:movement.fly":{
 
-			},
-			"minecraft:movement":{
-				"value":0.4
-			}
+            },
+            "minecraft:movement":{
+               "value":0.4
+            }
          },
          "ccl:kea_baby":{
             "minecraft:type_family":{
@@ -110,23 +111,23 @@
             },
             "minecraft:behavior.random_stroll":{
                "priority":6,
-               "speed_multiplier":0.2
+               "speed_multiplier":0.1
             },
             "minecraft:can_climb":{
 
             },
             "minecraft:behavior.mount_pathing":{
                "priority":5,
-               "speed_multiplier":0.5,
+               "speed_multiplier":0.1,
                "target_dist":0.0,
                "track_target":true
             },
-            "minecraft:navigation.walk": {
-              "avoid_water":true
+            "minecraft:navigation.walk":{
+               "avoid_water":true
             },
-			"minecraft:movement":{
-				"value":0.25
-			}
+            "minecraft:movement":{
+               "value":0.1
+            }
          }
       },
       "components":{
@@ -165,7 +166,13 @@
                "deals_damage":false
             }
          },
+         "minecraft:movement.basic":{
+
+         },
          "minecraft:jump.static":{
+
+         },
+         "minecraft:can_climb":{
 
          },
          "minecraft:physics":{
@@ -240,7 +247,7 @@
                }
             ]
          },
-         "entity_born":{
+         "minecraft:entity_born":{
             "remove":{
 
             },

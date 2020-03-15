@@ -2,37 +2,43 @@
    "format_version":"1.10.0",
    "minecraft:client_entity":{
       "description":{
-         "identifier":"ccl:takahe",
+         "identifier":"ccl:kotuku",
          "materials":{
-            "default":"takahe"
+            "default":"kotuku"
          },
          "textures":{
-            "default":"textures/entity/takahe/takahe",
-            "baby":"textures/entity/takahe/takahe_baby"
+            "default":"textures/entity/kotuku/kotuku",
+            "baby":"textures/entity/kotuku/kotuku_baby"
          },
          "geometry":{
-            "default":"geometry.takahe"
+            "default":"geometry.kotuku"
          },
          "animations":{
-            "move":"animation.bird.move",
-            "general":"animation.bird.general",
+            "walk":"animation.kotuku.walk",
+            "fly":"animation.kotuku.fly",
             "look_at_target":"animation.common.look_at_target",
             "baby_transform":"animation.bird.baby_transform"
          },
          "scripts":{
             "animate":[
-               "general",
-               { "move":"query.modified_move_speed" },
+               {
+                  "walk":"query.modified_move_speed && query.is_on_ground"
+               },
+               {
+                  "fly":"!query.is_on_ground"
+               },
                "look_at_target",
-               { "baby_transform":"query.is_baby" }
+               {
+                  "baby_transform":"query.is_baby"
+               }
             ]
          },
          "render_controllers":[
-            "controller.render.takahe"
+            "controller.render.kotuku"
          ],
          "spawn_egg":{
-            "base_color":"#12A0B9",
-            "overlay_color":"#3F2AF8"
+            "base_color":"#EEEEEE",
+            "overlay_color":"#FFFFFF"
          }
       }
    }
