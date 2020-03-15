@@ -30,9 +30,10 @@
                   "mateType":"ccl:kea",
                   "babyType":"ccl:kea",
                   "breed_event":{
-                     "event":"entity_born",
+                     "event":"minecraft:entity_born",
                      "target":"baby"
-                  }
+                  },
+                  "causes_pregnancy": false
                },
                "breedItems":[
                   "wheat_seeds",
@@ -42,7 +43,7 @@
                ]
             },
             "minecraft:behavior.breed":{
-               "priority":3,
+               "priority":5,
                "speed_multiplier":1.0
             },
             "minecraft:behavior.random_fly":{
@@ -57,7 +58,7 @@
             },
             "minecraft:behavior.follow_mob":{
                "priority":3,
-               "speed_multiplier":1.0,
+               "speed_multiplier":0.2,
                "stop_distance":3,
                "search_range":20
             },
@@ -110,27 +111,22 @@
             },
             "minecraft:behavior.random_stroll":{
                "priority":6,
-               "speed_multiplier":0.2
+               "speed_multiplier":0.1
             },
             "minecraft:can_climb":{
 
             },
             "minecraft:behavior.mount_pathing":{
                "priority":5,
-               "speed_multiplier":0.5,
+               "speed_multiplier":0.1,
                "target_dist":0.0,
                "track_target":true
-            },
-            "minecraft:navigation.generic":{
-               "can_float":true,
-               "avoid_water":true,
-               "avoid_damage_blocks":true
             },
             "minecraft:navigation.walk":{
                "avoid_water":true
             },
             "minecraft:movement":{
-               "value":0.25
+               "value":0.1
             }
          }
       },
@@ -251,7 +247,7 @@
                }
             ]
          },
-         "entity_born":{
+         "minecraft:entity_born":{
             "remove":{
 
             },
