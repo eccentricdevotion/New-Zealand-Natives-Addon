@@ -38,21 +38,6 @@
                      "test":"has_biome_tag",
                      "operator":"==",
                      "value":"swamp"
-                  },
-                  {
-                     "test":"has_biome_tag",
-                     "operator":"==",
-                     "value":"forest"
-                  },
-                  {
-                     "test":"has_biome_tag",
-                     "operator":"==",
-                     "value":"dark_forest"
-                  },
-                  {
-                     "test":"has_biome_tag",
-                     "operator":"==",
-                     "value":"jungle"
                   }
                ]
             }
