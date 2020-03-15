@@ -37,7 +37,7 @@
             "minecraft:ageable":{
                "duration":1200,
                "feed_items":[
-                  "dye"
+                  "minecraft:dye:0"
                ],
                "grow_up":{
                   "event":"ageable_grow_up",
@@ -84,7 +84,7 @@
                   }
                },
                "breed_items":[
-                  "dye"
+                  "minecraft:dye:0"
                ]
             },
             "minecraft:behavior.breed":{
@@ -179,7 +179,7 @@
             "priority":3,
             "speed_multiplier":1.1,
             "items":[
-               "dye"
+               "minecraft:dye:0"
             ]
          },
          "minecraft:behavior.move_to_water":{
