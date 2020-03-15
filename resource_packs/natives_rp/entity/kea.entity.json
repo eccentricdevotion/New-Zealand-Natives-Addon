@@ -16,13 +16,11 @@
          "animations":{
             "walk":"animation.kea.walk",
             "fly":"animation.kea.fly",
-            "general":"animation.bird.general",
             "look_at_target":"animation.common.look_at_target",
             "baby_transform":"animation.bird.baby_transform"
          },
          "scripts":{
             "animate":[
-               "general",
                {
                   "walk":"query.modified_move_speed && query.is_on_ground"
                },
