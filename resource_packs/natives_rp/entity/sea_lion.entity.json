@@ -17,12 +17,14 @@
          "animations":{
             "default_pose":"animation.sea_lion.default_pose",
             "walk":"animation.sea_lion.walk",
+            "swim":"animation.sea_lion.swim",
             "look_at_target":"animation.sea_lion.look_at_target"
          },
          "scripts":{
             "animate":[
                { "walk": "!query.is_in_water" },
-               "default_pose",
+               { "swim": "query.is_in_water" },
+               { "default_pose": "!query.is_in_water && query.is_resting" },
                { "look_at_target": "query.has_target" }
             ]
          },

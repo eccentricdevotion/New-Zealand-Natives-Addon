@@ -36,7 +36,6 @@
 - Puriri moth
 - Rifleman
 - Rimu
-- Ruru/Morepork
 - Seals
 - Shore plover
 - Treeferns (Ponga)
@@ -59,7 +58,8 @@
 - Piwakawaka/fantail
 - Pohutukawa
 - Powelliphanta
-- Sea Lions _(need to do swim animation)_
+- Ruru (Morepork)
+- Sea Lions
 - Takahe
 - Tuatara
 - Tui

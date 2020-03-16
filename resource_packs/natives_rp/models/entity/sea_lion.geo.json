@@ -156,7 +156,14 @@
 								"up": {"uv": [14, 35], "uv_size": [1, 3]},
 								"down": {"uv": [16, 35], "uv_size": [-1, 3]}
 							}
-						},
+						}
+					]
+				},
+				{
+					"name": "front_tip_left",
+					"parent": "front_flipper_left",
+					"pivot": [5.625, 0.375, -2.75],
+					"cubes": [
 						{
 							"origin": [5.5, 0, -4.25],
 							"size": [2.75, 0.75, 3],
@@ -176,18 +183,6 @@
 					"pivot": [-5, 3, -2.75],
 					"cubes": [
 						{
-							"origin": [-8.25, 0, -4.25],
-							"size": [2.75, 0.75, 3],
-							"uv": {
-								"north": {"uv": [35, 0], "uv_size": [3, 1]},
-								"east": {"uv": [35, 1], "uv_size": [3, 1]},
-								"south": {"uv": [35, 2], "uv_size": [3, 1]},
-								"west": {"uv": [35, 9], "uv_size": [3, 1]},
-								"up": {"uv": [29, 33], "uv_size": [3, 3]},
-								"down": {"uv": [35, 33], "uv_size": [-3, 3]}
-							}
-						},
-						{
 							"origin": [-5.5, 0, -4.25],
 							"size": [1, 3.5, 3],
 							"uv": {
@@ -197,6 +192,25 @@
 								"west": {"uv": [6, 32], "uv_size": [3, 4]},
 								"up": {"uv": [16, 35], "uv_size": [1, 3]},
 								"down": {"uv": [36, 10], "uv_size": [-1, 3]}
+							}
+						}
+					]
+				},
+				{
+					"name": "front_tip_right",
+					"parent": "front_flipper_right",
+					"pivot": [-5.375, 0.375, -2.75],
+					"cubes": [
+						{
+							"origin": [-8.25, 0, -4.25],
+							"size": [2.75, 0.75, 3],
+							"uv": {
+								"north": {"uv": [35, 0], "uv_size": [3, 1]},
+								"east": {"uv": [35, 1], "uv_size": [3, 1]},
+								"south": {"uv": [35, 2], "uv_size": [3, 1]},
+								"west": {"uv": [35, 9], "uv_size": [3, 1]},
+								"up": {"uv": [29, 33], "uv_size": [3, 3]},
+								"down": {"uv": [35, 33], "uv_size": [-3, 3]}
 							}
 						}
 					]
@@ -216,7 +230,14 @@
 								"up": {"uv": [35, 20], "uv_size": [1, 3]},
 								"down": {"uv": [36, 23], "uv_size": [-1, 3]}
 							}
-						},
+						}
+					]
+				},
+				{
+					"name": "back_tip_left",
+					"parent": "back_flipper_left",
+					"pivot": [3.625, 0.375, 11],
+					"cubes": [
 						{
 							"origin": [3.5, 0, 9.5],
 							"size": [2.75, 0.75, 3],
@@ -246,7 +267,14 @@
 								"up": {"uv": [0, 36], "uv_size": [1, 3]},
 								"down": {"uv": [2, 36], "uv_size": [-1, 3]}
 							}
-						},
+						}
+					]
+				},
+				{
+					"name": "back_tip_right",
+					"parent": "back_flipper_right",
+					"pivot": [-3.125, 0.375, 11],
+					"cubes": [
 						{
 							"origin": [-6.25, 0, 9.5],
 							"size": [2.75, 0.75, 3],

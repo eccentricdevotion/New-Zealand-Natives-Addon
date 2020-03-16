@@ -2,9 +2,9 @@
 	"format_version": "1.8.0",
 	"animations": {
 		"animation.sea_lion.walk": {
-			"anim_time_update": "query.modified_distance_moved",
 			"loop": true,
 			"animation_length": 0.8,
+			"anim_time_update": "query.modified_distance_moved",
 			"bones": {
 				"head": {
 					"rotation": {
@@ -91,6 +91,7 @@
 			}
 		},
 		"animation.sea_lion.look_at_target": {
+			"loop": true,
 			"animation_length": 1.2,
 			"bones": {
 				"head": {
@@ -183,6 +184,65 @@
 				},
 				"torso_front": {
 					"rotation": [0, 0, 0]
+				}
+			}
+		},
+		"animation.sea_lion.swim": {
+			"loop": true,
+			"animation_length": 0.8,
+			"bones": {
+				"front_flipper_left": {
+					"rotation": {
+						"0.0": [10, 25, -70],
+						"0.2": [65, 25, -20],
+						"0.4": [10, 25, -70],
+						"0.6": [-25, 45, -115],
+						"0.8": [10, 25, -70]
+					}
+				},
+				"front_flipper_right": {
+					"rotation": {
+						"0.0": [10, -25, 70],
+						"0.2": [65, -25, 20],
+						"0.4": [10, -25, 70],
+						"0.6": [-25, -45, 115],
+						"0.8": [10, -25, 70]
+					}
+				},
+				"back_flipper_left": {
+					"rotation": {
+						"0.0": [75, 0, 0],
+						"0.2": [75, -10, 0],
+						"0.4": [75, 0, 0],
+						"0.6": [75, 10, 0],
+						"0.8": [75, 0, 0]
+					},
+					"position": [0, -1, 0]
+				},
+				"back_flipper_right": {
+					"rotation": {
+						"0.0": [75, 0, 0],
+						"0.2": [75, 10, 0],
+						"0.4": [75, 0, 0],
+						"0.6": [75, -10, 0],
+						"0.8": [75, 0, 0]
+					},
+					"position": [0, -1, 0]
+				},
+				"front_tip_left": {
+					"rotation": [0, 0, 90],
+					"position": [-0.5, -0.5, 0]
+				},
+				"front_tip_right": {
+					"rotation": [0, 0, -90],
+					"position": [0.25, -0.25, 0]
+				},
+				"back_tip_right": {
+					"rotation": [0, 0, -90]
+				},
+				"back_tip_left": {
+					"rotation": [0, 0, 90],
+					"position": [-0.5, -0.5, 0]
 				}
 			}
 		}
