@@ -14,7 +14,7 @@
 - Fairy tern
 - Frogs (Archey’s frog was mentioned)
 - Fungi, esp. basket fungi
-- Giraffe weevil
+- Giraffe weevil _(Rob C)_
 - Glow worms
 - Harakeke
 - Harvestmen
@@ -22,18 +22,15 @@
 - Huia
 - Kakapo
 - Kauri
-- Kea
 - Kereru
 - King Shag
 - Kingfisher
-- Kotuku
 - Mohua (yellowhead)
 - Mollymawk
 - Native parasitoid wasps
 - Owlet-nightjars
 - Pateke (brown teal)
 - Podocarp forests
-- Pohutukawa
 - Pseudopanax crassifolius (Lancewood)
 - Pukeko
 - Puriri moth
@@ -43,27 +40,29 @@
 - Seals
 - Shore plover
 - Treeferns (Ponga)
-- Tui
 - Whio (blue duck)
-
-Text for death cause from Haast's Eagle
 
 ## Done
 
 - Dolphins, Hector’s / Maui’s
-- Eels
-- Haast’s eagle
+- Eels (Tuna)
+- Haast’s eagle _(need to do text for death cause - if possible)_
 - Hoiho (yellow-eyed penguin)
 - Huhu Grubs
 - Katipo
+- Kea
 - Kiwi
+- Kotuku
 - Kunekune
-- Monarch butterfly / caterpillar _(need to change life cycle -> egg, caterpillar, chrysalis, butterfly)__
+- Moa
+- Monarch butterfly / caterpillar _(need to change life cycle -> egg, caterpillar, chrysalis, butterfly)_
 - Piwakawaka/fantail
+- Pohutukawa
 - Powelliphanta
-- Sea Lions
+- Sea Lions _(need to do swim animation)_
 - Takahe
 - Tuatara
+- Tui
 - Weka
 - Weta
 - Ileodictyon cibarium (a basket fungus)
