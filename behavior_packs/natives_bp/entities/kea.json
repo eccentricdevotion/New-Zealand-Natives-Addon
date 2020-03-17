@@ -230,7 +230,7 @@
          "minecraft:entity_spawned":{
             "randomize":[
                {
-                  "weight":20,
+                  "weight":85,
                   "add":{
                      "component_groups":[
                         "ccl:kea_adult"
@@ -238,7 +238,7 @@
                   }
                },
                {
-                  "weight":20,
+                  "weight":15,
                   "add":{
                      "component_groups":[
                         "ccl:kea_baby"
