@@ -95,6 +95,22 @@
             "minecraft:behavior.float":{
                "priority":20
             },
+            "minecraft:navigation.float":{
+               "can_path_over_water":false
+            },
+            "minecraft:behavior.float_wander":{
+               "xz_dist":10,
+               "y_dist":7,
+               "y_offset":-2.0,
+               "random_reselect":true,
+               "float_duration":[
+                  0.1,
+                  0.35
+               ]
+            },
+            "minecraft:can_fly":{
+
+            },
             "minecraft:flying_speed":{
                "value":0.15
             },
