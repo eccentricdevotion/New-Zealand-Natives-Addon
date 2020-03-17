@@ -25,7 +25,8 @@
             ]
          },
          "render_controllers":[
-            "controller.render.monarch"
+           { "controller.render.monarch": "!query.is_baby" },
+           { "controller.render.caterpillar": "query.is_baby" }
          ],
          "spawn_egg":{
             "overlay_color":"#333333",

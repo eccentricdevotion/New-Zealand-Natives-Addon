@@ -1,9 +1,9 @@
 {
    "format_version":"1.8.0",
-   "render_controllers":{
-      "controller.render.monarch":{
+   "render_controllers": {
+      "controller.render.huhu_beetle": {
          "geometry":"Geometry.default",
-         "materials":[ { "*":"Material.default" } ],
+         "materials": [ { "*": "Material.default" } ],
          "textures":[ "Texture.default" ]
       }
    }

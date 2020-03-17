@@ -12,7 +12,7 @@
          },
          "geometry":{
             "default":"geometry.huhu_beetle",
-            "grub":"geometry.huhu"
+            "grub":"geometry.huhu_grub"
          },
          "animations":{
             "default_pose":"animation.huhu.default_pose",
@@ -23,23 +23,16 @@
          },
          "scripts":{
             "animate":[
-               {
-                  "default_pose":"query.is_baby"
-               },
-               {
-                  "wiggle":"query.is_baby"
-               },
+               { "default_pose":"query.is_baby" },
+               { "wiggle":"query.is_baby" },
                "look_at_target",
-               {
-                  "walk":"!query.is_baby && query.modified_move_speed && query.is_on_ground"
-               },
-               {
-                  "fly":"!query.is_baby && !query.is_on_ground"
-               }
+               { "walk":"!query.is_baby && query.modified_move_speed && query.is_on_ground" },
+               { "fly":"!query.is_baby && !query.is_on_ground" }
             ]
          },
          "render_controllers":[
-            "controller.render.huhu"
+           { "controller.render.huhu_grub": "query.is_baby" },
+           { "controller.render.huhu_beetle": "!query.is_baby" }
          ],
          "spawn_egg":{
             "base_color":"#E0D6AC",

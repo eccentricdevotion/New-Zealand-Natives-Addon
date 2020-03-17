@@ -26,6 +26,9 @@
             },
             "minecraft:variant":{
                "value":0
+            },
+            "minecraft:is_baby":{
+
             }
          },
          "minecraft:adult":{
