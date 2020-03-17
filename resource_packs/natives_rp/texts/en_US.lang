@@ -1,7 +1,7 @@
 entity.ccl:haasts_eagle.name=Haast's Eagle
 entity.ccl:hectors_dolphin.name=Hector's Dolphin
 entity.ccl:hoiho.name=Hoiho (Yellow-eyed Penguin)
-entity.ccl:huhu.name=Huhu Grub
+entity.ccl:huhu.name=Huhu
 entity.ccl:katipo.name=Katipo
 entity.ccl:kea.name=Kea
 entity.ccl:kotuku.name=Kotuku (White Heron)
@@ -18,7 +18,7 @@ item.ccl:huhu_grub.name=Huhu Grub
 item.spawn_egg.entity.ccl:haasts_eagle.name=Spawn Haast's Eagle
 item.spawn_egg.entity.ccl:hectors_dolphin.name=Spawn Hector's / Maui's Dolphin
 item.spawn_egg.entity.ccl:hoiho.name=Spawn Hoiho (Yellow-eyed Penguin)
-item.spawn_egg.entity.ccl:huhu.name=Spawn Huhu Grub
+item.spawn_egg.entity.ccl:huhu.name=Spawn Huhu
 item.spawn_egg.entity.ccl:katipo.name=Spawn Katipo
 item.spawn_egg.entity.ccl:kea.name=Spawn Kea
 item.spawn_egg.entity.ccl:kotuku.name=Spawn Kotuku (White Heron)

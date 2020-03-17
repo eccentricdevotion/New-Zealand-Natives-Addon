@@ -10,18 +10,31 @@
             "default":"textures/entity/huhu/huhu"
          },
          "geometry":{
-            "default":"geometry.huhu"
+            "default":"geometry.huhu_beetle",
+            "grub":"geometry.huhu"
          },
          "animations":{
             "default_pose":"animation.huhu.default_pose",
             "wiggle":"animation.huhu.wiggle",
-            "look_at_target":"animation.huhu.look_at_target"
+            "look_at_target":"animation.huhu.look_at_target",
+            "walk":"animation.huhu_beetle.walk",
+            "fly":"animation.huhu_beetle.fly"
          },
          "scripts":{
             "animate":[
-               "default_pose",
-               "wiggle",
-               "look_at_target"
+               {
+                  "default_pose":"query.is_baby"
+               },
+               {
+                  "wiggle":"query.is_baby"
+               },
+               "look_at_target",
+               {
+                  "walk":"!query.is_baby && query.modified_move_speed && query.is_on_ground"
+               },
+               {
+                  "fly":"!query.is_baby && !query.is_on_ground"
+               }
             ]
          },
          "render_controllers":[
