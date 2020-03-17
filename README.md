@@ -18,6 +18,4 @@
 - Weka
 - Weta
 
-Downloads for Windows 10 and MCPE editions available at [http://tardisjenkins.duckdns.org:8080/job/New-Zealand-Natives-Addon/](http://tardisjenkins.duckdns.org:8080/job/New-Zealand-Natives-Addon/)
-
-Download for Education Edition on the [Releases](https://github.com/eccentricdevotion/New-Zealand-Natives-Addon/releases) page
+Downloads for Windows 10, Education Edition and MCPE editions available at [http://tardisjenkins.duckdns.org:8080/job/New-Zealand-Natives-Addon/](http://tardisjenkins.duckdns.org:8080/job/New-Zealand-Natives-Addon/)
