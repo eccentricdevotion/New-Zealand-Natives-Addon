@@ -1,23 +1,23 @@
 {
    "format_version":"1.8.0",
-   "render_controllers":{
-      "controller.render.monarch":{
+   "render_controllers": {
+      "controller.render.huhu": {
          "arrays":{
             "textures":{
                "Array.textures":[
                   "Texture.default",
-                  "Texture.baby"
+                  "Texture.grub"
                ]
             },
             "geometries":{
                "Array.geos":[
                   "Geometry.default",
-                  "Geometry.caterpillar"
+                  "Geometry.grub"
                ]
             }
          },
          "geometry":"Array.geos[query.is_baby]",
-         "materials":[ { "*":"Material.default" } ],
+         "materials": [ { "*": "Material.default" } ],
          "textures":[ "Array.textures[query.is_baby]" ]
       }
    }

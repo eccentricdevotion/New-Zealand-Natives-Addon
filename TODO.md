@@ -1,45 +1,47 @@
 # TODO
 
-- Adzebills
-- All extinct ones, starting with moa
-- All the birds!
-- Australasian bittern
-- Bats / Long-tailed bat
-- Black-billed gull
-- Cabbage trees
-- Clematis afoliata = aphylla
-- Dactylanthus taylorii (a parasitic plant)
-- Dawsonia superba (the world’s biggest moss!)
-- Extinct native goose and pelican [could also add extinct giant penguin and parrot]
-- Fairy tern
-- Frogs (Archey’s frog was mentioned)
-- Fungi, esp. basket fungi
-- Giraffe weevil _(Rob C)_
-- Glow worms
-- Harakeke
-- Harvestmen
-- Past birds of the year
-- Huia
-- Kakapo
-- Kauri
-- Kereru
-- King Shag
-- Kingfisher
-- Mohua (yellowhead)
-- Mollymawk
-- Native parasitoid wasps
-- Owlet-nightjars
-- Pateke (brown teal)
-- Podocarp forests
-- Pseudopanax crassifolius (Lancewood)
-- Pukeko
-- Puriri moth
-- Rifleman
-- Rimu
-- Seals
-- Shore plover
-- Treeferns (Ponga)
-- Whio (blue duck)
+1. Try Monarch caterpillars and Hhuu gruns as separate entities
+2. Add more natives:
+    - Adzebills
+    - All extinct ones, starting with moa
+    - All the birds!
+    - Australasian bittern
+    - Bats / Long-tailed bat
+    - Black-billed gull
+    - Cabbage trees
+    - Clematis afoliata = aphylla
+    - Dactylanthus taylorii (a parasitic plant)
+    - Dawsonia superba (the world’s biggest moss!)
+    - Extinct native goose and pelican [could also add extinct giant penguin and parrot]
+    - Fairy tern
+    - Frogs (Archey’s frog was mentioned)
+    - Fungi, esp. basket fungi
+    - Giraffe weevil _(Rob C)_
+    - Glow worms
+    - Harakeke
+    - Harvestmen
+    - Past birds of the year
+    - Huia
+    - Kakapo
+    - Kauri
+    - Kereru
+    - King Shag
+    - Kingfisher
+    - Mohua (yellowhead)
+    - Mollymawk
+    - Native parasitoid wasps
+    - Owlet-nightjars
+    - Pateke (brown teal)
+    - Podocarp forests
+    - Pseudopanax crassifolius (Lancewood)
+    - Pukeko
+    - Puriri moth
+    - Rifleman
+    - Rimu
+    - Seals
+    - Shore plover
+    - Treeferns (Ponga)
+    - Whio (blue duck)
 
 ## Done
 
@@ -47,7 +49,7 @@
 - Eels (Tuna)
 - Haast’s eagle _(need to do text for death cause - if possible)_
 - Hoiho (yellow-eyed penguin)
-- Huhu Grubs
+- Huhu Grubs / Beetles
 - Katipo
 - Kea
 - Kiwi

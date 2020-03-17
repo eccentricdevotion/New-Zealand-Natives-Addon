@@ -30,10 +30,7 @@
                { "fly":"!query.is_baby && !query.is_on_ground" }
             ]
          },
-         "render_controllers":[
-           { "controller.render.huhu_grub": "query.is_baby" },
-           { "controller.render.huhu_beetle": "!query.is_baby" }
-         ],
+         "render_controllers": [ "controller.render.huhu" ],
          "spawn_egg":{
             "base_color":"#E0D6AC",
             "overlay_color":"#6D5412"

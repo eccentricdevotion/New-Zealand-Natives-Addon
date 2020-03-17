@@ -24,10 +24,7 @@
                { "caterpillar_inch":"query.is_baby" }
             ]
          },
-         "render_controllers":[
-           { "controller.render.monarch": "!query.is_baby" },
-           { "controller.render.caterpillar": "query.is_baby" }
-         ],
+         "render_controllers":[ "controller.render.monarch" ],
          "spawn_egg":{
             "overlay_color":"#333333",
             "base_color":"#FF8004"
