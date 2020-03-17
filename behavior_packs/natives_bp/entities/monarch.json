@@ -45,6 +45,11 @@
                   "event":"ageable_grow_up",
                   "target":"self"
                }
+            },
+            "minecraft:navigation.walk":{
+               "can_path_over_water":false,
+               "avoid_water":true,
+               "avoid_damage_blocks":true
             }
          },
          "minecraft:adult":{
@@ -82,7 +87,7 @@
                "random_reselect":true,
                "float_duration":[
                   0.1,
-                  0.35
+                  1.0
                ]
             },
             "minecraft:can_fly":{
@@ -137,11 +142,6 @@
                "monarch",
                "arthropod"
             ]
-         },
-         "minecraft:navigation.walk":{
-            "can_path_over_water":false,
-            "avoid_water":true,
-            "avoid_damage_blocks":true
          },
          "minecraft:movement.basic":{
 
@@ -218,7 +218,7 @@
             },
             "add":{
                "component_groups":[
-			      "minecraft:adult"
+                  "minecraft:adult"
                ]
             }
          }
