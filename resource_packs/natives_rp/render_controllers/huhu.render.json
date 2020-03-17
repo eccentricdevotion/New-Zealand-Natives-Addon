@@ -2,9 +2,17 @@
    "format_version":"1.8.0",
    "render_controllers": {
       "controller.render.huhu": {
+         "arrays":{
+            "textures":{
+               "Array.textures":[
+                  "Texture.default",
+                  "Texture.grub"
+               ]
+            }
+         },
          "geometry":"query.is_baby ? Geometry.grub : Geometry.default",
          "materials": [ { "*": "Material.default" } ],
-         "textures": [ "Texture.default" ]
+         "textures":[ "Array.textures[query.is_baby]" ]
       }
    }
 }
