@@ -8,9 +8,15 @@
                   "Texture.default",
                   "Texture.baby"
                ]
+            },
+            "geometries":{
+               "Array.geos":[
+                  "Geometry.default",
+                  "Geometry.caterpillar"
+               ]
             }
          },
-         "geometry":"query.is_baby ? Geometry.caterpillar : Geometry.default",
+         "geometry":"Array.geos[query.is_baby]"
          "materials":[ { "*":"Material.default" } ],
          "textures":[ "Array.textures[query.is_baby]" ]
       }
