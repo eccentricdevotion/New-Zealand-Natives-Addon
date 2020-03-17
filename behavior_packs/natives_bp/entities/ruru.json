@@ -204,6 +204,9 @@
                "deals_damage":false
             }
          },
+         "minecraft:fall_damage":{
+             "value":0.0
+         },
          "minecraft:jump.static":{
 
          },
