@@ -4,7 +4,7 @@
 - Hector’s / Maui’s Dolphin
 - Haast’s eagle
 - Hoiho (yellow-eyed penguin)
-- Huhu Grub
+- Huhu Beetle / Grub
 - Katipo
 - Kea
 - Kotuku
