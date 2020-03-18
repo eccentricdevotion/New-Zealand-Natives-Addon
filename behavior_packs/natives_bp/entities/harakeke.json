@@ -8,17 +8,17 @@
          "is_experimental":false
       },
       "component_groups":{
-         "ccl:ponga_small":{
+         "ccl:harakeke_small":{
             "minecraft:scale":{
                "value":1.75
             }
          },
-         "ccl:ponga_medium":{
+         "ccl:harakeke_medium":{
             "minecraft:scale":{
                "value":2.0
             }
          },
-         "ccl:ponga_large":{
+         "ccl:harakeke_large":{
             "minecraft:scale":{
                "value":2.5
             }
@@ -36,7 +36,6 @@
             "height":0.001
          },
          "minecraft:physics":{
-            "has_gravity":false
          },
          "minecraft:pushable":{
             "is_pushable":false,
@@ -64,7 +63,7 @@
                   },
                   "add":{
                      "component_groups":[
-                        "ccl:ponga_small"
+                        "ccl:harakeke_small"
                      ]
                   }
                },
@@ -75,7 +74,7 @@
                   },
                   "add":{
                      "component_groups":[
-                        "ccl:ponga_medium"
+                        "ccl:harakeke_medium"
                      ]
                   }
                },
@@ -86,7 +85,7 @@
                   },
                   "add":{
                      "component_groups":[
-                        "ccl:ponga_large"
+                        "ccl:harakeke_large"
                      ]
                   }
                }
