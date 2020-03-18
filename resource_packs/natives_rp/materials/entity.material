@@ -1,6 +1,7 @@
 {
   "materials": {
     "version": "1.0.0",
+    "basket_fungus:entity": {},
     "haasts_eagle:entity": {},
     "harakeke:entity": {},
     "hectors_dolphin:entity": {},

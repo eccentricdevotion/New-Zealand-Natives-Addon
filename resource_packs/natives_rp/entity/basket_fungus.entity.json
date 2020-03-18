@@ -1,0 +1,24 @@
+{
+   "format_version":"1.8.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"ccl:basket_fungus",
+         "materials":{
+            "default":"basket_fungus"
+         },
+         "textures":{
+            "default":"textures/entity/flora/basket_fungus"
+         },
+         "geometry":{
+            "default":"geometry.basket_fungus"
+         },
+         "spawn_egg":{
+            "base_color":"#EBE6BC",
+            "overlay_color":"#D5BF8E"
+         },
+         "render_controllers":[
+            "controller.render.basket_fungus"
+         ]
+      }
+   }
+}
