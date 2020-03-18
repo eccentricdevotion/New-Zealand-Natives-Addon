@@ -18,7 +18,6 @@
     - Fungi, esp. basket fungi
     - Giraffe weevil _(Rob C)_
     - Glow worms
-    - Harakeke
     - Harvestmen
     - Past birds of the year
     - Huia
@@ -47,6 +46,7 @@
 - Dolphins, Hector’s / Maui’s
 - Eels (Tuna)
 - Haast’s eagle _(need to do text for death cause - if possible)_
+- Harakeke
 - Hoiho (yellow-eyed penguin)
 - Huhu Grubs / Beetles
 - Katipo

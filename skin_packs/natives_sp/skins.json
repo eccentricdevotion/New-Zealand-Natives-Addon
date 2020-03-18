@@ -1,0 +1,19 @@
+{
+   "geometry":"skinpacks/skins.json",
+   "skins":[
+      {
+         "localization_name":"MG",
+         "geometry":"geometry.humanoid.custom",
+         "texture":"maori_girl.png",
+         "type":"free"
+      },
+      {
+         "localization_name":"BB",
+         "geometry":"geometry.humanoid.custom",
+         "texture":"bumblebee.png",
+         "type":"free"
+      }
+   ],
+   "serialize_name":"NZ Natives Skin Pack",
+   "localization_name":"NZN"
+}
