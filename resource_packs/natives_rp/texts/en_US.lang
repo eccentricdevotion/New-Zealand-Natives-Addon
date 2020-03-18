@@ -1,4 +1,5 @@
 entity.ccl:haasts_eagle.name=Haast's Eagle
+entity.ccl:harakeke.name=Harakeke (Flax)
 entity.ccl:hectors_dolphin.name=Hector's Dolphin
 entity.ccl:hoiho.name=Hoiho (Yellow-eyed Penguin)
 entity.ccl:huhu.name=Huhu
@@ -16,6 +17,7 @@ entity.ccl:tui.name=Tui
 entity.ccl:weka.name=Weka
 entity.ccl:weta.name=Giant Weta
 item.ccl:huhu_grub.name=Huhu Grub
+item.spawn_egg.entity.ccl:harakeke.name=Plant Harakeke
 item.spawn_egg.entity.ccl:haasts_eagle.name=Spawn Haast's Eagle
 item.spawn_egg.entity.ccl:hectors_dolphin.name=Spawn Hector's / Maui's Dolphin
 item.spawn_egg.entity.ccl:hoiho.name=Spawn Hoiho (Yellow-eyed Penguin)

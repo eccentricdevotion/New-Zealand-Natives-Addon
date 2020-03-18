@@ -2,22 +2,22 @@
    "format_version":"1.8.0",
    "minecraft:client_entity":{
       "description":{
-         "identifier":"ccl:ponga",
+         "identifier":"ccl:harakeke",
          "materials":{
-            "default":"ponga"
+            "default":"harakeke"
          },
          "textures":{
-            "default":"textures/entity/flora/ponga"
+            "default":"textures/entity/flora/harakeke"
          },
          "geometry":{
-            "default":"geometry.ponga"
+            "default":"geometry.harakeke"
          },
          "spawn_egg":{
-            "base_color":"#66893C",
-            "overlay_color":"#BCCFD1"
+            "base_color":"#322C30",
+            "overlay_color":"#B61521"
          },
          "render_controllers":[
-            "controller.render.ponga"
+            "controller.render.harakeke"
          ]
       }
    }

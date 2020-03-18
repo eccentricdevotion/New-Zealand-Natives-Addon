@@ -32,7 +32,7 @@
     - Native parasitoid wasps
     - Owlet-nightjars
     - Pateke (brown teal)
-    - Podocarp forests
+    - Podocarpus (rimu, kahikatea, miro, mataī and tōtara) forests
     - Pseudopanax crassifolius (Lancewood)
     - Pukeko
     - Puriri moth
@@ -40,7 +40,6 @@
     - Rimu
     - Seals
     - Shore plover
-    - Treeferns (Ponga)
     - Whio (blue duck)
 
 ## Done
@@ -63,6 +62,7 @@
 - Ruru (Morepork)
 - Sea Lions
 - Takahe
+- Treeferns (Ponga)
 - Tuatara
 - Tui
 - Weka

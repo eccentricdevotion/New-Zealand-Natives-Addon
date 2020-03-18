@@ -2,6 +2,7 @@
   "materials": {
     "version": "1.0.0",
     "haasts_eagle:entity": {},
+    "harakeke:entity": {},
     "hectors_dolphin:entity": {},
     "hoiho:entity": {},
     "huhu:entity": {},
