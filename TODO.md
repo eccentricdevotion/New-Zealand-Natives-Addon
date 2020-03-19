@@ -18,13 +18,13 @@
     - Giraffe weevil _(Rob C)_
     - Glow worms
     - Harvestmen
-    - Past birds of the year
+    - Hihi
     - Huia
-    - Kakapo
     - Kauri
     - Kereru
     - King Shag
     - Kingfisher
+    - Kokako
     - Mohua (yellowhead)
     - Mollymawk
     - Native parasitoid wasps
@@ -36,8 +36,11 @@
     - Puriri moth
     - Rifleman
     - Rimu
+    - Rock wren
     - Seals
     - Shore plover
+    - Skinks & geckos
+    - Tawaki (Fiordland crested penguin)
     - Whio (blue duck)
 
 ## Done
@@ -49,6 +52,7 @@
 - Hoiho (yellow-eyed penguin)
 - Huhu Grubs / Beetles
 - Ileodictyon cibarium (a basket fungus)
+- Kakapo
 - Katipo
 - Kea
 - Kiwi

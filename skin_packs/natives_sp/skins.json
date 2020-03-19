@@ -12,6 +12,12 @@
          "geometry":"geometry.humanoid.custom",
          "texture":"bumblebee.png",
          "type":"free"
+      },
+      {
+         "localization_name":"RR",
+         "geometry":"geometry.humanoid.custom",
+         "texture":"ruru.png",
+         "type":"free"
       }
    ],
    "serialize_name":"NZ Natives Skin Pack",
