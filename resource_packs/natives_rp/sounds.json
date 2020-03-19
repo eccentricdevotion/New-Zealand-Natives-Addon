@@ -110,6 +110,15 @@
                "hurt":"ccl.tui.say",
                "death":"ccl.tui.say"
             }
+         },
+         "ccl:kakapo":{
+            "volume":1.0,
+            "pitch":[ 0.8, 1.2 ],
+            "events":{
+               "ambient":"ccl.kakapo.say",
+               "hurt":"ccl.kakapo.say",
+               "death":"ccl.kakapo.say"
+            }
          }
       }
    }

@@ -177,5 +177,19 @@
          "sounds/tui/tui4",
          "sounds/tui/tui5"
       ]
+   },
+   "ccl.kakapo.say":{
+      "category":"animal",
+      "sounds":[
+         {
+            "name":"sounds/kakapo/kakapo1",
+            "load_on_low_memory":true
+         },
+         "sounds/kakapo/kakapo_ching1",
+         "sounds/kakapo/kakapo2",
+         "sounds/kakapo/kakapo3",
+         "sounds/kakapo/kakapo_boom",
+         "sounds/kakapo/kakapo_ching2"
+      ]
    }
 }

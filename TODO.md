@@ -15,7 +15,6 @@
     - Extinct native goose and pelican [could also add extinct giant penguin and parrot]
     - Fairy tern
     - Frogs (Archey’s frog was mentioned)
-    - Fungi, esp. basket fungi
     - Giraffe weevil _(Rob C)_
     - Glow worms
     - Harvestmen
@@ -49,6 +48,7 @@
 - Harakeke
 - Hoiho (yellow-eyed penguin)
 - Huhu Grubs / Beetles
+- Ileodictyon cibarium (a basket fungus)
 - Katipo
 - Kea
 - Kiwi
@@ -67,7 +67,6 @@
 - Tui
 - Weka
 - Weta
-- Ileodictyon cibarium (a basket fungus)
 
 ## Already in the game
 
