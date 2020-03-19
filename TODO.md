@@ -3,45 +3,45 @@
 1. Try Monarch caterpillars and Hhuu gruns as separate entities
 2. Add more natives:
     - Adzebills
-    - All extinct ones, starting with moa
-    - All the birds!
+    - All extinct ones
     - Australasian bittern
     - Bats / Long-tailed bat
     - Black-billed gull
     - Cabbage trees
     - Clematis afoliata = aphylla
     - Dactylanthus taylorii (a parasitic plant)
-    - Dawsonia superba (the world’s biggest moss!)
-    - Extinct native goose and pelican [could also add extinct giant penguin and parrot]
+    - Dawsonia superba (the world’s tallest moss!)
     - Fairy tern
-    - Frogs (Archey’s frog was mentioned)
+    - Frogs (Archey’s frog was mentioned) **<---**
     - Giraffe weevil _(Rob C)_
     - Glow worms
     - Harvestmen
     - Hihi
     - Huia
     - Kauri
-    - Kereru
+    - Kereru **<---**
     - King Shag
     - Kingfisher
     - Kokako
     - Mohua (yellowhead)
-    - Mollymawk
+    - Mollymawk **<---**
     - Native parasitoid wasps
     - Owlet-nightjars
     - Pateke (brown teal)
+    - New Zealand falcon / kārearea
     - Podocarpus (rimu, kahikatea, miro, mataī and tōtara) forests
     - Pseudopanax crassifolius (Lancewood)
     - Pukeko
-    - Puriri moth
+    - Puriri moth **<---**
+    - Red Admiral **<---**
     - Rifleman
     - Rimu
     - Rock wren
     - Seals
     - Shore plover
-    - Skinks & geckos
-    - Tawaki (Fiordland crested penguin)
-    - Whio (blue duck)
+    - Skinks & geckos **<---**
+    - Tawaki (Fiordland crested penguin) **<---**
+    - Whio (blue duck) **<---**
 
 ## Done
 

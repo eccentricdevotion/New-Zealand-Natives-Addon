@@ -8,15 +8,21 @@
          "type":"free"
       },
       {
-         "localization_name":"BB",
+         "localization_name":"HH",
          "geometry":"geometry.humanoid.custom",
-         "texture":"bumblebee.png",
+         "texture":"hoiho.png",
          "type":"free"
       },
       {
          "localization_name":"RR",
          "geometry":"geometry.humanoid.custom",
          "texture":"ruru.png",
+         "type":"free"
+      },
+      {
+         "localization_name":"KK",
+         "geometry":"geometry.humanoid.custom",
+         "texture":"kakapo.png",
          "type":"free"
       }
    ],
