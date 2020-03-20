@@ -1,0 +1,30 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"ccl:red_admiral",
+         "materials":{
+            "default":"red_admiral"
+         },
+         "textures":{
+            "default":"textures/entity/red_admiral/red_admiral"
+         },
+         "geometry":{
+            "default":"geometry.red_admiral"
+         },
+         "animations":{
+            "flying":"animation.monarch.flying"
+         },
+         "scripts":{
+            "animate":[
+               "flying"
+            ]
+         },
+         "render_controllers":[ "controller.render.red_admiral" ],
+         "spawn_egg":{
+            "overlay_color":"#24170B",
+            "base_color":"#FF5F52"
+         }
+      }
+   }
+}

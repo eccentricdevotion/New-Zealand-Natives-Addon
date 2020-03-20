@@ -23,6 +23,7 @@
     - King Shag
     - Kingfisher
     - Kokako
+    - Kowhai
     - Mohua (yellowhead)
     - Mollymawk **<---**
     - Native parasitoid wasps
@@ -32,8 +33,6 @@
     - Podocarpus (rimu, kahikatea, miro, mataī and tōtara) forests
     - Pseudopanax crassifolius (Lancewood)
     - Pukeko
-    - Puriri moth **<---**
-    - Red Admiral **<---**
     - Rifleman
     - Rimu
     - Rock wren
@@ -63,6 +62,8 @@
 - Piwakawaka/fantail
 - Pohutukawa
 - Powelliphanta
+- Puriri moth _(add behaviour and animation for landing on tree trunk)_
+- Red Admiral
 - Ruru (Morepork)
 - Sea Lions
 - Takahe
