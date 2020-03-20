@@ -24,6 +24,12 @@
          "geometry":"geometry.humanoid.custom",
          "texture":"kakapo.png",
          "type":"free"
+      },
+      {
+         "localization_name":"TK",
+         "geometry":"geometry.humanoid.custom",
+         "texture":"takahe.png",
+         "type":"free"
       }
    ],
    "serialize_name":"NZ Natives Skin Pack",
