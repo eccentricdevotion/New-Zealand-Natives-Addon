@@ -9,9 +9,6 @@
       },
       "component_groups":{
          "minecraft:baby":{
-            "minecraft:loot":{
-               "table":"loot_tables/monarch.json"
-            },
             "minecraft:scale":{
                "value":0.33
             },
