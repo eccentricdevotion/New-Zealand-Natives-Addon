@@ -13,13 +13,11 @@
             "default":"geometry.weta"
          },
          "animations":{
-            "default_pose":"animation.weta.default_pose",
             "walk":"animation.weta.walk",
             "look_at_target":"animation.weta.look_at_target"
          },
          "scripts":{
             "animate":[
-               "default_pose",
                "walk",
                "look_at_target"
             ]

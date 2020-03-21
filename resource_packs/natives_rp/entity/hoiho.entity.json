@@ -14,14 +14,12 @@
             "default":"geometry.hoiho"
          },
          "animations":{
-            "default_pose":"animation.hoiho.default_pose",
             "walk":"animation.hoiho.walk",
             "swim":"animation.hoiho.swim",
             "look_at_target":"animation.hoiho.look_at_target"
          },
          "scripts":{
             "animate":[
-               "default_pose",
                { "walk": "!query.is_in_water" },
                { "swim":"query.is_in_water" },
                "look_at_target"

@@ -15,7 +15,6 @@
             "grub":"geometry.huhu_grub"
          },
          "animations":{
-            "default_pose":"animation.huhu.default_pose",
             "wiggle":"animation.huhu.wiggle",
             "look_at_target":"animation.huhu.look_at_target",
             "walk":"animation.huhu_beetle.walk",
@@ -23,7 +22,6 @@
          },
          "scripts":{
             "animate":[
-               { "default_pose":"query.is_baby" },
                { "wiggle":"query.is_baby" },
                "look_at_target",
                { "walk":"!query.is_baby && query.modified_move_speed && query.is_on_ground" },

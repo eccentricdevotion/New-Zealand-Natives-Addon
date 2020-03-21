@@ -13,13 +13,11 @@
             "default":"geometry.tuatara"
          },
          "animations":{
-            "default_pose":"animation.tuatara.default_pose",
             "walk":"animation.tuatara.walk",
             "look_at_target":"animation.tuatara.look_at_target"
          },
          "scripts":{
             "animate":[
-               "default_pose",
                "walk",
                "look_at_target"
             ]

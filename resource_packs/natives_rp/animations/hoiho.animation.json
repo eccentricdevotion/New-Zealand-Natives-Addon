@@ -1,14 +1,6 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.hoiho.default_pose": {
-			"loop": true,
-			"bones": {
-				"bone": {
-					"rotation": [0, 0, 0]
-				}
-			}
-		},
 		"animation.hoiho.walk": {
 			"anim_time_update": "query.modified_distance_moved",
 			"loop": true,

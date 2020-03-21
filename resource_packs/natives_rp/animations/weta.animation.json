@@ -1,35 +1,6 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.weta.default_pose": {
-			"loop": false,
-			"bones": {
-				"head": {
-					"rotation": [0, 0, 0]
-				},
-				"body": {
-					"rotation": [0, 0, 0]
-				},
-				"leg0": {
-					"rotation": [0, 0, 0]
-				},
-				"leg1": {
-					"rotation": [0, 0, 0]
-				},
-				"leg2": {
-					"rotation": [0, 0, 0]
-				},
-				"leg3": {
-					"rotation": [0, 0, 0]
-				},
-				"leg4": {
-					"rotation": [0, 0, 0]
-				},
-				"leg5": {
-					"rotation": [0, 0, 0]
-				}
-			}
-		},
 		"animation.weta.look_at_target": {
 			"loop": true,
 			"bones": {

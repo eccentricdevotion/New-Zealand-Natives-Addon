@@ -1,23 +1,6 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.huhu.default_pose": {
-			"loop": false,
-			"bones": {
-				"head": {
-					"rotation": [0, 0, 0],
-					"position": [0, 0, 0]
-				},
-				"segment1": {
-					"rotation": [0, 0, 0],
-					"position": [0, 0, 0]
-				},
-				"segment0": {
-					"rotation": [0, 0, 0],
-					"position": [0, 0, 0]
-				}
-			}
-		},
 		"animation.huhu.look_at_target": {
 			"loop": true,
 			"bones": {

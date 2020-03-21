@@ -161,32 +161,6 @@
 				}
 			}
 		},
-		"animation.sea_lion.default_pose": {
-			"loop": true,
-			"bones": {
-				"head": {
-					"rotation": [0, 0, 0]
-				},
-				"body": {
-					"rotation": [0, 0, 0]
-				},
-				"front_flipper_left": {
-					"rotation": [0, 0, 0]
-				},
-				"front_flipper_right": {
-					"rotation": [0, 0, 0]
-				},
-				"back_flipper_left": {
-					"rotation": [0, 0, 0]
-				},
-				"back_flipper_right": {
-					"rotation": [0, 0, 0]
-				},
-				"torso_front": {
-					"rotation": [0, 0, 0]
-				}
-			}
-		},
 		"animation.sea_lion.swim": {
 			"loop": true,
 			"animation_length": 0.8,
