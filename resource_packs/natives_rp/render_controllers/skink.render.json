@@ -1,0 +1,28 @@
+{
+   "format_version":"1.8.0",
+   "render_controllers":{
+      "controller.render.skink":{
+         "arrays":{
+            "textures":{
+               "Array.textures":[
+                  "Texture.default",
+                  "Texture.grand",
+                  "Texture.chevron",
+                  "Texture.striped"
+               ]
+            },
+            "geometries":{
+               "Array.geos":[
+                  "Geometry.default",
+                  "Geometry.striped"
+               ]
+            }
+         },
+         "geometry":"Array.geos[query.variant == 3]",
+         "materials":[ { "*":"Material.default" } ],
+         "textures":[
+            "Array.textures[query.variant]"
+         ]
+      }
+   }
+}

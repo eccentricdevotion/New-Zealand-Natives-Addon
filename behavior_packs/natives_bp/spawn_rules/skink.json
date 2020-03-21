@@ -1,0 +1,56 @@
+{
+   "format_version":"1.8.0",
+   "minecraft:spawn_rules":{
+      "description":{
+         "identifier":"ccl:skink",
+         "population_control":"animal"
+      },
+      "conditions":[
+         {
+            "minecraft:spawns_on_surface":{
+
+            },
+            "minecraft:spawns_underwater":{
+
+            },
+            "minecraft:brightness_filter":{
+               "min":0,
+               "max":15,
+               "adjust_for_weather":false
+            },
+            "minecraft:weight":{
+               "default":8
+            },
+            "minecraft:biome_filter":{
+               "any_of":[
+                  {
+                     "test":"has_biome_tag",
+                     "operator":"==",
+                     "value":"desert"
+                  },
+                  {
+                     "test":"has_biome_tag",
+                     "operator":"==",
+                     "value":"mesa"
+                  },
+                  {
+                     "test":"has_biome_tag",
+                     "operator":"==",
+                     "value":"forest"
+                  },
+                  {
+                     "test":"has_biome_tag",
+                     "operator":"==",
+                     "value":"dark_forest"
+                  },
+                  {
+                     "test":"has_biome_tag",
+                     "operator":"==",
+                     "value":"jungle"
+                  }
+               ]
+            }
+         }
+      ]
+   }
+}

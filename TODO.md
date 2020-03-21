@@ -19,7 +19,6 @@
     - Hihi
     - Huia
     - Kauri
-    - Kereru **<---**
     - King Shag
     - Kingfisher
     - Kokako
@@ -38,14 +37,13 @@
     - Rock wren
     - Seals
     - Shore plover
-    - Skinks & geckos **<---**
     - Tawaki (Fiordland crested penguin) **<---**
     - Whio (blue duck) **<---**
 
 ## Done
 
 - Dolphins, Hector’s / Maui’s
-- Eels (Tuna)
+- Eels (Tuna) - _in Ngā Motu pack_
 - Haast’s eagle _(need to do text for death cause - if possible)_
 - Harakeke
 - Hoiho (yellow-eyed penguin)
@@ -54,18 +52,19 @@
 - Kakapo
 - Katipo
 - Kea
-- Kiwi
+- Kereru
+- Kiwi - _in Ngā Motu pack_
 - Kotuku
-- Kunekune
-- Moa
+- Kunekune - _in Ngā Motu pack_
+- Moa - _in Ngā Motu pack_
 - Monarch butterfly / caterpillar _(need to change life cycle -> egg, caterpillar, chrysalis, butterfly)_
-- Piwakawaka/fantail
-- Pohutukawa
+- Piwakawaka / fantail - _in Ngā Motu pack_
 - Powelliphanta
 - Puriri moth _(add behaviour and animation for landing on tree trunk)_
 - Red Admiral
 - Ruru (Morepork)
 - Sea Lions
+- Skinks
 - Takahe
 - Treeferns (Ponga)
 - Tuatara
