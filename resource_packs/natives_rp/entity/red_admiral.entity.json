@@ -22,8 +22,8 @@
          },
          "render_controllers":[ "controller.render.red_admiral" ],
          "spawn_egg":{
-            "overlay_color":"#24170B",
-            "base_color":"#FF5F52"
+            "overlay_color":"#FF5F52",
+            "base_color":"#24170B"
          }
       }
    }
