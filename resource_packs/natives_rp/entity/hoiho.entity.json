@@ -29,8 +29,8 @@
             "controller.render.hoiho"
          ],
          "spawn_egg":{
-            "base_color":"#4287F5",
-            "overlay_color":"#EBE550"
+            "texture":"ccl_fern",
+            "texture_index": 4
          }
       }
    }

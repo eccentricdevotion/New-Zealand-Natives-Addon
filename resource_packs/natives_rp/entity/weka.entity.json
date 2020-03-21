@@ -31,8 +31,8 @@
             "controller.render.weka"
          ],
          "spawn_egg":{
-            "base_color":"#837143",
-            "overlay_color":"#A83f0C"
+            "texture":"ccl_fern",
+            "texture_index": 22
          }
       }
    }

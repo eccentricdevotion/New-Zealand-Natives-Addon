@@ -24,8 +24,8 @@
          },
          "render_controllers":[ "controller.render.puriri" ],
          "spawn_egg":{
-            "base_color":"#83C41C",
-            "overlay_color":"#A16B59"
+            "texture":"ccl_fern",
+            "texture_index": 13
          }
       }
    }

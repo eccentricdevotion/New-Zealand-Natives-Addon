@@ -30,8 +30,8 @@
             "controller.render.haasts_eagle"
          ],
          "spawn_egg":{
-            "base_color":"#D5D39E",
-            "overlay_color":"#BF7620"
+            "texture":"ccl_fern",
+            "texture_index": 1
          }
       }
    }

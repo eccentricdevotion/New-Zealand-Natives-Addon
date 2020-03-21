@@ -28,8 +28,8 @@
             "controller.render.katipo"
          ],
          "spawn_egg":{
-            "base_color":"#000000",
-            "overlay_color":"#990000"
+            "texture":"ccl_fern",
+            "texture_index": 7
          }
       }
    }

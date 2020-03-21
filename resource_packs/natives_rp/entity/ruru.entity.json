@@ -31,8 +31,8 @@
             "controller.render.ruru"
          ],
          "spawn_egg":{
-            "base_color":"#48281A",
-            "overlay_color":"#FFEF12"
+            "texture":"ccl_fern",
+            "texture_index": 15
          }
       }
    }

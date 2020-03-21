@@ -26,8 +26,8 @@
             "controller.render.tuatara"
          ],
          "spawn_egg":{
-            "base_color":"#A0A794",
-            "overlay_color":"#707962"
+            "texture":"ccl_fern",
+            "texture_index": 20
          }
       }
    }

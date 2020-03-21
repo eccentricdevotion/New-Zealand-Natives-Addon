@@ -13,8 +13,8 @@
             "default":"geometry.ponga"
          },
          "spawn_egg":{
-            "base_color":"#66893C",
-            "overlay_color":"#BCCFD1"
+            "texture":"ccl_fern",
+            "texture_index": 12
          },
          "render_controllers":[
             "controller.render.ponga"

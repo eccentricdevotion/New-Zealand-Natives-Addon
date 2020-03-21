@@ -26,8 +26,8 @@
             "controller.render.weta"
          ],
          "spawn_egg":{
-            "base_color":"#6A4A06",
-            "overlay_color":"#AE8830"
+            "texture":"ccl_fern",
+            "texture_index": 23
          }
       }
    }

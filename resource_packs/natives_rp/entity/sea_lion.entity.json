@@ -30,8 +30,8 @@
             "controller.render.sea_lion"
          ],
          "spawn_egg":{
-            "base_color":"#9A8460",
-            "overlay_color":"#AD7587"
+            "texture":"ccl_fern",
+            "texture_index": 16
          }
       }
    }

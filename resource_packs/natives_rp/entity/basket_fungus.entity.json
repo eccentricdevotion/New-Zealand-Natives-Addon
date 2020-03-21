@@ -13,8 +13,8 @@
             "default":"geometry.basket_fungus"
          },
          "spawn_egg":{
-            "base_color":"#EBE6BC",
-            "overlay_color":"#D5BF8E"
+            "texture":"ccl_fern",
+            "texture_index": 0
          },
          "render_controllers":[
             "controller.render.basket_fungus"

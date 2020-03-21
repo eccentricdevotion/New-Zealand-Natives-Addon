@@ -30,8 +30,8 @@
          },
          "render_controllers": [ "controller.render.huhu" ],
          "spawn_egg":{
-            "base_color":"#E0D6AC",
-            "overlay_color":"#6D5412"
+            "texture":"ccl_fern",
+            "texture_index": 5
          }
       }
    }

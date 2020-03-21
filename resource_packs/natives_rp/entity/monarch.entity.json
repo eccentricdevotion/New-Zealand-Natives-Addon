@@ -26,8 +26,8 @@
          },
          "render_controllers":[ "controller.render.monarch" ],
          "spawn_egg":{
-            "overlay_color":"#333333",
-            "base_color":"#FF8004"
+            "texture":"ccl_fern",
+            "texture_index": 11
          }
       }
    }

@@ -37,8 +37,8 @@
             "controller.render.kea"
          ],
          "spawn_egg":{
-            "base_color":"#629350",
-            "overlay_color":"#F9961B"
+            "texture":"ccl_fern",
+            "texture_index": 8
          }
       }
    }

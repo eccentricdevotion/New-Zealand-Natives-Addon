@@ -13,8 +13,8 @@
             "default":"geometry.harakeke"
          },
          "spawn_egg":{
-            "base_color":"#678137",
-            "overlay_color":"#AC4E36"
+            "texture": "ccl_fern",
+            "texture_index": 2
          },
          "render_controllers":[
             "controller.render.harakeke"

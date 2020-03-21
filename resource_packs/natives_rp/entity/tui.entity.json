@@ -37,8 +37,8 @@
             "controller.render.tui"
          ],
          "spawn_egg":{
-            "base_color":"#004B77",
-            "overlay_color":"#DDDDDD"
+            "texture":"ccl_fern",
+            "texture_index": 21
          }
       }
    }

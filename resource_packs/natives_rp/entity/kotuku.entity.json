@@ -37,8 +37,8 @@
             "controller.render.kotuku"
          ],
          "spawn_egg":{
-            "base_color":"#EEEEEE",
-            "overlay_color":"#FFFFFF"
+            "texture":"ccl_fern",
+            "texture_index": 10
          }
       }
    }

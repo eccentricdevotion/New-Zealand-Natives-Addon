@@ -4,6 +4,34 @@
    "texture_data":{
       "huhu_grub":{
          "textures":"textures/items/huhu_grub"
+      },
+      "ccl_fern":{
+         "textures": [
+            "textures/items/basket_fungus_fern",
+            "textures/items/haasts_eagle_fern",
+            "textures/items/harakeke_fern",
+            "textures/items/hectors_dolphin_fern",
+            "textures/items/hoiho_fern",
+            "textures/items/huhu_fern",
+            "textures/items/kakapo_fern",
+            "textures/items/katipo_fern",
+            "textures/items/kea_fern",
+            "textures/items/kereru_fern",
+            "textures/items/kotuku_fern",
+            "textures/items/monarch_fern",
+            "textures/items/ponga_fern",
+            "textures/items/puriri_fern",
+            "textures/items/red_admiral_fern",
+            "textures/items/ruru_fern",
+            "textures/items/sea_lion_fern",
+            "textures/items/skink_fern",
+            "textures/items/snail_fern",
+            "textures/items/takahe_fern",
+            "textures/items/tuatara_fern",
+            "textures/items/tui_fern",
+            "textures/items/weka_fern",
+            "textures/items/weta_fern"
+    	 ]
       }
    }
 }

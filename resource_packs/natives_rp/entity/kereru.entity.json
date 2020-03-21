@@ -37,8 +37,8 @@
             "controller.render.kereru"
          ],
          "spawn_egg":{
-            "base_color":"#34656D",
-            "overlay_color":"#5A3D5D"
+            "texture":"ccl_fern",
+            "texture_index": 9
          }
       }
    }

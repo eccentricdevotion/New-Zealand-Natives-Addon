@@ -31,8 +31,8 @@
             "controller.render.takahe"
          ],
          "spawn_egg":{
-            "base_color":"#12A0B9",
-            "overlay_color":"#3F2AF8"
+            "texture":"ccl_fern",
+            "texture_index": 19
          }
       }
    }

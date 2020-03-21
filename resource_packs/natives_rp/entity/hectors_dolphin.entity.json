@@ -24,8 +24,8 @@
             "controller.render.dolphin"
          ],
          "spawn_egg":{
-            "base_color":"#CDD0D3",
-            "overlay_color":"#2F3033"
+            "texture":"ccl_fern",
+            "texture_index": 3
          }
       }
    }

@@ -30,8 +30,8 @@
             "controller.render.skink"
          ],
          "spawn_egg":{
-            "base_color":"#6F7560",
-            "overlay_color":"#282731"
+            "texture":"ccl_fern",
+            "texture_index": 17
          }
       }
    }

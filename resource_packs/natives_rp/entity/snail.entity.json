@@ -16,8 +16,8 @@
             "controller.render.snail"
          ],
          "spawn_egg":{
-            "base_color":"#C67713",
-            "overlay_color":"#433725"
+            "texture":"ccl_fern",
+            "texture_index": 18
          }
       }
    }
