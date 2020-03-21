@@ -64,7 +64,7 @@
 - Red Admiral
 - Ruru (Morepork)
 - Sea Lions
-- Skinks
+- Skinks (Otago, Grand, Chevron & Striped)
 - Takahe
 - Treeferns (Ponga)
 - Tuatara

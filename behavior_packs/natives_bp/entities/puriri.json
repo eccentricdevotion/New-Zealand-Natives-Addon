@@ -3,6 +3,7 @@
    "minecraft:entity":{
       "description":{
          "identifier":"ccl:puriri",
+         "runtime_identifier":"minecraft:bat",
          "is_spawnable":true,
          "is_summonable":true,
          "is_experimental":false

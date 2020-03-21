@@ -13,17 +13,19 @@
             "default":"geometry.puriri"
          },
          "animations":{
-            "flying":"animation.monarch.flying"
+            "flying":"animation.monarch.flying",
+            "resting":"animation.puriri.tree"
          },
          "scripts":{
             "animate":[
-               "flying"
+               { "flying": "!query.is_resting" },
+               { "resting": "query.is_resting" }
             ]
          },
          "render_controllers":[ "controller.render.puriri" ],
          "spawn_egg":{
-            "overlay_color":"#A06A58",
-            "base_color":"#6D9E1F"
+            "base_color":"#83C41C",
+            "overlay_color":"#A16B59"
          }
       }
    }
