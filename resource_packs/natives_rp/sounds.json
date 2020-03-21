@@ -119,6 +119,15 @@
                "hurt":"ccl.kakapo.say",
                "death":"ccl.kakapo.say"
             }
+         },
+         "ccl:kereru":{
+            "volume":1.0,
+            "pitch":[ 0.8, 1.2 ],
+            "events":{
+               "ambient":"ccl.kereru.say",
+               "hurt":"ccl.kereru.say",
+               "death":"ccl.kereru.say"
+            }
          }
       }
    }

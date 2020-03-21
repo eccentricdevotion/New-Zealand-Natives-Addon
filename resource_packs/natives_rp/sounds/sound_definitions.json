@@ -191,5 +191,16 @@
          "sounds/kakapo/kakapo_boom",
          "sounds/kakapo/kakapo_ching2"
       ]
+   },
+   "ccl.kereru.say":{
+      "category":"animal",
+      "sounds":[
+         {
+            "name":"sounds/kereru/kereru1",
+            "load_on_low_memory":true
+         },
+         "sounds/kereru/kereru2",
+         "sounds/kereru/kereru3"
+      ]
    }
 }
