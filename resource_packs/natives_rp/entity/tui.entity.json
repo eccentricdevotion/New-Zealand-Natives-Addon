@@ -22,7 +22,7 @@
          "scripts":{
             "animate":[
                {
-                  "walk":"query.modified_move_speed && query.is_on_ground"
+                  "walk":"query.is_on_ground"
                },
                {
                   "fly":"!query.is_on_ground"
