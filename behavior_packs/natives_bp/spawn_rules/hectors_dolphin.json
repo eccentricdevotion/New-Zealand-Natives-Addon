@@ -7,9 +7,6 @@
       },
       "conditions":[
          {
-            "minecraft:spawns_on_surface":{
-
-            },
             "minecraft:spawns_underwater":{
 
             },
