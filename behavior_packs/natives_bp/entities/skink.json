@@ -74,12 +74,15 @@
          "minecraft:movement.basic":{
 
          },
+         "minecraft:jump.static":{
+
+         },
          "minecraft:breathable":{
             "totalSupply":15,
             "suffocateTime":0
          },
          "minecraft:collision_box":{
-            "width":1.2,
+            "width":0.5,
             "height":0.3
          },
          "minecraft:behavior.melee_attack":{
@@ -108,7 +111,7 @@
             "priority":1
          },
          "minecraft:physics":{
-            "has_gravity":true
+
          },
          "minecraft:navigation.climb":{
             "can_float":true

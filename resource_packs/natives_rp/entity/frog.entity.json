@@ -17,7 +17,7 @@
          },
          "animations":{
             "walk":"animation.frog.walk",
-            "hop":"animation.hop.walk",
+            "hop":"animation.frog.hop",
             "look_at_target":"animation.common.look_at_target"
          },
          "scripts":{
