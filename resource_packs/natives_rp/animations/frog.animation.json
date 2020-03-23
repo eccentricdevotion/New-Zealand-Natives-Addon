@@ -4,6 +4,7 @@
 		"animation.frog.hop": {
 			"loop": true,
 			"animation_length": 1.12,
+			"anim_time_update": "query.modified_distance_moved",
 			"bones": {
 				"body": {
 					"rotation": {

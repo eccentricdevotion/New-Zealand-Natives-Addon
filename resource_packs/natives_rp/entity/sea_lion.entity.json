@@ -21,9 +21,9 @@
          },
          "scripts":{
             "animate":[
-               { "walk": "!query.is_in_water" },
+               { "walk": "!query.is_in_water && !query.is_idling" },
                { "swim": "query.is_in_water" },
-               { "look_at_target": "query.has_target" }
+               { "look_at_target": "query.is_idling" }
             ]
          },
          "render_controllers":[

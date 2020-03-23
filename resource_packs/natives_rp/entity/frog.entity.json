@@ -22,8 +22,7 @@
          },
          "scripts":{
             "animate":[
-               { "walk":"!query.is_scared && query.is_on_ground" },
-               { "hop":"query.is_scared" },
+               { "hop":"!query.is_idling" },
                "look_at_target"
             ]
          },
