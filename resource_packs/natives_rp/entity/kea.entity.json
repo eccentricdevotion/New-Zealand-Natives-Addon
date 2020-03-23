@@ -21,16 +21,10 @@
          },
          "scripts":{
             "animate":[
-               {
-                  "walk":"query.modified_move_speed && query.is_on_ground"
-               },
-               {
-                  "fly":"!query.is_on_ground"
-               },
-               "look_at_target",
-               {
-                  "baby_transform":"query.is_baby"
-               }
+               { "walk":"query.modified_move_speed && query.is_on_ground" },
+               { "fly":"!query.is_on_ground" },
+               { "look_at_target": "query.is_on_ground" },
+               { "baby_transform":"query.is_baby" }
             ]
          },
          "render_controllers":[
