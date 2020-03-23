@@ -2,13 +2,13 @@
    "format_version":"1.12.0",
    "minecraft:block":{
       "description":{
-         "identifier":"ccl:basket_fungus",
+         "identifier":"ccl:kauri_leaves",
          "is_experimental":false,
          "register_to_creative_menu":true
       },
       "components":{
          "minecraft:loot":{
-            "table":"loot_tables/basket_fungus.json"
+            "table":"loot_tables/kauri_leaves.json"
          },
          "minecraft:destroy_time":{
             "value":0.25
@@ -24,7 +24,7 @@
             "value":0
          },
          "minecraft:block_light_emission":{
-            "emission":0.0
+            "emission":0.1
          }
       }
    }

@@ -6,13 +6,13 @@
             {
                "type":"item",
                "weight":1,
-               "name":"brown_mushroom",
+               "name":"ccl:kauri_log",
                "functions":[
                   {
                      "function":"set_count",
                      "count":{
                         "min":1,
-                        "max":2
+                        "max":1
                      }
                   }
                ]

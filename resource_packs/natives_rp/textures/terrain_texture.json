@@ -14,19 +14,19 @@
             "textures/blocks/rotten_log_side"
          ]
       },
-      "basket_fungus_top":{
+      "kauri_log_top":{
          "textures":[
-            "textures/blocks/basket_fungus_top"
+            "textures/blocks/kauri_log_top"
          ]
       },
-      "basket_fungus_bottom":{
+      "kauri_log_side":{
          "textures":[
-            "textures/blocks/basket_fungus_bottom"
+            "textures/blocks/kauri_log_side"
          ]
       },
-      "basket_fungus_side":{
+      "kauri_leaves":{
          "textures":[
-            "textures/blocks/basket_fungus_side"
+            "textures/blocks/kauri_leaves"
          ]
       }
    }

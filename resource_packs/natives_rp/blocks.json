@@ -7,5 +7,22 @@
          "side":"rotten_log_side"
       },
       "sound":"wood"
+   },
+   "ccl:kauri_log":{
+      "textures":{
+         "up":"kauri_log_top",
+         "down":"kauri_log_top",
+         "side":"kauri_log_side"
+      },
+      "sound":"wood"
+   },
+   "ccl:kauri_leaves":{
+      "isotropic": {
+        "up": true,
+        "down": true
+      },
+      "textures":"kauri_leaves",
+      "brightness_gamma": 0.80,
+      "sound": "grass"
    }
 }

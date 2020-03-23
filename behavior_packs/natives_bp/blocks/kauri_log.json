@@ -1,0 +1,31 @@
+{
+   "format_version":"1.12.0",
+   "minecraft:block":{
+      "description":{
+         "identifier":"ccl:kauri_log",
+         "is_experimental":false,
+         "register_to_creative_menu":true
+      },
+      "components":{
+         "minecraft:loot":{
+            "table":"loot_tables/kauri_log.json"
+         },
+         "minecraft:destroy_time":{
+            "value":0.25
+         },
+         "minecraft:explosion_resistance":{
+            "value":1
+         },
+         "minecraft:flammable":{
+            "flame_odds":1,
+            "burn_odds":1
+         },
+         "minecraft:block_light_absorption":{
+            "value":0
+         },
+         "minecraft:block_light_emission":{
+            "emission":0.0
+         }
+      }
+   }
+}

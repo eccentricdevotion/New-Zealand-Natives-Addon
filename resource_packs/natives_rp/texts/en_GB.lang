@@ -49,3 +49,5 @@ item.spawn_egg.entity.ccl:tui.name=Spawn Tui
 item.spawn_egg.entity.ccl:weka.name=Spawn Weka
 item.spawn_egg.entity.ccl:weta.name=Spawn Giant Weta
 tile.ccl:rotten_log.name=Rotten Log
+tile.ccl:kauri_log.name=Kauri Log
+tile.ccl:kauri_leaves.name=Kauri Leaves
