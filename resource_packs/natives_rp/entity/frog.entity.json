@@ -1,0 +1,39 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"ccl:frog",
+         "materials":{
+            "default":"frog"
+         },
+         "textures":{
+            "default":"textures/entity/frog/archeys_frog",
+            "hamiltons":"textures/entity/frog/hamiltons_frog",
+            "hochstetters":"textures/entity/frog/hochstetters_frog",
+            "maud":"textures/entity/frog/maud_island_frog"
+         },
+         "geometry":{
+            "default":"geometry.frog"
+         },
+         "animations":{
+            "walk":"animation.frog.walk",
+            "hop":"animation.hop.walk",
+            "look_at_target":"animation.common.look_at_target"
+         },
+         "scripts":{
+            "animate":[
+               { "walk":"!query.is_scared && query.is_on_ground" },
+               { "hop":"query.is_scared" },
+               "look_at_target"
+            ]
+         },
+         "render_controllers":[
+            "controller.render.frog"
+         ],
+         "spawn_egg":{
+            "texture":"ccl_fern",
+            "texture_index":24
+         }
+      }
+   }
+}

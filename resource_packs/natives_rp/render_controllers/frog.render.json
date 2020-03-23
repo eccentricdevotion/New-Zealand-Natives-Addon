@@ -1,0 +1,22 @@
+{
+   "format_version":"1.8.0",
+   "render_controllers":{
+      "controller.render.frog":{
+         "arrays":{
+            "textures":{
+               "Array.textures":[
+                  "Texture.default",
+                  "Texture.hamiltons",
+                  "Texture.hochstetters",
+                  "Texture.maud"
+               ]
+            }
+         },
+		 "textures":[
+            "Array.textures[query.variant]"
+         ],
+         "geometry":"Geometry.default",
+         "materials":[ { "*":"Material.default" } ]
+      }
+   }
+}

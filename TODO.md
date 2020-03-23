@@ -1,7 +1,6 @@
 # TODO
 
-1. Try Monarch caterpillars and Hhuu gruns as separate entities
-2. Add more natives:
+1. Add more natives:
     - Adzebills
     - All extinct ones
     - Australasian bittern
@@ -12,7 +11,6 @@
     - Dactylanthus taylorii (a parasitic plant)
     - Dawsonia superba (the world’s tallest moss!)
     - Fairy tern
-    - Frogs (Archey’s frog was mentioned) **<---**
     - Giraffe weevil _(Rob C)_
     - Glow worms
     - Harvestmen
@@ -44,7 +42,8 @@
 
 - Dolphins, Hector’s / Maui’s
 - Eels (Tuna) - _in Ngā Motu pack_
-- Haast’s eagle _(need to do text for death cause - if possible)_
+- Frogs (Archey’s, Hochstetter's, Hamilton's & Maud Island)
+- Haast’s eagle
 - Harakeke
 - Hoiho (yellow-eyed penguin)
 - Huhu Grubs / Beetles
@@ -60,7 +59,7 @@
 - Monarch butterfly / caterpillar _(need to change life cycle -> egg, caterpillar, chrysalis, butterfly)_
 - Piwakawaka / fantail - _in Ngā Motu pack_
 - Powelliphanta
-- Puriri moth _(add behaviour and animation for landing on tree trunk)_
+- Puriri moth
 - Red Admiral
 - Ruru (Morepork)
 - Sea Lions
