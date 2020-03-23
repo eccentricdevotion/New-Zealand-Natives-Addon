@@ -9,43 +9,28 @@
       },
       "component_groups":{
          "minecraft:baby":{
-            "minecraft:loot":{
-               "table":"loot_tables/snail.json"
-            },
             "minecraft:scale":{
                "value":0.33
-            },
-            "minecraft:attack":{
-               "damage":1
-            },
-            "minecraft:health":{
-               "value":2
-            },
-            "minecraft:movement":{
-               "value":0.05
             }
          },
          "minecraft:adult":{
-            "minecraft:loot":{
-               "table":"loot_tables/snail.json"
-            },
             "minecraft:scale":{
                "value":0.5
-            },
-            "minecraft:health":{
-               "value":2
-            },
-            "minecraft:attack":{
-               "damage":1
-            },
-            "minecraft:movement":{
-               "value":0.05
             }
          }
       },
       "components":{
          "minecraft:nameable":{
 
+         },
+         "minecraft:loot":{
+            "table":"loot_tables/snail.json"
+         },
+         "minecraft:health":{
+            "value":2
+         },
+         "minecraft:attack":{
+            "damage":1
          },
          "minecraft:type_family":{
             "family":[
@@ -56,6 +41,9 @@
             "can_path_over_water":false,
             "avoid_water":true,
             "avoid_damage_blocks":true
+         },
+         "minecraft:movement":{
+            "value":0.05
          },
          "minecraft:movement.basic":{
 
@@ -95,9 +83,6 @@
          },
          "minecraft:physics":{
             "has_gravity":true
-         },
-         "minecraft:navigation.walk":{
-            "avoid_damage_blocks":true
          },
          "minecraft:navigation.climb":{
             "can_float":true
