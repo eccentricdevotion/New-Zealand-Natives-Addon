@@ -20,5 +20,10 @@
          "uuid":"7588a857-7821-4c20-ab08-91d13c303b11",
          "version":[ 1, 0, 63 ]
       }
-   ]
+   ],
+   "metadata": {
+      "authors": "Robbie Rate, Rob Cruickshank, Christchurch City Libraries",
+      "license": "Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)",
+      "url": "https://github.com/eccentricdevotion/New-Zealand-Natives-Addon"
+   }
 }
