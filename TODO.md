@@ -15,7 +15,7 @@
     - Glow worms
     - Harvestmen
     - Hihi
-    - Huia
+    - Huia **<---**
     - Kauri
     - King Shag
     - Kingfisher
