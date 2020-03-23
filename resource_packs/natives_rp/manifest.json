@@ -4,7 +4,7 @@
       "description":"New Zealand Natives",
       "name":"NZ Natives Resource Pack",
       "uuid":"7588a857-7821-4c20-ab08-91d13c303b11",
-      "version":[ 1, 0, 62 ],
+      "version":[ 1, 0, 63 ],
       "min_engine_version":[ 1, 10, 0 ]
    },
    "modules":[
@@ -12,13 +12,13 @@
          "description":"NZ Natives Resource Pack",
          "type":"resources",
          "uuid":"ae472ebb-487d-4c1d-9024-ddce0e07985e",
-         "version":[ 1, 0, 62 ]
+         "version":[ 1, 0, 63 ]
       }
    ],
    "dependencies":[
       {
          "uuid":"98074497-9b65-4b8a-84c4-d13a0b4c088d",
-         "version":[ 1, 0, 62 ]
+         "version":[ 1, 0, 63 ]
       }
    ]
 }
