@@ -15,7 +15,6 @@
     - Glow worms
     - Harvestmen
     - Hihi
-    - Huia **<---**
     - Kauri
     - King Shag
     - Kingfisher
@@ -47,6 +46,7 @@
 - Harakeke
 - Hoiho (yellow-eyed penguin)
 - Huhu Grubs / Beetles
+- Huia
 - Ileodictyon cibarium (a basket fungus)
 - Kakapo
 - Katipo

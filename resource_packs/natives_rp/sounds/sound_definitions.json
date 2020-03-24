@@ -202,5 +202,22 @@
          "sounds/kereru/kereru2",
          "sounds/kereru/kereru3"
       ]
+   },
+   "ccl.huia.say":{
+      "category":"animal",
+      "sounds":[
+         {
+            "name":"sounds/huia/huia_male1",
+            "load_on_low_memory":true
+         },
+         "sounds/huia/huia_female1",
+         "sounds/huia/huia_female2",
+         "sounds/huia/huia_female3",
+         "sounds/huia/huia_female4",
+         "sounds/huia/huia_male2",
+         "sounds/huia/huia_male3",
+         "sounds/huia/huia_male4",
+         "sounds/huia/huia_male5"
+      ]
    }
 }

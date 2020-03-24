@@ -216,6 +216,11 @@
          "minecraft:movement.fly":{
 
          },
+         "minecraft:behavior.random_fly":{
+            "xz_dist":10,
+            "y_dist":7,
+            "can_land_on_trees":true
+         },
          "minecraft:physics":{
 
          },

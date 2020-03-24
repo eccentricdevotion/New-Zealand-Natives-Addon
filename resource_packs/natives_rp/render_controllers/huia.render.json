@@ -1,0 +1,18 @@
+{
+   "format_version":"1.8.0",
+   "render_controllers":{
+      "controller.render.huia":{
+         "arrays":{
+            "geometries":{
+               "Array.geos":[
+                  "Geometry.default",
+                  "Geometry.male"
+               ]
+            }
+         },
+         "textures": [ "Texture.default" ],
+         "geometry":"Array.geos[query.variant]",
+         "materials":[ { "*":"Material.default" } ]
+      }
+   }
+}
