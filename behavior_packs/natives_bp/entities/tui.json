@@ -99,24 +99,11 @@
                   "parrot_wild",
                   "mob"
                ]
-            },
-            "minecraft:tameable":{
-               "probability":0.33,
-               "tame_items":[
-                  "wheat_seeds",
-                  "pumpkin_seeds",
-                  "melon_seeds",
-                  "beetroot_seeds"
-               ],
-               "tame_event":{
-                  "event":"minecraft:on_tame",
-                  "target":"self"
-               }
-            },
+            }
             "minecraft:behavior.random_fly":{
                "priority":2,
                "xz_dist":15,
-               "y_dist":1,
+               "y_dist":8,
                "y_offset":0,
                "speed_multiplier":1.0,
                "can_land_on_trees":true,
@@ -127,38 +114,6 @@
                "speed_multiplier":1.0,
                "stop_distance":3,
                "search_range":20
-            }
-         },
-         "minecraft:parrot_tame":{
-            "minecraft:type_family":{
-               "family":[
-                  "tui",
-                  "parrot_tame",
-                  "mob"
-               ]
-            },
-            "minecraft:is_tamed":{
-
-            },
-            "minecraft:behavior.follow_owner":{
-               "priority":2,
-               "speed_multiplier":1.0,
-               "start_distance":5,
-               "stop_distance":1
-            },
-            "minecraft:sittable":{
-
-            },
-            "minecraft:behavior.stay_while_sitting":{
-               "priority":1
-            },
-            "minecraft:behavior.find_mount":{
-               "priority":3,
-               "within_radius":16,
-               "avoid_water":true,
-               "start_delay":100,
-               "target_needed":false,
-               "mount_distance":2.0
             }
          }
       },
@@ -216,11 +171,6 @@
          "minecraft:movement.fly":{
 
          },
-         "minecraft:behavior.random_fly":{
-            "xz_dist":10,
-            "y_dist":7,
-            "can_land_on_trees":true
-         },
          "minecraft:physics":{
 
          },
@@ -273,18 +223,6 @@
                "component_groups":[
                   "minecraft:parrot_adult",
                   "minecraft:parrot_wild"
-               ]
-            }
-         },
-         "minecraft:on_tame":{
-            "remove":{
-               "component_groups":[
-                  "minecraft:parrot_wild"
-               ]
-            },
-            "add":{
-               "component_groups":[
-                  "minecraft:parrot_tame"
                ]
             }
          },

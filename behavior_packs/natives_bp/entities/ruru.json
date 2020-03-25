@@ -116,7 +116,7 @@
             "minecraft:behavior.random_fly":{
                "priority":2,
                "xz_dist":15,
-               "y_dist":1,
+               "y_dist":8,
                "y_offset":0,
                "speed_multiplier":1.0,
                "can_land_on_trees":true,
