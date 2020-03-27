@@ -218,6 +218,16 @@
                   "minecraft:adult"
                ]
             }
+         },
+         "minecraft:entity_born":{
+            "remove":{
+
+            },
+            "add":{
+               "component_groups":[
+                  "minecraft:baby"
+               ]
+            }
          }
       }
    }
