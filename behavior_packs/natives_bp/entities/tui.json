@@ -99,7 +99,7 @@
                   "parrot_wild",
                   "mob"
                ]
-            }
+            },
             "minecraft:behavior.random_fly":{
                "priority":2,
                "xz_dist":15,

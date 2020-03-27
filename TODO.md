@@ -27,6 +27,7 @@
     - Pateke (brown teal)
     - New Zealand falcon / kārearea
     - Podocarpus (rimu, kahikatea, miro, mataī and tōtara) forests
+    - Pohutukawa
     - Pseudopanax crassifolius (Lancewood)
     - Pukeko
     - Rifleman
