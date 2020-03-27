@@ -22,7 +22,7 @@
          },
          "scripts":{
             "animate":[
-               { "hop":"!query.is_idling" },
+               { "hop":"!query.is_resting" },
                "look_at_target"
             ]
          },
