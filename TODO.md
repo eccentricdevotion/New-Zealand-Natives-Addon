@@ -19,7 +19,6 @@
     - King Shag
     - Kingfisher
     - Kokako
-    - Kowhai
     - Mohua (yellowhead)
     - Mollymawk **<---**
     - Native parasitoid wasps
@@ -27,7 +26,6 @@
     - Pateke (brown teal)
     - New Zealand falcon / kārearea
     - Podocarpus (rimu, kahikatea, miro, mataī and tōtara) forests
-    - Pohutukawa
     - Pseudopanax crassifolius (Lancewood)
     - Pukeko
     - Rifleman
@@ -55,10 +53,12 @@
 - Kereru
 - Kiwi - _in Ngā Motu pack_
 - Kotuku
+- Kowhai
 - Kunekune - _in Ngā Motu pack_
 - Moa - _in Ngā Motu pack_
 - Monarch butterfly / caterpillar _(need to change life cycle -> egg, caterpillar, chrysalis, butterfly)_
 - Piwakawaka / fantail - _in Ngā Motu pack_
+- Pohutukawa
 - Powelliphanta
 - Puriri moth
 - Red Admiral
