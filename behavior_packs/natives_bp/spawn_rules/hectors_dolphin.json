@@ -3,7 +3,7 @@
    "minecraft:spawn_rules":{
       "description":{
          "identifier":"ccl:hectors_dolphin",
-         "population_control":"animal"
+         "population_control":"water_animal"
       },
       "conditions":[
          {
