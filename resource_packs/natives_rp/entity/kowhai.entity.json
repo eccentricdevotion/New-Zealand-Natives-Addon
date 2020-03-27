@@ -1,0 +1,24 @@
+{
+   "format_version":"1.8.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"ccl:kowhai",
+         "materials":{
+            "default":"kowhai"
+         },
+         "textures":{
+            "default":"textures/entity/flora/kowhai"
+         },
+         "geometry":{
+            "default":"geometry.kowhai"
+         },
+         "spawn_egg":{
+            "texture": "ccl_fern",
+            "texture_index": 26
+         },
+         "render_controllers":[
+            "controller.render.kowhai"
+         ]
+      }
+   }
+}
