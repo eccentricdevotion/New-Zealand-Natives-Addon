@@ -13,21 +13,6 @@
          "textures":[
             "textures/blocks/rotten_log_side"
          ]
-      },
-      "kauri_log_top":{
-         "textures":[
-            "textures/blocks/kauri_log_top"
-         ]
-      },
-      "kauri_log_side":{
-         "textures":[
-            "textures/blocks/kauri_log_side"
-         ]
-      },
-      "kauri_leaves":{
-         "textures":[
-            "textures/blocks/kauri_leaves"
-         ]
       }
    }
 }
