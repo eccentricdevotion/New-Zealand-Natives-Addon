@@ -28,15 +28,16 @@
 
             },
             "minecraft:ageable":{
-               "duration":1200,
+               "duration":1000000,
                "feedItems":[
-                  "minecraft:red_flower",
-                  "minecraft:yellow_flower",
-                  "minecraft:wither_rose",
-                  "minecraft:double_plant:0",
-                  "minecraft:double_plant:1",
-                  "minecraft:double_plant:4",
-                  "minecraft:double_plant:5"
+                  {
+                     "item":"minecraft:red_flower",
+                     "growth":0.25
+                  },
+                  {
+                     "item":"minecraft:yellow_flower",
+                     "growth":0.25
+                  }
                ],
                "grow_up":{
                   "event":"ageable_grow_up",

@@ -33,9 +33,16 @@
 
             },
             "minecraft:ageable":{
-               "duration":1200,
+               "duration":1000000,
                "feedItems":[
-                  "minecraft:sapling:0"
+                  {
+                     "item":"minecraft:sapling:0",
+                     "growth":0.25
+                  },
+                  {
+                     "item":"ccl:rotten_log",
+                     "growth":1.0
+                  }
                ],
                "grow_up":{
                   "event":"ageable_grow_up",
