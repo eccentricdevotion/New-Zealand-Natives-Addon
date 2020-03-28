@@ -137,6 +137,15 @@
                "hurt":"ccl.huia.say",
                "death":"ccl.huia.say"
             }
+         },
+         "ccl:kiwi":{
+            "volume":1.0,
+            "pitch":[ 0.8, 1.2 ],
+            "events":{
+               "ambient":"ccl.kiwi.say",
+               "hurt":"ccl.kiwi.say",
+               "death":"ccl.kiwi.say"
+            }
          }
       }
    }

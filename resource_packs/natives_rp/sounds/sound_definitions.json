@@ -219,5 +219,19 @@
          "sounds/huia/huia_male4",
          "sounds/huia/huia_male5"
       ]
+   },
+   "ccl.kiwi.say":{
+      "category":"animal",
+      "sounds":[
+         {
+            "name":"sounds/kiwi/kiwi1",
+            "load_on_low_memory":true
+         },
+         "sounds/kiwi/kiwi2",
+         "sounds/kiwi/kiwi3",
+         "sounds/kiwi/kiwi4",
+         "sounds/kiwi/kiwi5"
+      ]
    }
+}
 }
