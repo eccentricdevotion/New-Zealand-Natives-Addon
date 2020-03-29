@@ -155,6 +155,15 @@
                "hurt":"ccl.moa.say",
                "death":"ccl.moa.say"
             }
+         },
+         "ccl:bat":{
+            "volume":1.0,
+            "pitch":[ 0.8, 1.2 ],
+            "events":{
+               "ambient":"ccl.bat.say",
+               "hurt":"ccl.bat.say",
+               "death":"ccl.bat.say"
+            }
          }
       }
    }

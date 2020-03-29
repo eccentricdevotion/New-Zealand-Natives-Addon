@@ -244,5 +244,15 @@
          "sounds/moa/moa3",
          "sounds/moa/moa4"
       ]
+   },
+   "ccl.bat.say":{
+      "category":"animal",
+      "sounds":[
+         {
+            "name":"sounds/bat/bat1",
+            "load_on_low_memory":true
+         },
+         "sounds/bat/bat2"
+      ]
    }
 }

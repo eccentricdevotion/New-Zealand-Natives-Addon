@@ -1,0 +1,40 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"ccl:bat",
+         "materials":{
+            "default":"short_tailed_bat"
+         },
+         "textures":{
+            "default":"textures/entity/bat/bat"
+         },
+         "geometry":{
+            "default":"geometry.short_tailed_bat"
+         },
+         "animations":{
+            "walk":"animation.bat.walk",
+            "fly":"animation.bat.fly",
+            "rest":"animation.bat.rest",
+            "look_at_target":"animation.bat.look_at_target",
+            "baby_transform":"animation.bird.baby_transform"
+         },
+         "scripts":{
+            "animate":[
+               { "walk":"query.modified_move_speed && query.is_on_ground" },
+               { "fly":"!query.is_on_ground" },
+               { "rest":"!query.modified_move_speed" },
+               { "look_at_target": "query.is_on_ground" },
+               { "baby_transform":"query.is_baby" }
+            ]
+         },
+         "render_controllers":[
+            "controller.render.short_tailed_bat"
+         ],
+         "spawn_egg":{
+            "texture":"ccl_fern",
+            "texture_index": 30
+         }
+      }
+   }
+}
