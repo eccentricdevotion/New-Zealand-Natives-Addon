@@ -51,11 +51,11 @@
 - Katipo
 - Kea
 - Kereru
-- Kiwi - _in Ngā Motu pack_
+- Kiwi
 - Kotuku
 - Kowhai
 - Kunekune - _in Ngā Motu pack_
-- Moa - _in Ngā Motu pack_
+- Moa
 - Monarch butterfly / caterpillar _(need to change life cycle -> egg, caterpillar, chrysalis, butterfly)_
 - Piwakawaka / fantail - _in Ngā Motu pack_
 - Pohutukawa
