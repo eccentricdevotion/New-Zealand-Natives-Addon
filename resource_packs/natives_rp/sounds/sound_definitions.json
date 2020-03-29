@@ -232,6 +232,17 @@
          "sounds/kiwi/kiwi4",
          "sounds/kiwi/kiwi5"
       ]
+   },
+   "ccl.moa.say":{
+      "category":"animal",
+      "sounds":[
+         {
+            "name":"sounds/moa/moa1",
+            "load_on_low_memory":true
+         },
+         "sounds/moa/moa2",
+         "sounds/moa/moa3",
+         "sounds/moa/moa4"
+      ]
    }
-}
 }
