@@ -4,20 +4,20 @@
     - Adzebills
     - All extinct ones
     - Australasian bittern
-    - Bats / Short-tailed bat **<---**
     - Black-billed gull
     - Cabbage trees
     - Clematis afoliata = aphylla
-    - Dactylanthus taylorii (a parasitic plant)
+    - Dactylanthus taylorii (woodrose, a parasitic plant)
     - Dawsonia superba (the world’s tallest moss!)
     - Fairy tern
+    - Geckos (green & jewelled)
     - Giraffe weevil _(Rob C)_
     - Glow worms
     - Harvestmen
     - Hihi
     - Kauri
     - King Shag
-    - Kingfisher
+    - Kingfisher (kōtare)
     - Kokako
     - Mohua (yellowhead)
     - Mollymawk **<---**
@@ -29,7 +29,6 @@
     - Pseudopanax crassifolius (Lancewood)
     - Pukeko
     - Rifleman
-    - Rimu
     - Rock wren
     - Seals
     - Shore plover
@@ -64,6 +63,7 @@
 - Red Admiral
 - Ruru (Morepork)
 - Sea Lions
+- Short-tailed bat (pekapeka)
 - Skinks (Otago, Grand, Chevron & Striped)
 - Takahe
 - Treeferns (Ponga)
