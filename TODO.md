@@ -32,7 +32,6 @@
     - Rock wren
     - Seals
     - Shore plover
-    - Tawaki (Fiordland crested penguin) **<---**
     - Whio (blue duck) **<---**
 
 ## Done
@@ -66,6 +65,7 @@
 - Short-tailed bat (pekapeka)
 - Skinks (Otago, Grand, Chevron & Striped)
 - Takahe
+- Tawaki (Fiordland crested penguin)
 - Treeferns (Ponga)
 - Tuatara
 - Tui
