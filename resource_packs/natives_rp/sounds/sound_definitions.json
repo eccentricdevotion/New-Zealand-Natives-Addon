@@ -254,5 +254,17 @@
          },
          "sounds/bat/bat2"
       ]
+   },
+   "ccl.tawaki.say":{
+      "category":"animal",
+      "sounds":[
+         {
+            "name":"sounds/tawaki/tawaki1",
+            "load_on_low_memory":true
+         },
+         "sounds/tawaki/tawaki2",
+         "sounds/tawaki/tawaki3",
+         "sounds/tawaki/tawaki4"
+      ]
    }
 }

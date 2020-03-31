@@ -164,6 +164,15 @@
                "hurt":"ccl.bat.say",
                "death":"ccl.bat.say"
             }
+         },
+         "ccl:tawaki":{
+            "volume":1.0,
+            "pitch":[ 0.8, 1.2 ],
+            "events":{
+               "ambient":"ccl.tawaki.say",
+               "hurt":"ccl.tawaki.say",
+               "death":"ccl.tawaki.say"
+            }
          }
       }
    }
