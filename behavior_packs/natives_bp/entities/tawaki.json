@@ -28,12 +28,6 @@
             "minecraft:scale":{
                "value":1.0
             },
-            "minecraft:behavior.move_to_water":{
-               "priority":1,
-               "search_range":15,
-               "search_height":5,
-               "goal_radius":0.1
-            },
             "minecraft:ageable":{
                "duration":1200,
                "feed_items":[
@@ -90,12 +84,6 @@
             "minecraft:behavior.breed":{
                "priority":2,
                "speed_multiplier":1.0
-            },
-            "minecraft:behavior.move_to_land":{
-               "priority":6,
-               "search_range":16,
-               "search_height":5,
-               "goal_radius":0.5
             },
             "minecraft:behavior.random_stroll":{
                "priority":9,
@@ -181,6 +169,12 @@
             "items":[
                "minecraft:dye:0"
             ]
+         },
+        "minecraft:behavior.move_to_land":{
+            "priority":6,
+            "search_range":16,
+            "search_height":5,
+            "goal_radius":0.5
          },
          "minecraft:behavior.move_to_water":{
             "priority":4,

@@ -1,0 +1,40 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"ccl:whio",
+         "materials":{
+            "default":"whio"
+         },
+         "textures":{
+            "default":"textures/entity/whio/whio",
+            "baby":"textures/entity/whio/whio_baby"
+         },
+         "geometry":{
+            "default":"geometry.whio",
+            "baby":"geometry.whio_baby"
+         },
+         "animations":{
+            "walk":"animation.whio.walk",
+            "fly":"animation.whio.fly",
+            "paddle":"animation.whio.paddle",
+            "look_at_target":"animation.whio.look_at_target"
+         },
+         "scripts":{
+            "animate":[
+               { "walk": "!query.is_in_water && query.is_on_ground" },
+               { "fly": "!query.is_on_ground && !query.is_in_water" },
+               { "paddle": "query.is_in_water" },
+               { "look_at_target": "query.is_on_ground" }
+            ]
+         },
+         "render_controllers":[
+            "controller.render.whio"
+         ],
+         "spawn_egg":{
+            "texture":"ccl_fern",
+            "texture_index": 32
+         }
+      }
+   }
+}

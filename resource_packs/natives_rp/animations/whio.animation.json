@@ -1,0 +1,131 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.whio.walk": {
+			"loop": true,
+			"anim_time_update": "query.modified_distance_moved / 2.0",
+			"animation_length": 0.8,
+			"bones": {
+				"leg0": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.2": [-25, 0, 0],
+						"0.4": [0, 0, 0],
+						"0.6": [25, 0, 0],
+						"0.8": [0, 0, 0]
+					}
+				},
+				"foot0": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.2": [0, 0, 0],
+						"0.4": [0, 0, 0],
+						"0.6": [-20, 0, 0],
+						"0.8": [0, 0, 0]
+					}
+				},
+				"leg1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.2": [25, 0, 0],
+						"0.4": [0, 0, 0],
+						"0.6": [-25, 0, 0],
+						"0.8": [0, 0, 0]
+					}
+				},
+				"foot1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.2": [-20, 0, 0],
+						"0.4": [0, 0, 0],
+						"0.6": [0, 0, 0],
+						"0.8": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.whio.fly": {
+			"loop": true,
+			"anim_time_update": "query.modified_distance_moved * 2.0",
+			"animation_length": 0.8,
+			"bones": {
+				"head": {
+					"position": [0, -2.5, -2]
+				},
+				"wing0": {
+					"rotation": {
+						"0.0": [-270, 0, -90],
+						"0.2": [-270, 0, -45],
+						"0.4": [-270, 0, -90],
+						"0.6": [-270, 0, -135],
+						"0.8": [-270, 0, -90]
+					},
+					"position": [-5.25, 1.5, 2]
+				},
+				"leg0": {
+					"rotation": [100, 0, 0],
+					"position": [0, 0, 1]
+				},
+				"foot0": {
+					"rotation": [60, 0, 0]
+				},
+				"leg1": {
+					"rotation": [100, 0, 0],
+					"position": [0, 0, 1]
+				},
+				"foot1": {
+					"rotation": [60, 0, 0]
+				},
+				"wingtip0": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.2": [0, -10, 0],
+						"0.4": [0, 0, 0],
+						"0.6": [0, 20, 0],
+						"0.8": [0, 0, 0]
+					}
+				},
+				"wing1": {
+					"rotation": {
+						"0.0": [-270, 0, 90],
+						"0.2": [-270, 0, 45],
+						"0.4": [-270, 0, 90],
+						"0.6": [-270, 0, 135],
+						"0.8": [-270, 0, 90]
+					},
+					"position": [5.25, 1.5, 2]
+				},
+				"wingtip1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.2": [0, 10, 0],
+						"0.4": [0, 0, 0],
+						"0.6": [0, -20, 0],
+						"0.8": [0, 0, 0]
+					}
+				},
+				"neck": {
+					"rotation": [70, 0, 0],
+					"position": [0, -1, -1]
+				}
+			}
+		},
+		"animation.whio.paddle": {
+			"loop": true,
+			"bones": {
+				"whio": {
+					"position": [0, 0, 0]
+				}
+			}
+		},
+		"animation.tawaki.look_at_target": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"relative_to": { "rotation": "entity" },
+					"rotation": [ "Math.clamp(query.target_x_rotation, -15, 15)", "Math.clamp(query.target_y_rotation, 0, 10)", 0.0 ]
+				}
+			}
+		}
+	}
+}

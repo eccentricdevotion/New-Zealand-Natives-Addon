@@ -266,5 +266,19 @@
          "sounds/tawaki/tawaki3",
          "sounds/tawaki/tawaki4"
       ]
+   },
+   "ccl.whio.say":{
+      "category":"animal",
+      "sounds":[
+         {
+            "name":"sounds/whio/whio1",
+            "load_on_low_memory":true
+         },
+         "sounds/whio/whio_female1",
+         "sounds/whio/whio_female2",
+         "sounds/whio/whio2",
+         "sounds/whio/whio3",
+         "sounds/whio/whio4"
+      ]
    }
 }

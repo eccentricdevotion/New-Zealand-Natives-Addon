@@ -13,7 +13,7 @@
     - Geckos (green & jewelled)
     - Giraffe weevil _(Rob C)_
     - Glow worms
-    - Harvestmen
+    - Harvestman _(Rob C)_
     - Hihi
     - Kauri
     - King Shag
@@ -27,12 +27,11 @@
     - New Zealand falcon / kārearea
     - Podocarpus (rimu, kahikatea, miro, mataī and tōtara) forests
     - Pseudopanax crassifolius (Lancewood)
-    - Pukeko
+    - Pukeko _(Rob L)_
     - Rifleman
     - Rock wren
     - Seals
     - Shore plover
-    - Whio (blue duck) **<---**
 
 ## Done
 
@@ -71,6 +70,7 @@
 - Tui
 - Weka
 - Weta
+- Whio (blue duck)
 
 ## Already in the game
 
