@@ -182,6 +182,15 @@
                "hurt":"ccl.whio.say",
                "death":"ccl.whio.say"
             }
+         },
+         "ccl:pukeko":{
+            "volume":1.0,
+            "pitch":[ 0.8, 1.2 ],
+            "events":{
+               "ambient":"ccl.pukeko.say",
+               "hurt":"ccl.pukeko.say",
+               "death":"ccl.pukeko.say"
+            }
          }
       }
    }

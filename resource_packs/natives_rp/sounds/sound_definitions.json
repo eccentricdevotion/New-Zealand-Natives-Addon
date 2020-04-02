@@ -280,5 +280,20 @@
          "sounds/whio/whio3",
          "sounds/whio/whio4"
       ]
+   },
+   "ccl.pukeko.say":{
+      "category":"animal",
+      "sounds":[
+         {
+            "name":"sounds/pukeko/pukeko1",
+            "load_on_low_memory":true
+         },
+         "sounds/pukeko/pukeko5",
+         "sounds/pukeko/pukeko6",
+         "sounds/pukeko/pukeko7",
+         "sounds/pukeko/pukeko2",
+         "sounds/pukeko/pukeko3",
+         "sounds/pukeko/pukeko4"
+      ]
    }
 }
