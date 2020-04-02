@@ -1,0 +1,36 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"ccl:harvestman",
+         "materials":{
+            "default":"harvestman"
+         },
+         "textures":{
+            "default":"textures/entity/harvestman/harvestman"
+         },
+         "geometry":{
+            "default":"geometry.harvestman"
+         },
+         "animations":{
+            "feed":"animation.harvestman.feed",
+            "walk":"animation.harvestman.walk",
+            "look_at_target":"animation.common.look_at_target"
+         },
+         "scripts":{
+            "animate":[
+               { "walk": "!query.is_in_water && query.is_on_ground" },
+               { "feed": "!query.modified_move_speed" },
+               "look_at_target"
+            ]
+         },
+         "render_controllers":[
+            "controller.render.harvestman"
+         ],
+         "spawn_egg":{
+            "texture":"ccl_fern",
+            "texture_index": 33
+         }
+      }
+   }
+}
