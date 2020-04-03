@@ -7,18 +7,21 @@
             "default":"pukeko"
          },
          "textures":{
-            "default":"textures/entity/pukeko/pukeko"
+            "default":"textures/entity/pukeko/pukeko",
+            "baby":"textures/entity/pukeko/pukeko_baby"
          },
          "geometry":{
             "default":"geometry.pukeko"
          },
          "animations":{
             "walk":"animation.pukeko.walk",
+            "fly":"animation.pukeko.fly",
             "look_at_target":"animation.common.look_at_target"
          },
          "scripts":{
             "animate":[
                { "walk": "!query.is_in_water && query.is_on_ground" },
+               { "fly": "!query.is_in_water && !query.is_on_ground" },
                "look_at_target"
             ]
          },

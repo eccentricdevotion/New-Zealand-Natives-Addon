@@ -13,7 +13,6 @@
     - Geckos (green & jewelled)
     - Giraffe weevil _(Rob C)_
     - Glow worms
-    - Harvestman _(Rob C)_
     - Hihi
     - Kauri
     - King Shag
@@ -23,11 +22,10 @@
     - Mollymawk **<---**
     - Native parasitoid wasps
     - Owlet-nightjars
-    - Pateke (brown teal)
+    - Pāteke (brown teal)
     - New Zealand falcon / kārearea
     - Podocarpus (rimu, kahikatea, miro, mataī and tōtara) forests
     - Pseudopanax crassifolius (Lancewood)
-    - Pukeko _(Rob L)_
     - Rifleman
     - Rock wren
     - Seals
@@ -40,6 +38,7 @@
 - Frogs (Archey’s, Hochstetter's, Hamilton's & Maud Island)
 - Haast’s eagle
 - Harakeke
+- Harvestman _(Rob C)_
 - Hoiho (yellow-eyed penguin)
 - Huhu Grubs / Beetles
 - Huia
@@ -57,6 +56,7 @@
 - Piwakawaka / fantail - _in Ngā Motu pack_
 - Pohutukawa
 - Powelliphanta
+- Pukeko _(Rob L)_
 - Puriri moth
 - Red Admiral
 - Ruru (Morepork)
