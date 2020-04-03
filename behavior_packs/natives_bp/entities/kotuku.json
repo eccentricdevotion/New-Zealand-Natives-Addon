@@ -44,7 +44,7 @@
             },
             "minecraft:behavior.random_stroll":{
                "priority":6,
-               "speed_multiplier":0.1
+               "speed_multiplier":0.8
             },
             "minecraft:can_climb":{
 

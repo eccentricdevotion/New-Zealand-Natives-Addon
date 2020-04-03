@@ -171,7 +171,7 @@
          },
          "minecraft:behavior.random_stroll":{
             "priority":6,
-            "speed_multiplier":0.25,
+            "speed_multiplier":0.8,
             "xz_dist":15,
             "y_dist":7
          },

@@ -103,10 +103,6 @@
                "search_range":16,
                "search_height":5,
                "goal_radius":0.5
-            },
-            "minecraft:behavior.random_stroll":{
-               "priority":9,
-               "interval":100
             }
          },
          "ccl:sea_lion_adult_female":{
@@ -159,10 +155,6 @@
                "search_range":16,
                "search_height":5,
                "goal_radius":0.5
-            },
-            "minecraft:behavior.random_stroll":{
-               "priority":9,
-               "interval":100
             }
          }
       },
@@ -231,6 +223,10 @@
          },
          "minecraft:follow_range":{
             "value":1024
+         },
+         "minecraft:behavior.random_stroll":{
+            "priority":9,
+            "interval":100
          },
          "minecraft:behavior.panic":{
             "priority":0,

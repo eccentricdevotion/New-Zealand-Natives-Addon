@@ -158,11 +158,11 @@
          },
          "minecraft:behavior.random_stroll":{
             "priority":6,
-            "speed_multiplier":0.1
+            "speed_multiplier":0.8
          },
          "minecraft:behavior.mount_pathing":{
             "priority":5,
-            "speed_multiplier":0.25,
+            "speed_multiplier":0.8,
             "target_dist":0.0,
             "track_target":true
          },
