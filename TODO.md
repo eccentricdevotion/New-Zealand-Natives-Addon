@@ -73,9 +73,3 @@
 - Weka
 - Weta
 - Whio (blue duck)
-
-## Already in the game
-
-- Bats
-- Dolphins
-- Spiders
