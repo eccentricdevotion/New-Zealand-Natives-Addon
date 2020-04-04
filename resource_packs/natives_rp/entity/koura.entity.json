@@ -1,0 +1,37 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"ccl:koura",
+         "materials":{
+            "default":"koura"
+         },
+         "textures":{
+            "default":"textures/entity/koura/koura",
+            "baby":"textures/entity/koura/koura_baby"
+         },
+         "geometry":{
+            "default":"geometry.koura"
+         },
+         "animations":{
+            "walk":"animation.koura.walk",
+            "nip":"animation.koura.nip",
+            "look_at_target":"animation.common.look_at_target"
+         },
+         "scripts":{
+            "animate":[
+               { "walk": "query.modified_move_speed" },
+               { "nip": "!query.modified_move_speed" },
+               "look_at_target"
+            ]
+         },
+         "render_controllers":[
+            "controller.render.koura"
+         ],
+         "spawn_egg":{
+            "texture":"ccl_fern",
+            "texture_index": 35
+         }
+      }
+   }
+}

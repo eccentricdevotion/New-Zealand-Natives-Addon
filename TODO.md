@@ -30,6 +30,7 @@
     - Rock wren
     - Seals
     - Shore plover
+    - Taniwha (with Enderman behaviour)?
 
 ## Done
 
@@ -49,6 +50,7 @@
 - Kereru
 - Kiwi
 - Kotuku
+- Kōura (Freshwater crayfish)
 - Kowhai
 - Kunekune - _in Ngā Motu pack_
 - Moa
