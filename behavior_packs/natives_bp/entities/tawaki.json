@@ -93,7 +93,7 @@
       },
       "components":{
          "minecraft:breathable":{
-            "total_supply":15,
+            "total_supply":500,
             "suffocate_time":0,
             "breathes_water":true,
             "breathes_air":true,

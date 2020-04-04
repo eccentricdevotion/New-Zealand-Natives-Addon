@@ -76,7 +76,7 @@
             "table":"loot_tables/whio.json"
          },
          "minecraft:breathable":{
-            "totalSupply":15,
+            "totalSupply":250,
             "suffocateTime":0
          },
          "minecraft:navigation.fly":{
