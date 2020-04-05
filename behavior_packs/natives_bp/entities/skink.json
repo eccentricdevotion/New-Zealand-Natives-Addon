@@ -192,6 +192,38 @@
                   ]
                }
             ]
+         },
+         "ccl:spawn_o":{
+            "add":{
+               "component_groups":[
+                  "minecraft:adult",
+                  "ccl:skink_otago"
+               ]
+            }
+         },
+         "ccl:spawn_g":{
+            "add":{
+               "component_groups":[
+                  "minecraft:adult",
+                  "ccl:skink_grand"
+               ]
+            }
+         },
+         "ccl:spawn_c":{
+            "add":{
+               "component_groups":[
+                  "minecraft:adult",
+                  "ccl:skink_chevron"
+               ]
+            }
+         },
+         "ccl:spawn_s":{
+            "add":{
+               "component_groups":[
+                  "minecraft:adult",
+                  "ccl:skink_striped"
+               ]
+            }
          }
       }
    }

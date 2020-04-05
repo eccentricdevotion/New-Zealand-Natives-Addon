@@ -146,6 +146,34 @@
                   }
                }
             ]
+         },
+         "ccl:spawn_a":{
+            "add":{
+               "component_groups":[
+                  "ccl:archeys_frog"
+               ]
+            }
+         },
+         "ccl:spawn_h":{
+            "add":{
+               "component_groups":[
+                  "ccl:hamiltons_frog"
+               ]
+            }
+         },
+         "ccl:spawn_o":{
+            "add":{
+               "component_groups":[
+                  "ccl:hochstetters_frog"
+               ]
+            }
+         },
+         "ccl:spawn_m":{
+            "add":{
+               "component_groups":[
+                  "ccl:maud_island_frog"
+               ]
+            }
          }
       }
    }
