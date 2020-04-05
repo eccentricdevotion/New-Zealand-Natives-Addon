@@ -1,0 +1,36 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"ccl:kotare",
+         "materials":{
+            "default":"kotare"
+         },
+         "textures":{
+            "default":"textures/entity/kotare/kotare"
+         },
+         "geometry":{
+            "default":"geometry.kotare"
+         },
+         "animations":{
+            "walk":"animation.kotare.walk",
+            "fly":"animation.kotare.fly",
+            "look_at_target":"animation.kotare.look_at_target"
+         },
+         "scripts":{
+            "animate":[
+               { "walk": "query.is_on_ground" },
+               { "fly": "!query.is_on_ground" },
+               { "look_at_target": "query.is_on_ground" }
+            ]
+         },
+         "render_controllers":[
+            "controller.render.kotare"
+         ],
+         "spawn_egg":{
+            "texture":"ccl_fern",
+            "texture_index": 38
+         }
+      }
+   }
+}

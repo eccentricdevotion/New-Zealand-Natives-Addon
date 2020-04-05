@@ -209,6 +209,15 @@
                "hurt":"ccl.saddleback.say",
                "death":"ccl.saddleback.say"
             }
+         },
+         "ccl:kotare":{
+            "volume":1.0,
+            "pitch":[ 0.8, 1.2 ],
+            "events":{
+               "ambient":"ccl.kotare.say",
+               "hurt":"ccl.kotare.say",
+               "death":"ccl.kotare.say"
+            }
          }
       }
    }

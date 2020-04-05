@@ -16,7 +16,6 @@
     - Hihi
     - Kauri
     - King Shag
-    - Kingfisher (kōtare)
     - Mohua (yellowhead)
     - Mollymawk **<---**
     - Native parasitoid wasps
@@ -49,6 +48,7 @@
 - Kereru
 - Kiwi
 - Kōkako
+- Kōtare (Kingfisher)
 - Kotuku
 - Kōura (Freshwater crayfish)
 - Kowhai

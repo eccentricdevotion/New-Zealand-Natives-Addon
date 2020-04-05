@@ -319,5 +319,17 @@
          "sounds/saddleback/saddleback3",
          "sounds/saddleback/saddleback4"
       ]
+   },
+   "ccl.kotare.say":{
+      "category":"animal",
+      "sounds":[
+         {
+            "name":"sounds/kotare/kotare1",
+            "load_on_low_memory":true
+         },
+         "sounds/kotare/kotare2",
+         "sounds/kotare/kotare3",
+         "sounds/kotare/kotare4"
+      ]
    }
 }

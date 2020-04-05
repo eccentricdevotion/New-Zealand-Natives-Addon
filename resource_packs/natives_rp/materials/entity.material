@@ -16,6 +16,7 @@
       "kea:entity":{},
       "kereru:entity":{},
       "kokako:entity":{},
+      "kotare:entity":{},
       "kotuku:entity":{},
       "koura:entity":{},
       "kowhai:entity_alphatest":{ "msaaSupport":"Both" },
