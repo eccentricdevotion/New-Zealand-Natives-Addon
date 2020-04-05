@@ -1,0 +1,18 @@
+{
+   "format_version":"1.8.0",
+   "render_controllers":{
+      "controller.render.kokako":{
+         "arrays":{
+            "textures":{
+               "Array.textures":[
+                  "Texture.default",
+                  "Texture.south_island"
+               ]
+            }
+         },
+         "textures": [ "Array.textures[query.variant]" ],
+         "geometry":"Geometry.default",
+         "materials":[ { "*":"Material.default" } ]
+      }
+   }
+}

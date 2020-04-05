@@ -17,7 +17,6 @@
     - Kauri
     - King Shag
     - Kingfisher (kōtare)
-    - Kokako
     - Mohua (yellowhead)
     - Mollymawk **<---**
     - Native parasitoid wasps
@@ -49,6 +48,7 @@
 - Kea
 - Kereru
 - Kiwi
+- Kōkako
 - Kotuku
 - Kōura (Freshwater crayfish)
 - Kowhai
@@ -62,6 +62,7 @@
 - Puriri moth
 - Red Admiral
 - Ruru (Morepork)
+- Saddleback (‎tīeke)
 - Sea Lions
 - Short-tailed bat (pekapeka)
 - Skinks (Otago, Grand, Chevron & Striped)

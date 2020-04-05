@@ -295,5 +295,29 @@
          "sounds/pukeko/pukeko3",
          "sounds/pukeko/pukeko4"
       ]
+   },
+   "ccl.kokako.say":{
+      "category":"animal",
+      "sounds":[
+         {
+            "name":"sounds/kokako/kokako1",
+            "load_on_low_memory":true
+         },
+         "sounds/kokako/kokako2",
+         "sounds/kokako/kokako3",
+         "sounds/kokako/kokako4"
+      ]
+   },
+   "ccl.saddleback.say":{
+      "category":"animal",
+      "sounds":[
+         {
+            "name":"sounds/saddleback/saddleback1",
+            "load_on_low_memory":true
+         },
+         "sounds/saddleback/saddleback2",
+         "sounds/saddleback/saddleback3",
+         "sounds/saddleback/saddleback4"
+      ]
    }
 }

@@ -191,6 +191,24 @@
                "hurt":"ccl.pukeko.say",
                "death":"ccl.pukeko.say"
             }
+         },
+         "ccl:kokako":{
+            "volume":1.0,
+            "pitch":[ 0.8, 1.2 ],
+            "events":{
+               "ambient":"ccl.kokako.say",
+               "hurt":"ccl.kokako.say",
+               "death":"ccl.kokako.say"
+            }
+         },
+         "ccl:saddleback":{
+            "volume":1.0,
+            "pitch":[ 0.8, 1.2 ],
+            "events":{
+               "ambient":"ccl.saddleback.say",
+               "hurt":"ccl.saddleback.say",
+               "death":"ccl.saddleback.say"
+            }
          }
       }
    }

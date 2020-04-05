@@ -1,0 +1,37 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"ccl:kokako",
+         "materials":{
+            "default":"kokako"
+         },
+         "textures":{
+            "default":"textures/entity/kokako/kokako",
+            "south_island":"textures/entity/kokako/south_island_kokako"
+         },
+         "geometry":{
+            "default":"geometry.kokako"
+         },
+         "animations":{
+            "walk":"animation.huia.walk",
+            "fly":"animation.huia.fly",
+            "look_at_target":"animation.common.look_at_target"
+         },
+         "scripts":{
+            "animate":[
+               { "walk": "query.is_on_ground" },
+               { "fly": "!query.is_on_ground" },
+               { "look_at_target": "query.is_on_ground" }
+            ]
+         },
+         "render_controllers":[
+            "controller.render.kokako"
+         ],
+         "spawn_egg":{
+            "texture":"ccl_fern",
+            "texture_index": 36
+         }
+      }
+   }
+}

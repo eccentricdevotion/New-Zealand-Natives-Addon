@@ -1,0 +1,36 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"ccl:saddleback",
+         "materials":{
+            "default":"saddleback"
+         },
+         "textures":{
+            "default":"textures/entity/saddleback/saddleback"
+         },
+         "geometry":{
+            "default":"geometry.saddleback"
+         },
+         "animations":{
+            "walk":"animation.huia.walk",
+            "fly":"animation.huia.fly",
+            "look_at_target":"animation.common.look_at_target"
+         },
+         "scripts":{
+            "animate":[
+               { "walk": "query.is_on_ground" },
+               { "fly": "!query.is_on_ground" },
+               { "look_at_target": "query.is_on_ground" }
+            ]
+         },
+         "render_controllers":[
+            "controller.render.saddleback"
+         ],
+         "spawn_egg":{
+            "texture":"ccl_fern",
+            "texture_index": 37
+         }
+      }
+   }
+}

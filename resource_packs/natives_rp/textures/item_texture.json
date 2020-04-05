@@ -42,7 +42,9 @@
             "textures/items/whio_fern",
             "textures/items/harvestman_fern",
             "textures/items/pukeko_fern",
-            "textures/items/koura_fern"
+            "textures/items/koura_fern",
+            "textures/items/kokako_fern",
+            "textures/items/saddleback_fern"
     	 ]
       }
    }
