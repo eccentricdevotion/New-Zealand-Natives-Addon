@@ -19,9 +19,9 @@
             "total_supply":15,
             "suffocate_time":0
          },
-            "minecraft:scale":{
-               "value":0.5
-            },
+         "minecraft:scale":{
+            "value":0.5
+         },
          "minecraft:collision_box":{
             "width":0.4,
             "height":0.5
