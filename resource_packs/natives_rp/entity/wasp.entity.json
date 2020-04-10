@@ -1,0 +1,36 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"ccl:wasp",
+         "materials":{
+            "default":"wasp"
+         },
+         "textures":{
+            "default":"textures/entity/wasp/wasp"
+         },
+         "geometry":{
+            "default":"geometry.wasp"
+         },
+         "animations":{
+            "walk":"animation.wasp.walk",
+            "fly":"animation.wasp.fly",
+            "look_at_target":"animation.common.look_at_target"
+         },
+         "scripts":{
+            "animate":[
+               { "walk": "!query.is_in_water && query.is_on_ground" },
+               { "fly": "!query.is_on_ground" },
+               "look_at_target"
+            ]
+         },
+         "render_controllers":[
+            "controller.render.wasp"
+         ],
+         "spawn_egg":{
+            "texture":"ccl_fern",
+            "texture_index": 39
+         }
+      }
+   }
+}

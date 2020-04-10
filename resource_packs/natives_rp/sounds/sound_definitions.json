@@ -331,5 +331,15 @@
          "sounds/kotare/kotare3",
          "sounds/kotare/kotare4"
       ]
+   },
+   "ccl.wasp.say":{
+      "category":"animal",
+      "sounds":[
+         {
+            "name":"sounds/wasp/wasp1",
+            "load_on_low_memory":true
+         },
+         "sounds/wasp/wasp2"
+      ]
    }
 }
