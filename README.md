@@ -3,6 +3,7 @@
 
 - Dolphins (Hector’s & Maui’s)
 - Frogs (Archey’s, Hochstetter's, Hamilton's & Maud Island)
+- Geckos (green & jewelled)
 - Haast’s eagle
 - Harakeke
 - Harvestman
@@ -37,6 +38,7 @@
 - Treeferns (Ponga)
 - Tuatara
 - Tui
+- Wasp
 - Weka
 - Weta
 - Whio (Blue duck)

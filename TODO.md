@@ -10,7 +10,6 @@
     - Dactylanthus taylorii (woodrose, a parasitic plant)
     - Dawsonia superba (the world’s tallest moss!)
     - Fairy tern
-    - Geckos (green & jewelled)
     - Giraffe weevil _(Rob C)_
     - Glow worms
     - Hihi
@@ -18,7 +17,6 @@
     - King Shag
     - Mohua (yellowhead)
     - Mollymawk **<---**
-    - Native parasitoid wasps
     - Owlet-nightjars
     - Pāteke (brown teal) _(Rob L)_
     - New Zealand falcon / kārearea
@@ -35,6 +33,7 @@
 - Dolphins, Hector’s / Maui’s
 - Eels (Tuna) - _in Ngā Motu pack_
 - Frogs (Archey’s, Hochstetter's, Hamilton's & Maud Island)
+- Geckos (green & jewelled)
 - Haast’s eagle
 - Harakeke
 - Harvestman _(Rob C)_
@@ -55,6 +54,7 @@
 - Kunekune - _in Ngā Motu pack_
 - Moa
 - Monarch butterfly / caterpillar _(need to change life cycle -> egg, caterpillar, chrysalis, butterfly)_
+- Native parasitoid wasps
 - Piwakawaka / fantail - _in Ngā Motu pack_
 - Pohutukawa
 - Powelliphanta
