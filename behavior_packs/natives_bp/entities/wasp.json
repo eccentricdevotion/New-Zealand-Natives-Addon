@@ -49,10 +49,32 @@
             "avoid_water":true,
             "avoid_damage_blocks":true
          },
-         "minecraft:movement.generic":{
+         "minecraft:movement":{
+            "value":0.05
+         },
+         "minecraft:navigation.float":{
+            "can_path_over_water":true
+         },
+         "minecraft:movement.basic":{
 
          },
          "minecraft:jump.static":{
+
+         },
+         "minecraft:behavior.float":{
+            "priority":0
+         },
+         "minecraft:behavior.float_wander":{
+            "xz_dist":10,
+            "y_dist":7,
+            "y_offset":0,
+            "random_reselect":true,
+            "float_duration":[
+               1.5,
+               2.5
+            ]
+         },
+         "minecraft:can_fly":{
 
          },
          "minecraft:can_climb":{
@@ -60,7 +82,7 @@
          },
          "minecraft:collision_box":{
             "width":0.5,
-            "height":0.8
+            "height":0.6
          },
          "minecraft:nameable":{
 
@@ -69,43 +91,22 @@
             "value":10,
             "max":10
          },
-         "minecraft:movement":{
-            "value":0.1
-         },
-         "minecraft:behavior.float":{
-            "priority":0
-         },
-         "minecraft:navigation.float":{
-            "can_path_over_water":false
-         },
-         "minecraft:behavior.panic":{
-            "priority":1,
-            "speed_multiplier":1.25
-         },
          "minecraft:behavior.mount_pathing":{
-            "priority":2,
-            "speed_multiplier":1.5,
+            "priority":7,
+            "speed_multiplier":1.0,
             "target_dist":0.0,
             "track_target":true
          },
-         "minecraft:behavior.breed":{
-            "priority":3,
-            "speed_multiplier":1.0
-         },
          "minecraft:behavior.tempt":{
             "priority":4,
-            "speed_multiplier":1.25,
+            "speed_multiplier":1.05,
             "items":[
                "wheat"
             ]
          },
-         "minecraft:behavior.follow_parent":{
-            "priority":5,
-            "speed_multiplier":1.1
-         },
          "minecraft:behavior.random_stroll":{
             "priority":6,
-            "speed_multiplier":0.8
+            "speed_multiplier":0.1
          },
          "minecraft:behavior.look_at_player":{
             "priority":7,
@@ -118,21 +119,6 @@
          "minecraft:physics":{
 
          },
-         "minecraft:navigation.fly":{
-            "can_path_over_water":false
-         },
-         "minecraft:behavior.random_fly":{
-            "priority":2,
-            "xz_dist":15,
-            "y_dist":1,
-            "y_offset":0,
-            "speed_multiplier":1.0,
-            "can_land_on_trees":true,
-            "avoid_damage_blocks":true
-         },
-         "minecraft:can_fly":{
-
-         },
          "minecraft:damage_sensor":{
             "triggers":{
                "cause":"fall",
@@ -140,7 +126,7 @@
             }
          },
          "minecraft:fall_damage":{
-             "value":0.0
+            "value":0.0
          }
       },
       "events":{
