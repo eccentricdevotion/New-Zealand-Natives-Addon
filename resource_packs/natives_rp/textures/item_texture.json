@@ -46,7 +46,8 @@
             "textures/items/kokako_fern",
             "textures/items/saddleback_fern",
             "textures/items/kotare_fern",
-            "textures/items/wasp_fern"
+            "textures/items/wasp_fern",
+            "textures/items/gecko_fern"
     	 ]
       }
    }

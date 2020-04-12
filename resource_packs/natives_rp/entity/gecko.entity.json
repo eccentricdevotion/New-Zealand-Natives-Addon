@@ -1,0 +1,35 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"ccl:gecko",
+         "materials":{
+            "default":"gecko"
+         },
+         "textures":{
+            "default":"textures/entity/gecko/jewelled",
+            "green":"textures/entity/gecko/green"
+         },
+         "geometry":{
+            "default":"geometry.gecko"
+         },
+         "animations":{
+            "walk":"animation.skink.walk",
+            "look_at_target":"animation.skink.look_at_target"
+         },
+         "scripts":{
+            "animate":[
+               "walk",
+               "look_at_target"
+            ]
+         },
+         "render_controllers":[
+            "controller.render.gecko"
+         ],
+         "spawn_egg":{
+            "texture":"ccl_fern",
+            "texture_index": 40
+         }
+      }
+   }
+}

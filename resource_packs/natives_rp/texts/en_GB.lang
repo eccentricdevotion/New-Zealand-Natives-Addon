@@ -1,6 +1,7 @@
 entity.ccl:basket_fungus.name=Basket Fungus
 entity.ccl:bat.name=Short-tailed Bat
 entity.ccl:frog.name=Frog
+entity.ccl:gecko.name=Gecko
 entity.ccl:haasts_eagle.name=Haast's Eagle
 entity.ccl:harakeke.name=Harakeke (Flax)
 entity.ccl:harvestman.name=Harvestman
@@ -42,6 +43,7 @@ item.ccl:huhu_grub.name=Huhu Grub
 item.spawn_egg.entity.ccl:basket_fungus.name=Plant Basket Fungus
 item.spawn_egg.entity.ccl:bat.name=Spawn Short-tailed Bat
 item.spawn_egg.entity.ccl:frog.name=Spawn Frog
+item.spawn_egg.entity.ccl:gecko.name=Spawn Gecko
 item.spawn_egg.entity.ccl:haasts_eagle.name=Spawn Haast's Eagle
 item.spawn_egg.entity.ccl:harakeke.name=Plant Harakeke
 item.spawn_egg.entity.ccl:harvestman.name=Spawn Harvestman
