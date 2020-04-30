@@ -40,7 +40,7 @@
 - Hoiho (yellow-eyed penguin)
 - Huhu Grubs / Beetles
 - Huia
-- Ileodictyon cibarium (a basket fungus)
+- Ileodictyon cibarius (a basket fungus)
 - Kakapo
 - Katipo
 - Kea
