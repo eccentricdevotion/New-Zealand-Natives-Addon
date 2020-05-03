@@ -14,7 +14,7 @@
             "default":"geometry.takahe"
          },
          "animations":{
-            "move":"animation.bird.move",
+            "walk":"animation.takahe.walk",
             "general":"animation.bird.general",
             "look_at_target":"animation.common.look_at_target",
             "baby_transform":"animation.bird.baby_transform"
@@ -22,7 +22,7 @@
          "scripts":{
             "animate":[
                "general",
-               { "move":"query.modified_move_speed" },
+               { "walk":"!query.is_in_water" },
                "look_at_target",
                { "baby_transform":"query.is_baby" }
             ]
