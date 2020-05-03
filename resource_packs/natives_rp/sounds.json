@@ -227,6 +227,15 @@
                "hurt":"ccl.wasp.say",
                "death":"ccl.wasp.say"
             }
+         },
+         "ccl:fantail":{
+            "volume":0.7,
+            "pitch":[ 0.8, 1.2 ],
+            "events":{
+               "ambient":"ccl.fantail.say",
+               "hurt":"ccl.fantail.say",
+               "death":"ccl.fantail.say"
+            }
          }
       }
    }

@@ -1,0 +1,38 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"ccl:fantail",
+         "materials":{
+            "default":"fantail"
+         },
+         "textures":{
+            "default":"textures/entity/fantail/fantail"
+         },
+         "geometry":{
+            "default":"geometry.fantail"
+         },
+         "animations":{
+            "walk":"animation.fantail.walk",
+            "fly":"animation.fantail.fly",
+            "tail":"animation.fantail.tail",
+            "look_at_target":"animation.common.look_at_target"
+         },
+         "scripts":{
+            "animate":[
+               { "walk": "!query.is_in_water && query.is_on_ground" },
+               { "fly": "!query.is_on_ground" },
+               "tail",
+               "look_at_target"
+            ]
+         },
+         "render_controllers":[
+            "controller.render.fantail"
+         ],
+         "spawn_egg":{
+            "texture":"ccl_fern",
+            "texture_index": 41
+         }
+      }
+   }
+}

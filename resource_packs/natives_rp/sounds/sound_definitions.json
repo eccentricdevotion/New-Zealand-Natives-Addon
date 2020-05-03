@@ -341,5 +341,19 @@
          },
          "sounds/wasp/wasp2"
       ]
+   },
+   "ccl.fantail.say":{
+      "category":"animal",
+      "sounds":[
+         {
+            "name":"sounds/fantail/fantail3",
+            "load_on_low_memory":true
+         },
+         "sounds/fantail/fantail1",
+         "sounds/fantail/fantail2",
+         "sounds/fantail/fantail4",
+         "sounds/fantail/fantail5",
+         "sounds/fantail/fantail6"
+      ]
    }
 }
