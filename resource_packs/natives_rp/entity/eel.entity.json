@@ -1,0 +1,34 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"ccl:eel",
+         "materials":{
+            "default":"eel"
+         },
+         "textures":{
+            "default":"textures/entity/eel/eel"
+         },
+         "geometry":{
+            "default":"geometry.eel"
+         },
+         "animations":{
+            "swim":"animation.eel.swim",
+            "look_at_target":"animation.common.look_at_target"
+         },
+         "scripts":{
+            "animate":[
+               { "swim": "query.is_in_water" },
+               "look_at_target"
+            ]
+         },
+         "render_controllers":[
+            "controller.render.eel"
+         ],
+         "spawn_egg":{
+            "texture":"ccl_fern",
+            "texture_index": 43
+         }
+      }
+   }
+}

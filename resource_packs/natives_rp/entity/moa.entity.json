@@ -4,7 +4,7 @@
       "description":{
          "identifier":"ccl:moa",
          "materials":{
-            "default":"ccl_moa"
+            "default":"moa"
          },
          "textures":{
             "default":"textures/entity/moa/moa"

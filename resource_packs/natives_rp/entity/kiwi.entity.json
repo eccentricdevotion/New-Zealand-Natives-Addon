@@ -4,7 +4,7 @@
       "description":{
          "identifier":"ccl:kiwi",
          "materials":{
-            "default":"ccl_kiwi"
+            "default":"kiwi"
          },
          "textures":{
             "default":"textures/entity/kiwi/kiwi"
