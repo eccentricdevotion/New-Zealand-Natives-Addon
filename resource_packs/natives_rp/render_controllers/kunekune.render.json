@@ -1,0 +1,19 @@
+{
+   "format_version":"1.8.0",
+   "render_controllers":{
+      "controller.render.kunekune":{
+         "arrays":{
+            "textures":{
+               "Array.textures":[
+                  "Texture.default",
+                  "Texture.white",
+                  "Texture.black"
+               ]
+            }
+         },
+         "textures":[ "Array.textures[query.variant]" ],
+         "geometry":"Geometry.default",
+         "materials":[ { "*":"Material.default" } ]
+      }
+   }
+}

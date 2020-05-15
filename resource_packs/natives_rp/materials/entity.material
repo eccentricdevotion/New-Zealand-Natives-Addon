@@ -22,6 +22,7 @@
       "kotuku:entity":{},
       "koura:entity":{},
       "kowhai:entity_alphatest":{ "msaaSupport":"Both" },
+      "kunekune:entity":{},
       "monarch:entity_alphatest":{},
       "pohutukawa:entity_alphatest":{ "msaaSupport":"Both" },
       "ponga:entity":{},

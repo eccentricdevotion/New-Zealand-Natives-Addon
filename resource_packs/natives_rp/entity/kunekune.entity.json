@@ -1,0 +1,36 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"ccl:kunekune",
+         "materials":{
+            "default":"kunekune"
+         },
+         "textures":{
+            "default":"textures/entity/kunekune/kunekune",
+            "white":"textures/entity/kunekune/kunekune2",
+            "black":"textures/entity/kunekune/kunekune3"
+         },
+         "geometry":{
+            "default":"geometry.kunekune"
+         },
+         "animations":{
+            "walk":"animation.kunekune.walk",
+            "look_at_target":"animation.common.look_at_target"
+         },
+         "scripts":{
+            "animate":[
+               { "walk": "!query.is_in_water && query.is_on_ground" },
+               "look_at_target"
+            ]
+         },
+         "render_controllers":[
+            "controller.render.kunekune"
+         ],
+         "spawn_egg":{
+            "texture":"ccl_fern",
+            "texture_index": 42
+         }
+      }
+   }
+}

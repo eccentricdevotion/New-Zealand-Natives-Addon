@@ -236,6 +236,15 @@
                "hurt":"ccl.fantail.say",
                "death":"ccl.fantail.say"
             }
+         },
+         "ccl:kunekune":{
+            "volume":0.7,
+            "pitch":[ 0.8, 1.2 ],
+            "events":{
+               "ambient":"ccl.kunekune.say",
+               "hurt":"ccl.kunekune.say",
+               "death":"ccl.kunekune.say"
+            }
          }
       }
    }

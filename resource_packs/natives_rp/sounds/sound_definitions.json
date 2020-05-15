@@ -355,5 +355,16 @@
          "sounds/fantail/fantail5",
          "sounds/fantail/fantail6"
       ]
+   },
+   "ccl.kunekune.say":{
+      "category":"animal",
+      "sounds":[
+         {
+            "name":"sounds/kunekune/kunekune1",
+            "load_on_low_memory":true
+         },
+         "sounds/kunekune/kunekune2",
+         "sounds/kunekune/kunekune3"
+      ]
    }
 }
