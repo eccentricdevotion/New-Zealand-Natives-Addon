@@ -2,6 +2,7 @@
    "materials":{
       "version":"1.0.0",
       "basket_fungus:entity":{},
+      "falcon:entity":{},
       "fantail:entity":{},
       "eel:entity":{},
       "frog:entity":{},

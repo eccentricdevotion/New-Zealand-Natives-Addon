@@ -245,6 +245,15 @@
                "hurt":"ccl.kunekune.say",
                "death":"ccl.kunekune.say"
             }
+         },
+         "ccl:falcon":{
+            "volume":0.7,
+            "pitch":[ 0.8, 1.2 ],
+            "events":{
+               "ambient":"ccl.falcon.say",
+               "hurt":"ccl.falcon.say",
+               "death":"ccl.falcon.say"
+            }
          }
       }
    }

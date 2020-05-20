@@ -366,5 +366,17 @@
          "sounds/kunekune/kunekune2",
          "sounds/kunekune/kunekune3"
       ]
+   },
+   "ccl.falcon.say":{
+      "category":"animal",
+      "sounds":[
+         {
+            "name":"sounds/falcon/falcon1",
+            "load_on_low_memory":true
+         },
+         "sounds/falcon/falcon2",
+         "sounds/falcon/falcon3",
+         "sounds/falcon/falcon4"
+      ]
    }
 }
