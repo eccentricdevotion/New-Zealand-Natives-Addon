@@ -3,7 +3,6 @@
    "minecraft:entity":{
       "description":{
          "identifier":"ccl:falcon",
-         "runtime_identifier":"minecraft:bat",
          "is_spawnable":true,
          "is_summonable":true,
          "is_experimental":false
@@ -16,7 +15,7 @@
             },
             "minecraft:breedable":{
                "requireTame":false,
-               "breedItems":"wheat",
+               "breedItems":"rabbit",
                "breedsWith":{
                   "mateType":"ccl:falcon",
                   "babyType":"ccl:falcon",
@@ -28,6 +27,26 @@
             },
             "minecraft:scale":{
                "value":0.6
+            }
+         },
+         "ccl:falcon_baby":{
+            "minecraft:is_baby":{
+
+            },
+            "minecraft:scale":{
+               "value":0.4
+            },
+            "minecraft:ageable":{
+               "duration":1200,
+               "feedItems":"rabbit",
+               "grow_up":{
+                  "event":"minecraft:ageable_grow_up",
+                  "target":"self"
+               }
+            },
+            "minecraft:behavior.follow_parent":{
+               "priority":6,
+               "speed_multiplier":1.1
             }
          }
       },
@@ -126,10 +145,73 @@
          },
          "minecraft:physics":{
 
+         },
+         "minecraft:behavior.breed":{
+            "priority":3,
+            "speed_multiplier":1.0
+         },
+         "minecraft:behavior.tempt":{
+            "priority":4,
+            "speed_multiplier":1.25,
+            "can_tempt_vertically":true,
+            "within_radius":20.0,
+            "items":[
+               "rabbit"
+            ]
+         },
+         "minecraft:behavior.look_at_player":{
+            "priority":7,
+            "look_distance":6.0,
+            "probability":0.02
+         },
+         "minecraft:behavior.random_look_around":{
+            "priority":9
          }
       },
       "events":{
          "minecraft:entity_spawned":{
+            "randomize":[
+               {
+                  "weight":95,
+                  "add":{
+                     "component_groups":[
+                        "ccl:falcon_adult"
+                     ]
+                  }
+               },
+               {
+                  "weight":5,
+                  "add":{
+                     "component_groups":[
+                        "ccl:falcon_baby"
+                     ]
+                  }
+               }
+            ]
+         },
+         "minecraft:entity_born":{
+            "add":{
+               "component_groups":[
+                  "ccl:falcon_baby"
+               ]
+            }
+         },
+         "minecraft:entity_transformed":{
+            "remove":{
+
+            },
+            "add":{
+               "component_groups":[
+                  "ccl:falcon_adult"
+               ]
+            }
+         },
+         "minecraft:ageable_grow_up":{
+            "remove":{
+               "component_groups":[
+                  "ccl:falcon_baby"
+               ]
+            },
             "add":{
                "component_groups":[
                   "ccl:falcon_adult"

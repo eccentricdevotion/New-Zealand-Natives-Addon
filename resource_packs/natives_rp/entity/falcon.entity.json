@@ -7,7 +7,8 @@
             "default":"falcon"
          },
          "textures":{
-            "default":"textures/entity/falcon/falcon"
+            "default":"textures/entity/falcon/falcon",
+            "baby":"textures/entity/falcon/falcon_baby"
          },
          "geometry":{
             "default":"geometry.falcon"
