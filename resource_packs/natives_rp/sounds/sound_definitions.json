@@ -378,5 +378,16 @@
          "sounds/falcon/falcon3",
          "sounds/falcon/falcon4"
       ]
+   },
+   "ccl.albatross.say":{
+      "category":"animal",
+      "sounds":[
+         {
+            "name":"sounds/albatross/albatross1",
+            "load_on_low_memory":true
+         },
+         "sounds/albatross/albatross2",
+         "sounds/albatross/albatross3"
+      ]
    }
 }

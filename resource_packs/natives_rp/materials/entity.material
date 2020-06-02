@@ -1,6 +1,7 @@
 {
    "materials":{
       "version":"1.0.0",
+      "albatross:entity":{},
       "basket_fungus:entity":{},
       "falcon:entity":{},
       "fantail:entity":{},

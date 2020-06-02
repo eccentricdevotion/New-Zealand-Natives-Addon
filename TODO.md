@@ -3,14 +3,14 @@
 1. Add more natives:
     - Adzebills
     - All extinct ones
-    - Australasian bittern
+    - Australasian bittern (Matuku)
     - Black-billed gull
     - Cabbage trees
     - Clematis afoliata = aphylla
     - Dactylanthus taylorii (woodrose, a parasitic plant)
     - Dawsonia superba (the world’s tallest moss!)
     - Fairy tern
-    - Giraffe weevil _(Rob C)_
+    - Giraffe weevil (Tūwhaipapa) _(Rob C)_
     - Glow worms
     - Hihi
     - Kauri
@@ -19,14 +19,16 @@
     - Mollymawk **<---**
     - Owlet-nightjars
     - Pāteke (brown teal) _(Rob L)_
-    - New Zealand falcon / kārearea
     - Podocarpus (rimu, kahikatea, miro, mataī and tōtara) forests
     - Pseudopanax crassifolius (Lancewood)
-    - Rifleman
-    - Rock wren
+    - Rifleman (Titipounamu)
+    - Rock wren (Hurupounamu)
     - Seals
     - Shore plover
-    - Taniwha (with Enderman behaviour)?
+    - Pāpaka (Paddle crab)
+    - Hākoakoa (Brown Skua)
+    - Giant Kōkopu (Fish / young are whitebait)
+    - Peripatus (Ngāokeoke - Velvet Worm) _(Rob C)_
 
 ## Done
 
@@ -49,12 +51,13 @@
 - Kōkako
 - Kōtare (Kingfisher)
 - Kotuku
-- Kōura (Freshwater crayfish)
+- Kēkēwai (Freshwater crayfish)
 - Kowhai
 - Kunekune - _in Ngā Motu pack_
 - Moa
 - Monarch butterfly / caterpillar _(need to change life cycle -> egg, caterpillar, chrysalis, butterfly)_
 - Native parasitoid wasps
+- New Zealand falcon / kārearea
 - Piwakawaka / fantail - _in Ngā Motu pack_
 - Pohutukawa
 - Powelliphanta
@@ -68,6 +71,7 @@
 - Skinks (Otago, Grand, Chevron & Striped)
 - Takahe
 - Tawaki (Fiordland crested penguin)
+- Toroa (Royal Albatross)
 - Treeferns (Ponga)
 - Tuatara
 - Tui

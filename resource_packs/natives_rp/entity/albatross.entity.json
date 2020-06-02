@@ -1,0 +1,36 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"ccl:albatross",
+         "materials":{
+            "default":"albatross"
+         },
+         "textures":{
+            "default":"textures/entity/albatross/albatross"
+         },
+         "geometry":{
+            "default":"geometry.albatross"
+         },
+         "animations":{
+            "bob":"animation.albatross.bob",
+            "fly":"animation.albatross.fly",
+            "look_at_target":"animation.common.look_at_target"
+         },
+         "scripts":{
+            "animate":[
+               { "bob": "query.is_on_ground || query.is_in_water" },
+               { "fly": "!query.is_on_ground" },
+               "look_at_target"
+            ]
+         },
+         "render_controllers":[
+            "controller.render.albatross"
+         ],
+         "spawn_egg":{
+            "texture":"ccl_fern",
+            "texture_index": 45
+         }
+      }
+   }
+}

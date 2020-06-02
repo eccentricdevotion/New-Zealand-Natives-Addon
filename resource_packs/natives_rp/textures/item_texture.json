@@ -51,7 +51,8 @@
             "textures/items/fantail_fern",
             "textures/items/kunekune_fern",
             "textures/items/eel_fern",
-            "textures/items/falcon_fern"
+            "textures/items/falcon_fern",
+            "textures/items/albatross_fern"
     	 ]
       }
    }
