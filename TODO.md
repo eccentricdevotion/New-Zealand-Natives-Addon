@@ -30,6 +30,8 @@
     - Giant Kōkopu (Fish / young are whitebait)
     - Peripatus (Ngāokeoke - Velvet Worm) _(Rob C)_
 
+2. Set all bird loot tables to `loot_tables/entities/parrot.json`
+
 ## Done
 
 - Dolphins, Hector’s / Maui’s
