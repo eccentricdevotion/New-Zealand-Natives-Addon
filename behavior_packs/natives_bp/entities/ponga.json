@@ -4,7 +4,7 @@
       "description":{
          "identifier":"ccl:ponga",
          "is_spawnable":true,
-         "is_summonable":false,
+         "is_summonable":true,
          "is_experimental":false
       },
       "component_groups":{
