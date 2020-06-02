@@ -62,7 +62,7 @@
             "suffocate_time":0
          },
          "minecraft:collision_box":{
-            "width":0.5,
+            "width":0.8,
             "height":0.9
          },
          "minecraft:damage_sensor":{

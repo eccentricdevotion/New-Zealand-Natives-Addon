@@ -64,7 +64,7 @@
 		},
 		"animation.falcon.fly": {
 			"loop": true,
-			"animation_length": 2.4,
+			"animation_length": 4.0,
 			"bones": {
 				"falcon": {
 					"rotation": [25, 0, 0]
