@@ -28,6 +28,7 @@
          "minecraft:type_family":{
             "family":[
                "ponga",
+               "tree",
                "inanimate"
             ]
          },

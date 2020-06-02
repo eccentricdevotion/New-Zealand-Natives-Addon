@@ -69,11 +69,12 @@
          "minecraft:type_family":{
             "family":[
                "whio",
+               "bird",
                "mob"
             ]
          },
          "minecraft:loot":{
-            "table":"loot_tables/whio.json"
+            "table":"loot_tables/entities/parrot.json"
          },
          "minecraft:breathable":{
             "totalSupply":250,

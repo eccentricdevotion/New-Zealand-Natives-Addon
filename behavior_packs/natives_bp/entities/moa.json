@@ -56,7 +56,9 @@
       "components":{
          "minecraft:type_family":{
             "family":[
-               "moa"
+               "moa",
+               "bird",
+               "mob"
             ]
          },
          "minecraft:breathable":{

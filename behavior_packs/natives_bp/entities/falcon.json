@@ -54,6 +54,7 @@
          "minecraft:type_family":{
             "family":[
                "falcon",
+               "bird",
                "mob"
             ]
          },

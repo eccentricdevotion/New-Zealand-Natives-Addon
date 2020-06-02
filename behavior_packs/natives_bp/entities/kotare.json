@@ -15,6 +15,13 @@
          }
       },
       "components":{
+         "minecraft:type_family":{
+            "family":[
+               "kotare",
+               "bird",
+               "mob"
+            ]
+         },
          "minecraft:breathable":{
             "total_supply":15,
             "suffocate_time":0

@@ -85,7 +85,9 @@
       "components":{
          "minecraft:type_family":{
             "family":[
-               "weka"
+               "weka",
+               "bird",
+               "mob"
             ]
          },
          "minecraft:breathable":{

@@ -20,8 +20,15 @@
          }
       },
       "components":{
+         "minecraft:type_family":{
+            "family":[
+               "huia",
+               "bird",
+               "mob"
+            ]
+         },
          "minecraft:breathable":{
-            "total_supply":15,
+            "total_supply":150,
             "suffocate_time":0
          },
          "minecraft:collision_box":{

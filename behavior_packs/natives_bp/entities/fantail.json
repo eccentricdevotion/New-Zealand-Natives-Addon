@@ -10,22 +10,6 @@
       },
       "component_groups":{
          "ccl:fantail_adult":{
-            "minecraft:behavior.breed":{
-               "priority":3,
-               "speed_multiplier":1.0
-            },
-            "minecraft:breedable":{
-               "requireTame":false,
-               "breedItems":"wheat",
-               "breedsWith":{
-                  "mateType":"ccl:fantail",
-                  "babyType":"ccl:fantail",
-                  "breed_event":{
-                     "event":"minecraft:entity_born",
-                     "target":"baby"
-                  }
-               }
-            },
             "minecraft:scale":{
                "value":0.6
             }
@@ -35,6 +19,7 @@
          "minecraft:type_family":{
             "family":[
                "fantail",
+               "bird",
                "mob"
             ]
          },

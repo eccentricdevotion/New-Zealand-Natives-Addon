@@ -60,7 +60,9 @@
       "components":{
          "minecraft:type_family":{
             "family":[
-               "kiwi"
+               "kiwi",
+               "bird",
+               "mob"
             ]
          },
          "minecraft:breathable":{

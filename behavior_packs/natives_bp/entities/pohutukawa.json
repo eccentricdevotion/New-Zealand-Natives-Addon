@@ -23,6 +23,7 @@
          "minecraft:type_family":{
             "family":[
                "pohutukawa",
+               "tree",
                "inanimate"
             ]
          },

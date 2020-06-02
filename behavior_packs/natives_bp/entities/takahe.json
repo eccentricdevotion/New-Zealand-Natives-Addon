@@ -63,7 +63,9 @@
       "components":{
          "minecraft:type_family":{
             "family":[
-               "takahe", "mob"
+               "takahe",
+               "bird",
+               "mob"
             ]
          },
          "minecraft:breathable":{

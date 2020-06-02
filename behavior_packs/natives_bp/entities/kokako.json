@@ -20,6 +20,13 @@
          }
       },
       "components":{
+         "minecraft:type_family":{
+            "family":[
+               "kokako",
+               "bird",
+               "mob"
+            ]
+         },
          "minecraft:breathable":{
             "total_supply":15,
             "suffocate_time":0
