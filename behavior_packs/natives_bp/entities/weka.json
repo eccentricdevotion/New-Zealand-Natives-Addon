@@ -37,9 +37,6 @@
             "minecraft:scale":{
                "value":0.75
             },
-            "minecraft:loot":{
-               "table":"loot_tables/entities/weka.json"
-            },
             "minecraft:breedable":{
                "requireTame":false,
                "breedsWith":{
@@ -89,6 +86,9 @@
                "bird",
                "mob"
             ]
+         },
+         "minecraft:loot":{
+            "table":"loot_tables/entities/parrot.json"
          },
          "minecraft:breathable":{
             "totalSupply":15,

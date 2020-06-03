@@ -111,6 +111,9 @@
             "breathes_air":true,
             "generates_bubbles":false
          },
+         "minecraft:loot":{
+            "table":"loot_tables/entities/parrot.json"
+         },
          "minecraft:nameable":{
 
          },

@@ -35,7 +35,7 @@
          },
          "takahe_adult":{
             "minecraft:loot":{
-               "table":"loot_tables/entities/takahe.json"
+               "table":"loot_tables/entities/parrot.json"
             },
             "minecraft:breedable":{
                "requireTame":false,

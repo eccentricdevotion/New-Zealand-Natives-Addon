@@ -23,7 +23,7 @@
             ]
          },
          "minecraft:loot":{
-            "table":"loot_tables/albatross.json"
+            "table":"loot_tables/entities/parrot.json"
          },
          "minecraft:breathable":{
             "totalSupply":1500,
