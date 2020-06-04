@@ -27,6 +27,7 @@
       "kunekune:entity":{},
       "moa:entity":{},
       "monarch:entity_alphatest":{},
+      "papaka:entity":{},
       "pohutukawa:entity_alphatest":{ "msaaSupport":"Both" },
       "ponga:entity":{},
       "pukeko:entity":{},

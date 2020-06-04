@@ -25,12 +25,10 @@
     - Rock wren (Hurupounamu)
     - Seals
     - Shore plover
-    - Pāpaka (Paddle crab)
     - Hākoakoa (Brown Skua)
     - Giant Kōkopu (Fish / young are whitebait)
     - Peripatus (Ngāokeoke - Velvet Worm) _(Rob C)_
 
-2. Set all bird loot tables to `loot_tables/entities/parrot.json`
 
 ## Done
 
@@ -60,6 +58,7 @@
 - Monarch butterfly / caterpillar _(need to change life cycle -> egg, caterpillar, chrysalis, butterfly)_
 - Native parasitoid wasps
 - New Zealand falcon / kārearea
+- Pāpaka (Paddle crab)
 - Piwakawaka / fantail - _in Ngā Motu pack_
 - Pohutukawa
 - Powelliphanta
