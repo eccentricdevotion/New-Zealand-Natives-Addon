@@ -1,41 +1,42 @@
 # TODO
 
-1. Add more natives:
-    - Adzebills
-    - All extinct ones
-    - Australasian bittern (Matuku)
-    - Black-billed gull
-    - Cabbage trees
-    - Clematis afoliata = aphylla
-    - Dactylanthus taylorii (woodrose, a parasitic plant)
-    - Dawsonia superba (the world’s tallest moss!)
-    - Fairy tern
-    - Giraffe weevil (Tūwhaipapa) _(Rob C)_
-    - Glow worms
-    - Hihi
-    - Kauri
-    - King Shag
-    - Mohua (yellowhead)
-    - Mollymawk **<---**
-    - Owlet-nightjars
-    - Pāteke (brown teal) _(Rob L)_
-    - Podocarpus (rimu, kahikatea, miro, mataī and tōtara) forests
-    - Pseudopanax crassifolius (Lancewood)
-    - Rifleman (Titipounamu)
-    - Rock wren (Hurupounamu)
-    - Seals
-    - Shore plover
-    - Hākoakoa (Brown Skua)
-    - Giant Kōkopu (Fish / young are whitebait)
-    - Peripatus (Ngāokeoke - Velvet Worm) _(Rob C)_
+#### Fauna:
+- All extinct ones
+- Australasian bittern (Matuku)
+- Black-billed gull
+- Fairy tern
+- Giraffe weevil (Tūwhaipapa) _(Rob C)_
+- Glow worms
+- Hihi
+- King Shag
+- Mohua (yellowhead)
+- Mollymawk
+- Owlet-nightjars
+- Pāteke (brown teal) _(Rob L)_
+- Rifleman (Titipounamu)
+- Rock wren (Hurupounamu)
+- Seals
+- Shore plover
+- Hākoakoa (Brown Skua)
+- Giant Kōkopu (Fish / young are whitebait)
+- Peripatus (Ngāokeoke - Velvet Worm) _(Rob C)_
+
+#### Flora:
+- Cabbage trees
+- Clematis afoliata = aphylla
+- Dactylanthus taylorii (woodrose, a parasitic plant)
+- Dawsonia superba (the world’s tallest moss!)
+- Kauri
+- Podocarpus (rimu, kahikatea, miro, mataī and tōtara) forests
+- Pseudopanax crassifolius (Lancewood)
+
 
 
 ## Done
 
 - Dolphins, Hector’s / Maui’s
-- Eels (Tuna) - _in Ngā Motu pack_
 - Frogs (Archey’s, Hochstetter's, Hamilton's & Maud Island)
-- Geckos (green & jewelled)
+- Geckos (green & jewelled) (moko kākāriki)
 - Haast’s eagle
 - Harakeke
 - Harvestman _(Rob C)_
@@ -46,24 +47,25 @@
 - Kakapo
 - Katipo
 - Kea
-- Kereru
+- Kererū
 - Kiwi
 - Kōkako
 - Kōtare (Kingfisher)
 - Kotuku
 - Kēkēwai (Freshwater crayfish)
 - Kowhai
-- Kunekune - _in Ngā Motu pack_
+- Kunekune (pig)
+- Long-finned Eels (Tuna)
 - Moa
-- Monarch butterfly / caterpillar _(need to change life cycle -> egg, caterpillar, chrysalis, butterfly)_
+- Monarch butterfly / caterpillar
 - Native parasitoid wasps
-- New Zealand falcon / kārearea
+- New Zealand falcon (kārearea)
 - Pāpaka (Paddle crab)
-- Piwakawaka / fantail - _in Ngā Motu pack_
+- Piwakawaka / fantail
 - Pohutukawa
 - Powelliphanta
 - Pukeko _(Rob L)_
-- Puriri moth
+- Pūriri moth
 - Red Admiral
 - Ruru (Morepork)
 - Saddleback (‎tīeke)
@@ -75,7 +77,7 @@
 - Toroa (Royal Albatross)
 - Treeferns (Ponga)
 - Tuatara
-- Tui
+- Tūī
 - Weka
-- Weta
+- Wētā
 - Whio (blue duck)
