@@ -263,6 +263,15 @@
                "hurt":"ccl.albatross.say",
                "death":"ccl.albatross.say"
             }
+         },
+         "ccl:pateke":{
+            "volume":0.7,
+            "pitch":[ 0.8, 1.2 ],
+            "events":{
+               "ambient":"ccl.pateke.say",
+               "hurt":"ccl.pateke.say",
+               "death":"ccl.pateke.say"
+            }
          }
       }
    }

@@ -389,5 +389,16 @@
          "sounds/albatross/albatross2",
          "sounds/albatross/albatross3"
       ]
+   },
+   "ccl.pateke.say":{
+      "category":"animal",
+      "sounds":[
+         {
+            "name":"sounds/pateke/pateke1",
+            "load_on_low_memory":true
+         },
+         "sounds/pateke/pateke2",
+         "sounds/pateke/pateke3"
+      ]
    }
 }

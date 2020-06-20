@@ -1,0 +1,40 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"ccl:pateke",
+         "materials":{
+            "default":"pateke"
+         },
+         "textures":{
+            "default":"textures/entity/pateke/pateke"
+         },
+         "geometry":{
+            "default":"geometry.pateke"
+         },
+         "animations":{
+            "walk":"animation.pateke.walk",
+            "fly":"animation.pateke.fly",
+            "swim":"animation.pateke.swim",
+            "feed":"animation.pateke.feed",
+            "look_at_target":"animation.common.look_at_target"
+         },
+         "scripts":{
+            "animate":[
+               { "walk": "!query.is_in_water && query.is_on_ground" },
+               { "fly": "!query.is_in_water && !query.is_on_ground" },
+               { "swim": "query.is_in_water" },
+               { "feed": "query.is_in_water" },
+               "look_at_target"
+            ]
+         },
+         "render_controllers":[
+            "controller.render.pateke"
+         ],
+         "spawn_egg":{
+            "texture":"ccl_fern",
+            "texture_index": 47
+         }
+      }
+   }
+}
