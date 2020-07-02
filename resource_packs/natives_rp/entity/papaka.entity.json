@@ -13,7 +13,7 @@
             "default":"geometry.papaka"
          },
          "animations":{
-            "crab":"animation.papaka.walk",
+            "crab":"animation.papaka.crab",
             "swim":"animation.papaka.swim",
             "look_at_target":"animation.common.look_at_target"
          },
