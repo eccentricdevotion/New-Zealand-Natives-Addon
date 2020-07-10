@@ -1,0 +1,40 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"ccl:weevil",
+         "materials":{
+            "default":"weevil"
+         },
+         "textures":{
+            "default":"textures/entity/weevil/giraffe_weevil_female",
+            "male":"textures/entity/weevil/giraffe_weevil_male"
+         },
+         "geometry":{
+            "default":"geometry.weevil_female",
+            "male":"geometry.weevil_male"
+         },
+         "animations":{
+            "walk":"animation.weevil.walk",
+            "sense_female":"animation.weevil.sense_female",
+            "sense_male":"animation.weevil.sense_male",
+            "look_at_target":"animation.common.look_at_target"
+         },
+         "scripts":{
+            "animate":[
+               { "walk": "query.modified_move_speed" },
+               { "sense_female": "query.variant == 0" },
+               { "sense_male": "query.variant == 1" },
+               "look_at_target"
+            ]
+         },
+         "render_controllers":[
+            "controller.render.weevil"
+         ],
+         "spawn_egg":{
+            "texture":"ccl_fern",
+            "texture_index": 48
+         }
+      }
+   }
+}

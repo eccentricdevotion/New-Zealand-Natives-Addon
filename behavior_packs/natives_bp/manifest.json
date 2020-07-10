@@ -4,7 +4,7 @@
       "description":"New Zealand Natives",
       "name":"NZ Natives Behaviour Pack",
       "uuid":"98074497-9b65-4b8a-84c4-d13a0b4c088d",
-      "version":[ 1, 0, 97 ],
+      "version":[ 1, 0, 99 ],
       "min_engine_version":[ 1, 10, 0 ]
    },
    "modules":[
@@ -12,13 +12,13 @@
          "description":"NZ Natives Behaviour Pack",
          "type":"data",
          "uuid":"d5c47dda-6eec-448d-94ff-70dc3d4170dc",
-         "version":[ 1, 0, 97 ]
+         "version":[ 1, 0, 99 ]
       }
    ],
    "dependencies":[
       {
          "uuid":"7588a857-7821-4c20-ab08-91d13c303b11",
-         "version":[ 1, 0, 97 ]
+         "version":[ 1, 0, 99 ]
       }
    ],
    "metadata": {

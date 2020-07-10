@@ -1,0 +1,24 @@
+{
+   "format_version":"1.8.0",
+   "render_controllers":{
+      "controller.render.weevil":{
+         "arrays":{
+            "textures":{
+               "Array.textures":[
+                  "Texture.default",
+                  "Texture.male"
+               ]
+            },
+            "geometries":{
+               "Array.geos":[
+                  "Geometry.default",
+                  "Geometry.male"
+               ]
+            }
+         },
+         "textures":[ "Array.textures[query.variant]" ],
+         "geometry":"Array.geos[query.variant]",
+         "materials":[ { "*":"Material.default" } ]
+      }
+   }
+}
