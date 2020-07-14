@@ -22,7 +22,7 @@
          },
          "scripts":{
             "animate":[
-               { "walk": "query.modified_move_speed" },
+               "walk",
                { "sense_female": "query.variant == 0" },
                { "sense_male": "query.variant == 1" },
                "look_at_target"

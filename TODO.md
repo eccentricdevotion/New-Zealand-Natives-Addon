@@ -5,14 +5,12 @@
 - Australasian bittern (Matuku)
 - Black-billed gull
 - Fairy tern
-- Giraffe weevil (Tūwhaipapa) _(Rob C)_
 - Glow worms
 - Hihi
 - King Shag
 - Mohua (yellowhead)
 - Mollymawk
 - Owlet-nightjars
-- Pāteke (brown teal) _(Rob L)_
 - Rifleman (Titipounamu)
 - Rock wren (Hurupounamu)
 - Seals
@@ -37,6 +35,7 @@
 - Dolphins, Hector’s / Maui’s
 - Frogs (Archey’s, Hochstetter's, Hamilton's & Maud Island)
 - Geckos (green & jewelled) (moko kākāriki)
+- Giraffe weevil (Tūwhaipapa) _(Rob C)_
 - Haast’s eagle
 - Harakeke
 - Harvestman _(Rob C)_
@@ -61,6 +60,7 @@
 - Native parasitoid wasps
 - New Zealand falcon (kārearea)
 - Pāpaka (Paddle crab)
+- Pāteke (brown teal) _(Rob L)_
 - Piwakawaka / fantail
 - Pohutukawa
 - Powelliphanta
