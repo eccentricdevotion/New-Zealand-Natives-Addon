@@ -7,7 +7,6 @@
 - Fairy tern
 - Glow worms
 - Hihi
-- King Shag (Kawau)
 - Mohua (yellowhead)
 - Mollymawk
 - Owlet-nightjars
@@ -47,6 +46,7 @@
 - Katipo
 - Kea
 - Kererū
+- King Shag (Kawau)
 - Kiwi
 - Kōkako
 - Kōtare (Kingfisher)
