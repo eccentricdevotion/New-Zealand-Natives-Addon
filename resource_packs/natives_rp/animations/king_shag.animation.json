@@ -3,6 +3,7 @@
 	"animations": {
 		"animation.king_shag.walk": {
 			"loop": true,
+			"anim_time_update": "query.modified_distance_moved / 2.0",
 			"animation_length": 0.8,
 			"bones": {
 				"king_shag": {
