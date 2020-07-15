@@ -400,5 +400,18 @@
          "sounds/pateke/pateke2",
          "sounds/pateke/pateke3"
       ]
+   },
+   "ccl.king_shag.say":{
+      "category":"animal",
+      "sounds":[
+         {
+            "name":"sounds/king_shag/king_shag1",
+            "load_on_low_memory":true
+         },
+         "sounds/king_shag/king_shag2",
+         "sounds/king_shag/king_shag3",
+         "sounds/king_shag/king_shag4",
+         "sounds/king_shag/king_shag5"
+      ]
    }
 }

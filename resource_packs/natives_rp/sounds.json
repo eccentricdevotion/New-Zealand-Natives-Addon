@@ -272,6 +272,15 @@
                "hurt":"ccl.pateke.say",
                "death":"ccl.pateke.say"
             }
+         },
+         "ccl:king_shag":{
+            "volume":0.7,
+            "pitch":[ 0.8, 1.2 ],
+            "events":{
+               "ambient":"ccl.king_shag.say",
+               "hurt":"ccl.king_shag.say",
+               "death":"ccl.king_shag.say"
+            }
          }
       }
    }

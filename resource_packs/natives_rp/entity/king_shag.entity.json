@@ -1,0 +1,38 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"ccl:king_shag",
+         "materials":{
+            "default":"king_shag"
+         },
+         "textures":{
+            "default":"textures/entity/king_shag/king_shag"
+         },
+         "geometry":{
+            "default":"geometry.king_shag"
+         },
+         "animations":{
+            "walk":"animation.king_shag.walk",
+            "fly":"animation.king_shag.fly",
+            "swim":"animation.king_shag.swim",
+            "look_at_target":"animation.common.look_at_target"
+         },
+         "scripts":{
+            "animate":[
+               { "walk": "!query.is_in_water && query.is_on_ground" },
+               { "fly": "!query.is_in_water && !query.is_on_ground" },
+               { "swim": "query.is_in_water" },
+               "look_at_target"
+            ]
+         },
+         "render_controllers":[
+            "controller.render.king_shag"
+         ],
+         "spawn_egg":{
+            "texture":"ccl_fern",
+            "texture_index": 45
+         }
+      }
+   }
+}

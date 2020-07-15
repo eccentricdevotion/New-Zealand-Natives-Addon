@@ -7,7 +7,7 @@
 - Fairy tern
 - Glow worms
 - Hihi
-- King Shag
+- King Shag (Kawau)
 - Mohua (yellowhead)
 - Mollymawk
 - Owlet-nightjars
