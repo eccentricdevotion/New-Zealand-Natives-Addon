@@ -86,19 +86,11 @@
          "minecraft:can_fly":{
 
          },
-         "minecraft:navigation.walk":{
-            "can_path_over_water":true,
-            "avoid_water":false,
-            "avoid_damage_blocks":true
-         },
-         "minecraft:movement":{
-            "value":0.25
-         },
          "minecraft:movement.fly":{
             "value":0.25
          },
-         "minecraft:movement.generic":{
-
+         "minecraft:movement":{
+            "value":0.25
          },
          "minecraft:jump.static":{
 
@@ -119,9 +111,6 @@
          },
          "minecraft:behavior.float":{
             "priority":0
-         },
-         "minecraft:navigation.float":{
-            "can_path_over_water":true
          },
          "minecraft:behavior.panic":{
             "priority":1,

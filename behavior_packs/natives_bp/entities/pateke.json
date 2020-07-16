@@ -23,19 +23,11 @@
             ]
          },
          "minecraft:loot":{
-               "table":"loot_tables/entities/parrot.json"
+            "table":"loot_tables/entities/parrot.json"
          },
          "minecraft:breathable":{
             "totalSupply":1500,
             "suffocateTime":0
-         },
-         "minecraft:navigation.walk":{
-            "can_path_over_water":false,
-            "avoid_water":true,
-            "avoid_damage_blocks":true
-         },
-         "minecraft:movement.generic":{
-
          },
          "minecraft:jump.static": {
          },
@@ -56,19 +48,6 @@
          "minecraft:behavior.float":{
             "priority":0
          },
-         "minecraft:navigation.float":{
-            "can_path_over_water":true
-         },
-         "minecraft:behavior.float_wander":{
-            "xz_dist":10,
-            "y_dist":7,
-            "y_offset":-2.0,
-            "random_reselect":true,
-            "float_duration":[
-               0.5,
-               1.5
-            ]
-         },
          "minecraft:behavior.panic":{
             "priority":1,
             "speed_multiplier":1.25
@@ -83,7 +62,7 @@
             "priority":4,
             "speed_multiplier":1.25,
             "items":[
-               ""
+               "lily_pad"
             ]
          },
          "minecraft:behavior.random_stroll":{
@@ -101,19 +80,22 @@
          "minecraft:physics":{
 
          },
-         "minecraft:navigation.fly":{
-            "can_path_over_water":true
-         },
          "minecraft:behavior.random_fly":{
-            "priority":2,
+            "priority":7,
             "xz_dist":15,
-            "y_dist":15,
+            "y_dist":1,
             "y_offset":0,
             "speed_multiplier":1.0,
             "can_land_on_trees":true,
             "avoid_damage_blocks":true
          },
-         "minecraft:can_fly":{
+        "minecraft:can_fly":{
+
+         },
+         "minecraft:navigation.fly":{
+            "can_path_over_water":true
+         },
+         "minecraft:movement.fly":{
 
          },
          "minecraft:damage_sensor":{
