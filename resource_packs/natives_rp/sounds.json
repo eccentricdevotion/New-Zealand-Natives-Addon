@@ -281,6 +281,15 @@
                "hurt":"ccl.king_shag.say",
                "death":"ccl.king_shag.say"
             }
+         },
+         "ccl:korora":{
+            "volume":0.7,
+            "pitch":[ 0.8, 1.2 ],
+            "events":{
+               "ambient":"ccl.korora.say",
+               "hurt":"ccl.korora.say",
+               "death":"ccl.korora.say"
+            }
          }
       }
    }

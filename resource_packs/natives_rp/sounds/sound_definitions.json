@@ -413,5 +413,17 @@
          "sounds/king_shag/king_shag4",
          "sounds/king_shag/king_shag5"
       ]
+   },
+   "ccl.korora.say":{
+      "category":"animal",
+      "sounds":[
+         {
+            "name":"sounds/korora/korora1",
+            "load_on_low_memory":true
+         },
+         "sounds/korora/korora2",
+         "sounds/korora/korora3",
+         "sounds/korora/korora4"
+      ]
    }
 }
