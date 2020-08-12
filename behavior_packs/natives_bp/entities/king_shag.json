@@ -66,7 +66,7 @@
             "priority":4,
             "speed_multiplier":1.25,
             "items":[
-               "cod"
+               "fish"
             ]
          },
          "minecraft:behavior.random_stroll":{

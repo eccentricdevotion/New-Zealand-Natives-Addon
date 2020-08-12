@@ -27,24 +27,39 @@
             "minecraft:navigation.float":{
                "can_path_over_water":false
             },
+            "minecraft:flying_speed":{
+               "value":0.15
+            },
+            "minecraft:navigation.hover":{
+               "can_path_over_water":true,
+               "can_sink":false,
+               "can_path_from_air":true,
+               "avoid_water":true,
+               "avoid_damage_blocks":true,
+               "avoid_sun":false
+            },
+            "minecraft:movement.hover":{
+
+            },
             "minecraft:jump.static":{
 
             },
-            "minecraft:behavior.float":{
-               "priority":0
-            },
-            "minecraft:behavior.float_wander":{
-               "xz_dist":10,
-               "y_dist":7,
-               "y_offset":-2.0,
-               "random_reselect":true,
-               "float_duration":[
-                  0.1,
-                  1.0
-               ]
-            },
             "minecraft:can_fly":{
 
+            },
+            "minecraft:behavior.random_hover":{
+               "priority":12,
+               "xz_dist":8,
+               "y_dist":8,
+               "y_offset":-1,
+               "interval":1,
+               "hover_height":[
+                  1,
+                  4
+               ]
+            },
+            "minecraft:behavior.float":{
+               "priority":20
             }
          }
       },
@@ -87,6 +102,19 @@
          "minecraft:behavior.float":{
             "priority":1
          },
+         "minecraft:behavior.float":{
+            "priority":0
+         },
+         "minecraft:behavior.float_wander":{
+            "xz_dist":10,
+            "y_dist":7,
+            "y_offset":-2.0,
+            "random_reselect":true,
+            "float_duration":[
+               0.1,
+               1.0
+            ]
+         },
          "minecraft:behavior.random_stroll":{
             "priority":6,
             "speed_multiplier":0.8
@@ -104,6 +132,38 @@
          },
          "minecraft:physics":{
             "has_gravity":true
+         },
+         "minecraft:behavior.move_to_block":{
+            "priority":11,
+            "tick_interval":1,
+            "start_chance":0.5,
+            "search_range":6,
+            "search_height":4,
+            "goal_radius":1.0,
+            "stay_duration":20.0,
+            "target_selection_method":"random",
+            "target_offset":[
+               0,
+               0.25,
+               0
+            ],
+            "target_blocks":[
+               "minecraft:red_flower",
+               "minecraft:yellow_flower",
+               "minecraft:wither_rose",
+               "minecraft:sweet_berry_bush",
+               "minecraft:double_plant:8",
+               "minecraft:double_plant:9",
+               "minecraft:double_plant:12",
+               "minecraft:double_plant:13"
+            ]
+         },
+         "minecraft:timer":{
+            "looping":true,
+            "time":180,
+            "time_down_event":{
+               "event":"find_flower_timeout"
+            }
          }
       },
       "events":{

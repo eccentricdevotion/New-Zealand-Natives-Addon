@@ -91,7 +91,7 @@
             "priority":4,
             "speed_multiplier":1.05,
             "items":[
-               "lily_pad"
+               "waterlily"
             ]
          },
          "minecraft:behavior.random_stroll":{
