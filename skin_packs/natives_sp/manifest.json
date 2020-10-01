@@ -3,13 +3,13 @@
    "header":{
       "name":"NZ Natives Skin Pack",
       "uuid":"7026c5d2-a5bc-4904-84fb-7235923a2cce",
-      "version":[ 1, 0, 0 ]
+      "version":[ 1, 0, 108 ]
    },
    "modules":[
       {
          "type":"skin_pack",
          "uuid":"ea326e0b-524f-449f-a372-0e100cc409d7",
-         "version":[ 1, 0, 0 ]
+         "version":[ 1, 0, 108 ]
       }
    ]
 }
