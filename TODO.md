@@ -18,6 +18,9 @@
 - Peripatus (Ngāokeoke - Velvet Worm) _(Rob C)_
 
 #### Flora:
+
+Flora is really hard, as we can't add new blocks to the Education Edition of Minecraft - the plants we have added are actually entities...
+
 - Cabbage trees
 - Clematis afoliata = aphylla
 - Dactylanthus taylorii (woodrose, a parasitic plant)
@@ -28,6 +31,7 @@
 
 ## Done
 
+- Centipede (Hura, Cormocephalus rubriceps)
 - Dolphins, Hector’s / Maui’s
 - Frogs (Archey’s, Hochstetter's, Hamilton's & Maud Island)
 - Geckos (Green & Jewelled) (Moko Kākāriki)
