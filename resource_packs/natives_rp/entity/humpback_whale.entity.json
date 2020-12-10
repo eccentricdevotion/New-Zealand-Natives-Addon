@@ -1,0 +1,36 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"ccl:humpback_whale",
+         "materials":{
+            "default":"humpback_whale"
+         },
+         "textures":{
+            "default":"textures/entity/humpback_whale/humpback_whale",
+            "baby":"textures/entity/humpback_whale/humpback_whale_baby"
+         },
+         "geometry":{
+            "default":"geometry.humpback_whale"
+         },
+         "animations":{
+            "swim":"animation.humpback_whale.swim",
+            "breach": "animation.humpback_whale.breach",
+            "look_at_target":"animation.humpback_whale.look_at_target"
+         },
+         "scripts":{
+            "animate":[
+               { "swim": "query.is_in_water" },
+               "look_at_target"
+            ]
+         },
+         "render_controllers":[
+            "controller.render.humpback_whale"
+         ],
+         "spawn_egg":{
+            "texture":"ccl_fern",
+            "texture_index": 53
+         }
+      }
+   }
+}

@@ -1,0 +1,58 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.humpback_whale.swim": {
+			"loop": true,
+			"animation_length": 1.6,
+			"anim_time_update": "query.modified_distance_moved / 3.0",
+			"bones": {
+				"flipper1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.8": [10, 0, -55],
+						"1.6": [0, 0, 0]
+					}
+				},
+				"tailfin": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.4": [25, 0, 0],
+						"0.8": [0, 0, 0],
+						"1.2": [-25, 0, 0],
+						"1.6": [0, 0, 0]
+					}
+				},
+				"flipper2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.8": [10, 0, 55],
+						"1.6": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.humpback_whale.breach": {
+			"loop": true,
+			"bones": {
+				"humpback": {
+					"rotation": [0, 0, 0]
+				},
+				"flipper1": {
+					"rotation": [30, -60, 0]
+				},
+				"flipper2": {
+					"rotation": [30, 60, 0]
+				}
+			}
+		},
+		"animation.humpback_whale.look_at_target": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"relative_to": { "rotation": "entity" },
+					"rotation": [ "Math.clamp(query.target_x_rotation, -10, 10)", "Math.clamp(query.target_y_rotation, 0, 10)", 0.0 ]
+				}
+			}
+		}
+	}
+}

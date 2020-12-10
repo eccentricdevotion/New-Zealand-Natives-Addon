@@ -425,5 +425,14 @@
          "sounds/korora/korora3",
          "sounds/korora/korora4"
       ]
+   },
+   "ccl.humpback_whale.say":{
+      "category":"animal",
+      "sounds":[
+         {
+            "name":"sounds/humpback_whale/humpback_whale",
+            "load_on_low_memory":true
+         }
+      ]
    }
 }

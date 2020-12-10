@@ -41,6 +41,7 @@ Flora is really hard, as we can't add new blocks to the Education Edition of Min
 - Harakeke
 - Harvestman _(Rob C)_
 - Hoiho (yellow-eyed penguin)
+- Humpback whale
 - Huhu Grubs / Beetles
 - Huia
 - Ileodictyon cibarius (a basket fungus)

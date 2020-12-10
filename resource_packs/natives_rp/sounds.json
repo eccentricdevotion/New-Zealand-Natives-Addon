@@ -290,6 +290,15 @@
                "hurt":"ccl.korora.say",
                "death":"ccl.korora.say"
             }
+         },
+         "ccl:humpback_whale":{
+            "volume":1.0,
+            "pitch":[ 0.8, 1.2 ],
+            "events":{
+               "ambient":"ccl.humpback_whale.say",
+               "hurt":"ccl.humpback_whale.say",
+               "death":"ccl.humpback_whale.say"
+            }
          }
       }
    }
