@@ -118,7 +118,7 @@
 				}
 			}
 		},
-		"animation.tawaki.look_at_target": {
+		"animation.whio.look_at_target": {
 			"loop": true,
 			"bones": {
 				"head": {
