@@ -18,7 +18,9 @@
          "minecraft:type_family":{
             "family":[
                "harvestman",
-               "mob"
+               "mob",
+               "spider",
+               "arthropod"
             ]
          },
          "minecraft:loot":{
@@ -80,7 +82,7 @@
             "priority":4,
             "speed_multiplier":1.05,
             "items":[
-               "wheat"
+               "huhu_grub"
             ]
          },
          "minecraft:behavior.follow_parent":{
