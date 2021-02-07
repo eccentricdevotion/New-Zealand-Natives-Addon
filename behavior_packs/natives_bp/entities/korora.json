@@ -15,9 +15,11 @@
             },
             "minecraft:breedable":{
                "requireTame":false,
-               "breedItems":"wheat",
+               "breedItems":
+               "fish", 
+               "salmon"
                "breedsWith":{
-                  "mateType":"ccl:korora",
+                  "mateType":"ccl:korora, 
                   "babyType":"ccl:korora",
                   "breed_event":{
                      "event":"minecraft:entity_born",
@@ -35,7 +37,8 @@
             "family":[
                "korora",
                "bird",
-               "mob"
+               "mob",
+               "penguin"
             ]
          },
          "minecraft:loot":{
