@@ -3,7 +3,7 @@
    "minecraft:entity":{
       "description":{
          "identifier":"ccl:humpback_whale",
-         "runtime_identifier": "minecraft:dolphin",
+         "runtime_identifier":"minecraft:fish",
          "is_spawnable":true,
          "is_summonable":true,
          "is_experimental":false
@@ -32,7 +32,7 @@
          },
          "ccl:humpback_whale_baby":{
             "minecraft:is_baby":{
-
+               
             },
             "minecraft:scale":{
                "value":1.0
@@ -68,36 +68,36 @@
             "breathes_air":true,
             "generates_bubbles":false
          },
-         "minecraft:navigation.generic": {
-          "is_amphibious": false,
-          "can_path_over_water": false,
-          "can_swim": true,
-          "can_walk": false,
-          "can_breach": true,
-          "can_sink": false
-          },
+         "minecraft:navigation.generic":{
+            "is_amphibious":false,
+            "can_path_over_water":false,
+            "can_swim":true,
+            "can_walk":false,
+            "can_breach":true,
+            "can_sink":false
+         },
          "minecraft:movement.generic":{
-
+            
          },
          "minecraft:jump.static":{
-
+            
          },
          "minecraft:can_climb":{
-
+            
          },
          "minecraft:collision_box":{
             "width":0.5,
             "height":0.8
          },
          "minecraft:nameable":{
-
+            
          },
          "minecraft:health":{
             "value":10,
             "max":10
          },
          "minecraft:movement":{
-            "value":0.1
+            "value":0.08
          },
          "minecraft:behavior.panic":{
             "priority":1,
@@ -137,32 +137,48 @@
             "priority":9
          },
          "minecraft:physics":{
-
+            
          },
          "minecraft:water_movement":{
             "drag_factor":0.9
          },
-            "minecraft:underwater_movement":{
-            "value":0.12
+         "minecraft:underwater_movement":{
+            "value":0.08
          },
          "minecraft:behavior.move_to_water":{
             "priority":4,
             "search_range":16,
             "search_height":5,
             "search_count":1,
-            "goal_radius":0.1
+            "goal_radius":10.1
          },
          "minecraft:behavior.move_to_land":{
-             "priority":6,
-             "search_range":16,
-             "search_height":5,
-             "goal_radius":0.5
+            "priority":6,
+            "search_range":16,
+            "search_height":5,
+            "goal_radius":0.5
+         },
+         "minecraft:movement.sway":{
+            "sway_amplitude":0.0
+         },
+         "minecraft:behavior.swim_idle":{
+            "priority":5,
+            "idle_time":5.0,
+            "success_rate":0.1
          },
          "minecraft:behavior.random_swim":{
-            "priority":7,
-            "interval":0,
-            "xz_dist":30,
-            "y_dist":15
+            "priority":3,
+            "speed_multiplier":1.0,
+            "xz_dist":16,
+            "y_dist":4,
+            "interval":0
+         },
+         "minecraft:behavior.swim_wander":{
+            "priority":4,
+            "interval":0.1,
+            "look_ahead":2.0,
+            "speed_multiplier":1.0,
+            "wander_time":5.0
          }
       },
       "events":{
@@ -195,7 +211,7 @@
          },
          "minecraft:entity_transformed":{
             "remove":{
-
+               
             },
             "add":{
                "component_groups":[
