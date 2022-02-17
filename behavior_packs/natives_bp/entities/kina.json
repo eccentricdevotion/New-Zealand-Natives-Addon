@@ -1,0 +1,233 @@
+{
+	   "format_version":"1.8.0",
+	   "minecraft:entity":{
+		  "description":{
+			 "identifier":"ccl:kina",
+			 "is_spawnable":true,
+			 "is_summonable":true,
+			 "is_experimental":false
+		  },
+	
+		  "component_groups":{
+			 "ccl:kina_adult":{
+				"minecraft:behavior.breed":{
+				   "priority":3,
+				   "speed_multiplier":1.0
+				},
+				"minecraft:breedable":{
+				   "requireTame":false,
+				   "breedItems":"kelp",
+				   "breedsWith":{
+					  "mateType":"ccl:kina",
+					  "babyType":"ccl:kina",
+					  "breed_event":{
+						 "event":"minecraft:entity_born",
+						 "target":"baby"
+					  }
+				   }
+				},
+				"minecraft:scale":{
+				   "value":0.5
+				}
+			 },
+			 "ccl:kina_baby":{
+				"minecraft:is_baby":{
+
+				},
+				"minecraft:scale":{
+				   "value":0.2
+				},
+				"minecraft:ageable":{
+				   "duration":1200,
+				   "feedItems":"kelp",
+				   "grow_up":{
+					  "event":"minecraft:ageable_grow_up",
+					  "target":"self"
+				   }
+				},
+				"minecraft:behavior.follow_parent":{
+				   "priority":6,
+				   "speed_multiplier":1.1
+				}
+			 }
+		  },
+		  "components":{
+			 "minecraft:type_family":{
+				"family":[
+				   "kina",
+				   "mob"
+				]
+			 },
+			 "minecraft:break_blocks":{
+				"breakable_blocks": [
+					"kelp",
+					"seagrass",
+					"sea_pickle"
+				]
+			 },
+			 "minecraft:flocking": {
+				  "in_water": true,
+				  "match_variants": false,
+				  "use_center_of_mass": true,
+				  "low_flock_limit": 4,
+				  "high_flock_limit": 100,
+				  "goal_weight": 2.0,
+				  "loner_chance": 0.1,
+				  "influence_radius": 3.0,
+				  "breach_influence": 20.0,
+				  "separation_weight": 1.75,
+				  "separation_threshold": 0.95,
+				  "cohesion_weight": 2.0,
+				  "cohesion_threshold": 1.95,
+				  "innner_cohesion_threshold": 1.25,
+				  "min_height": 1.5,
+				  "max_height": 6.0,
+				  "block_distance": 2.0,
+				  "block_weight": 0.85
+			 },
+			 "minecraft:loot":{
+				"table":"loot_tables/kina.json"
+			 },
+			 "minecraft:breathable":{
+				"totalSupply":1500,
+				"suffocateTime":0,
+				"breathes_water":true,
+				"breathes_air":true,
+				"generates_bubbles":false
+			 },
+			 "minecraft:navigation.walk":{
+				"can_path_over_water":false,
+				"avoid_water":false,
+				"avoid_damage_blocks":true
+			 },
+			 "minecraft:movement.generic":{
+
+			 },
+			 "minecraft:can_climb":{
+
+			 },
+			 "minecraft:collision_box":{
+				"width":0.5,
+				"height":0.8
+			 },
+			 "minecraft:nameable":{
+
+			 },
+			 "minecraft:health":{
+				"value":10,
+				"max":10
+			 },
+			 "minecraft:movement":{
+				"value":0.01
+			 },
+			 "minecraft:behavior.mount_pathing":{
+				"priority":2,
+				"speed_multiplier":1.5,
+				"target_dist":0.0,
+				"track_target":true
+			 },
+			 "minecraft:behavior.breed":{
+				"priority":3,
+				"speed_multiplier":1.0
+			 },
+			 "minecraft:behavior.tempt":{
+				"priority":4,
+				"speed_multiplier":1.25,
+				"items":[
+				   "kelp"
+				]
+			 },
+			 "minecraft:behavior.follow_parent":{
+				"priority":5,
+				"speed_multiplier":1.1
+			 },
+			 "minecraft:behavior.random_stroll":{
+				"priority":6,
+				"speed_multiplier":0.2
+			 },
+			 "minecraft:behavior.panic":{
+				"priority":1,
+				"speed_multiplier":1.0
+			 },
+			 "minecraft:physics":{
+
+			 },
+			 "minecraft:water_movement":{
+				"drag_factor":0.1
+			 },
+			"minecraft:underwater_movement":{
+				"value":0.02
+			 },
+			 "minecraft:behavior.move_to_water":{
+				"priority":4,
+				"search_range":16,
+				"search_height":5,
+				"search_count":1,
+				"goal_radius":0.1
+			 },
+			 "minecraft:navigation.generic":{
+				"is_amphibious":true,
+				"can_path_over_water":false,
+				"can_swim":false,
+				"can_walk":true,
+				"can_sink":true,
+				"avoid_damage_blocks":true
+			 },
+			 "minecraft:movement.amphibious":{
+				"max_turn":0.1
+			 }
+		  },
+		  "events":{
+			 "minecraft:entity_spawned":{
+				"randomize":[
+				   {
+					  "weight":95,
+					  "add":{
+						 "component_groups":[
+							"ccl:kina_adult"
+						 ]
+					  }
+				   },
+				   {
+					  "weight":5,
+					  "add":{
+						 "component_groups":[
+							"ccl:kina_baby"
+						 ]
+					  }
+				   }
+				]
+			 },
+			 "minecraft:entity_born":{
+				"add":{
+				   "component_groups":[
+					  "ccl:kina_baby"
+				   ]
+				}
+			 },
+			 "minecraft:entity_transformed":{
+				"remove":{
+
+				},
+				"add":{
+				   "component_groups":[
+					  "ccl:kina_adult"
+				   ]
+				}
+			 },
+			 "minecraft:ageable_grow_up":{
+				"remove":{
+				   "component_groups":[
+					  "ccl:kina_baby"
+				   ]
+				},
+				"add":{
+				   "component_groups":[
+					  "ccl:kina_adult"
+				   ]
+				}
+			 }
+		  }
+	   }
+	}
+	

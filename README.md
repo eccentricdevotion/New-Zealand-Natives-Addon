@@ -20,6 +20,7 @@ Minecraft Bedrock behaviour and resource pack that adds various NZ native animal
 - Kererū
 - King Shag (Kawau)
 - Kiwi
+- Kina (Sea Urchin)
 - Kōkako
 - Kōtare (Kingfisher)
 - Kotuku
@@ -45,6 +46,7 @@ Minecraft Bedrock behaviour and resource pack that adds various NZ native animal
 - Short-tailed bat (Pekapeka)
 - Skinks (Otago, Grand, Chevron & Striped)
 - Takahe
+- Tāmure (Red Snapper)
 - Tawaki (Fiordland Crested Penguin)
 - Toroa (Royal Albatross)
 - Treeferns (Ponga)

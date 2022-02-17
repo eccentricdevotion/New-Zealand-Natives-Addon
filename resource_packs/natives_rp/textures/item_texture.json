@@ -59,7 +59,9 @@
             "textures/items/korora_fern",
             "textures/items/kokopu_fern",
             "textures/items/hura_fern",
-            "textures/items/humpback_whale_fern"
+            "textures/items/humpback_whale_fern",
+            "textures/items/tamure_fern",
+            "textures/items/kina_fern"
     	   ]
       }
    }

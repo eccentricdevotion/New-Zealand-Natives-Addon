@@ -16,6 +16,7 @@
 - Shore plover
 - Hākoakoa (Brown Skua)
 - Peripatus (Ngāokeoke - Velvet Worm) _(Rob C)_
+- Stingray (Whai)
 
 #### Flora:
 
@@ -49,6 +50,7 @@ Flora is really hard, as we can't add new blocks to the Education Edition of Min
 - Katipo
 - Kea
 - Kererū
+- Kina (Sea Urchin)
 - King Shag (Kawau)
 - Kiwi
 - Kōkako
@@ -76,6 +78,7 @@ Flora is really hard, as we can't add new blocks to the Education Edition of Min
 - Short-tailed bat (Pekapeka)
 - Skinks (Otago, Grand, Chevron & Striped)
 - Takahe
+- Tāmure (Red Snapper)
 - Tawaki (Fiordland Crested Penguin)
 - Toroa (Royal Albatross)
 - Treeferns (Ponga)
