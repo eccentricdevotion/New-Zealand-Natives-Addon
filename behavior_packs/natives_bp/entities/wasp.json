@@ -41,26 +41,20 @@
             "table":"loot_tables/wasp.json"
          },
          "minecraft:attack":{
-            "damage": 1
-            "effect_name":"poison"
+            "damage":1,
+            "effect_name":"poison",
             "effect_duration":"5"
          },
-            "minecraft:behavior.nearest_attackable_target":{
+         "minecraft:behavior.nearest_attackable_target":{
             "priority":2,
             "entity_types":[
-               {
-                  "filters":{
-                     "any_of":[
-                        {
-                           "test":"is_family",
-                           "subject":"other",
-                           "value":"player"
-                        },
-                        {
-                           "test":"is_family",
-                           "subject":"other",
-                           "value":"katipo"
-                        },
+                {
+                    "filters":{
+					   "test": "is_family", "subject": "other", "value": "katipo"
+					},
+					"max_dist":32
+			    }
+			]
          },
          "minecraft:breathable":{
             "totalSupply":15,
