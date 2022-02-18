@@ -1,19 +1,25 @@
 {
-	   "format_version":"1.8.0",
-	   "render_controllers":{
-		  "controller.render.tamure":{
-			 "arrays":{
-				"textures":{
-				   "Array.textures":[
-					  "Texture.default",
-					  "Texture.baby"
-				   ]
-				}
-			 },
-			 "textures":[ "Array.textures[query.is_baby]" ],
-			 "geometry":"Geometry.default",
-			 "materials":[ { "*":"Material.default" } ]
-		  }
-	   }
-	}
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.tamure": {
+      "arrays": {
+        "textures": {
+          "Array.textures": [
+            "Texture.default",
+            "Texture.baby"
+          ]
+        }
+      },
+      "textures": [
+        "Array.textures[query.is_baby]"
+      ],
+      "geometry": "Geometry.default",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ]
+    }
+  }
+}
 	

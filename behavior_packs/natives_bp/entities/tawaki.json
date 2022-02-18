@@ -13,7 +13,7 @@
                "family":[
                   "tawaki",
                   "bird",
-				  "penguin",
+                  "penguin",
                   "mob"
                ]
             },
@@ -53,8 +53,8 @@
             "minecraft:type_family":{
                "family":[
                   "tawaki",
-				  "penguin",
-				  "bird",
+                  "penguin",
+                  "bird",
                   "mob"
                ]
             },

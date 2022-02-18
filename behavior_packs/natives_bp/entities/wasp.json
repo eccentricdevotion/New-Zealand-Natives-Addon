@@ -50,11 +50,11 @@
             "entity_types":[
                 {
                     "filters":{
-					   "test": "is_family", "subject": "other", "value": "katipo"
-					},
-					"max_dist":32
-			    }
-			]
+                       "test": "is_family", "subject": "other", "value": "katipo"
+                },
+                "max_dist":32
+                }
+            ]
          },
          "minecraft:breathable":{
             "totalSupply":15,

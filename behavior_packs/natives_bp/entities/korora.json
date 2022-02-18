@@ -16,9 +16,9 @@
             "minecraft:breedable":{
                "requireTame":false,
                "breedItems": [
-					"fish",
-					"salmon"
-				],
+                  "fish",
+                  "salmon"
+               ],
                "breedsWith":{
                   "mateType":"ccl:korora",
                   "babyType":"ccl:korora",

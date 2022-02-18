@@ -1,38 +1,38 @@
 {
-	   "format_version":"1.10.0",
-	   "minecraft:client_entity":{
-		  "description":{
-			 "identifier":"ccl:kina",
-			 "materials":{
-				"default":"kina"
-			 },
-			 "textures":{
-				"default":"textures/entity/kina/kina",
-				"baby":"textures/entity/kina/kina_baby"
-			 },
-			 "geometry":{
-				"default":"geometry.kina"
-			 },
-			 "animations":{
-				
-				"swim":"animation.kina.swim",
-				"look_at_target":"animation.common.look_at_target"
-			 },
-			 "scripts":{
-				"animate":[
-				   
-				   { "swim": "query.is_in_water" },
-				   "look_at_target"
-				]
-			 },
-			 "render_controllers":[
-				"controller.render.kina"
-			 ],
-			 "spawn_egg":{
-				"texture":"ccl_fern",
-                "texture_index": 55
-			 }
-		  }
-	   }
-	}
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ccl:kina",
+      "materials": {
+        "default": "kina"
+      },
+      "textures": {
+        "default": "textures/entity/kina/kina",
+        "baby": "textures/entity/kina/kina_baby"
+      },
+      "geometry": {
+        "default": "geometry.kina"
+      },
+      "animations": {
+        "swim": "animation.kina.swim",
+        "look_at_target": "animation.common.look_at_target"
+      },
+      "scripts": {
+        "animate": [
+          {
+            "swim": "query.is_in_water"
+          },
+          "look_at_target"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.kina"
+      ],
+      "spawn_egg": {
+        "texture": "ccl_fern",
+        "texture_index": 55
+      }
+    }
+  }
+}
 	
