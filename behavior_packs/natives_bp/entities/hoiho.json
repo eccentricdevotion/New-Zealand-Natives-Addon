@@ -12,6 +12,8 @@
             "minecraft:type_family":{
                "family":[
                   "hoiho",
+				  "penguin",
+				  "bird",
                   "mob"
                ]
             },
@@ -57,6 +59,8 @@
             "minecraft:type_family":{
                "family":[
                   "hoiho",
+				  "penguin",
+				  "bird",
                   "mob"
                ]
             },
