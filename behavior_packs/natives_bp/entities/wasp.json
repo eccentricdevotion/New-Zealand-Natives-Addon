@@ -15,7 +15,7 @@
             },
             "minecraft:breedable":{
                "requireTame":false,
-               "breedItems":"wheat",
+               "breedItems":"spider_eye",
                "breedsWith":{
                   "mateType":"ccl:wasp",
                   "babyType":"ccl:wasp",
@@ -39,6 +39,28 @@
          },
          "minecraft:loot":{
             "table":"loot_tables/wasp.json"
+         },
+         "minecraft:attack":{
+            "damage": 1
+            "effect_name":"poison"
+            "effect_duration":"5"
+         },
+            "minecraft:behavior.nearest_attackable_target":{
+            "priority":2,
+            "entity_types":[
+               {
+                  "filters":{
+                     "any_of":[
+                        {
+                           "test":"is_family",
+                           "subject":"other",
+                           "value":"player"
+                        },
+                        {
+                           "test":"is_family",
+                           "subject":"other",
+                           "value":"katipo"
+                        },
          },
          "minecraft:breathable":{
             "totalSupply":15,
@@ -101,7 +123,7 @@
             "priority":4,
             "speed_multiplier":1.05,
             "items":[
-               "wheat"
+               "spider_eye"
             ]
          },
          "minecraft:behavior.random_stroll":{
