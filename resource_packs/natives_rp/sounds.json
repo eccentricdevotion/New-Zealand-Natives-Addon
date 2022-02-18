@@ -299,6 +299,15 @@
                "hurt":"ccl.humpback_whale.say",
                "death":"ccl.humpback_whale.say"
             }
+         },
+         "ccl:kina":{
+            "volume":1.0,
+            "pitch":[ 0.8, 1.2 ],
+            "events":{
+               "ambient":"ccl.kina.say",
+               "hurt":"ccl.kina.say",
+               "death":"ccl.kina.say"
+            }
          }
       }
    }

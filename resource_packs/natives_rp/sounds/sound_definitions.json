@@ -434,5 +434,15 @@
             "load_on_low_memory":true
          }
       ]
+   },
+   "ccl.kina.say":{
+      "category":"animal",
+      "sounds":[
+         {
+            "name":"sounds/kina/kina1",
+            "load_on_low_memory":true
+         },
+         "sounds/kina/kina2"
+      ]
    }
 }

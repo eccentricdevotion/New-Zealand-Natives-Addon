@@ -151,14 +151,6 @@
 				"priority":6,
 				"speed_multiplier":0.8
 			 },
-			 "minecraft:behavior.look_at_player":{
-				"priority":7,
-				"look_distance":6.0,
-				"probability":0.02
-			 },
-			 "minecraft:behavior.random_look_around":{
-				"priority":9
-			 },
 			 "minecraft:physics":{
 
 			 },
