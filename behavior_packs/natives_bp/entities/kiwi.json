@@ -8,9 +8,77 @@
          "is_experimental":false
       },
       "component_groups":{
-         "kiwi_baby":{
+         "kiwi_baby_day":{
             "minecraft:is_baby":{
-
+               
+            },
+            "minecraft:scale":{
+               "value":0.33
+            },
+            "minecraft:environment_sensor":{
+               "triggers":{
+                  "filters":{
+                     "test":"is_daytime",
+                     "value":true
+                  },
+                  "event":"ccl:sleep_baby"
+               }
+            },
+            "minecraft:behavior.flee_sun":{
+               "priority":2,
+               "speed_multiplier":1
+            },
+            "minecraft:behavior.restrict_sun":{
+               "priority":2
+            },
+            "minecraft:behavior.nap":{
+               "priority":8,
+               "cooldown_min":2.0,
+               "cooldown_max":7.0,
+               "mob_detect_dist":12.0,
+               "mob_detect_height":6.0,
+               "can_nap_filters":{
+                  "all_of":[
+                     {
+                        "test":"in_water",
+                        "subject":"self",
+                        "operator":"==",
+                        "value":false
+                     },
+                     {
+                        "test":"on_ground",
+                        "subject":"self",
+                        "operator":"==",
+                        "value":true
+                     }
+                  ]
+               },
+               "wake_mob_exceptions":{
+                  "any_of":[
+                     {
+                        "test":"is_family",
+                        "subject":"other",
+                        "operator":"==",
+                        "value":"fox"
+                     },
+                     {
+                        "test":"is_sneaking",
+                        "subject":"other",
+                        "operator":"==",
+                        "value":true
+                     }
+                  ]
+               }
+            },
+            "minecraft:behavior.find_cover":{
+               "priority":0,
+               "speed_multiplier":1,
+               "cooldown_time":0.0
+            }
+         },
+         "kiwi_baby_night":{
+            "minecraft:is_baby":{
+               
             },
             "minecraft:scale":{
                "value":0.33
@@ -28,9 +96,86 @@
             "minecraft:behavior.follow_parent":{
                "priority":5,
                "speed_multiplier":1.1
+            },
+            "minecraft:environment_sensor":{
+               "triggers":{
+                  "filters":{
+                     "test":"is_daytime",
+                     "value":false
+                  },
+                  "event":"ccl:wake_up_baby"
+               }
             }
          },
-         "kiwi_adult":{
+         "kiwi_adult_day":{
+            "minecraft:scale":{
+               "value":0.75
+            },
+            "minecraft:loot":{
+               "table":"loot_tables/entities/kiwi.json"
+            },
+            "minecraft:environment_sensor":{
+               "triggers":{
+                  "filters":{
+                     "test":"is_daytime",
+                     "value":true
+                  },
+                  "event":"ccl:sleep_adult"
+               }
+            },
+            "minecraft:behavior.flee_sun":{
+               "priority":2,
+               "speed_multiplier":1
+            },
+            "minecraft:behavior.restrict_sun":{
+               "priority":2
+            },
+            "minecraft:behavior.nap":{
+               "priority":8,
+               "cooldown_min":2.0,
+               "cooldown_max":7.0,
+               "mob_detect_dist":12.0,
+               "mob_detect_height":6.0,
+               "can_nap_filters":{
+                  "all_of":[
+                     {
+                        "test":"in_water",
+                        "subject":"self",
+                        "operator":"==",
+                        "value":false
+                     },
+                     {
+                        "test":"on_ground",
+                        "subject":"self",
+                        "operator":"==",
+                        "value":true
+                     }
+                  ]
+               },
+               "wake_mob_exceptions":{
+                  "any_of":[
+                     {
+                        "test":"is_family",
+                        "subject":"other",
+                        "operator":"==",
+                        "value":"fox"
+                     },
+                     {
+                        "test":"is_sneaking",
+                        "subject":"other",
+                        "operator":"==",
+                        "value":true
+                     }
+                  ]
+               }
+            },
+            "minecraft:behavior.find_cover":{
+               "priority":0,
+               "speed_multiplier":1,
+               "cooldown_time":0.0
+            }
+         },
+         "kiwi_adult_night":{
             "minecraft:scale":{
                "value":0.75
             },
@@ -54,15 +199,22 @@
             "minecraft:behavior.breed":{
                "priority":3,
                "speed_multiplier":1.0
+            },
+            "minecraft:environment_sensor":{
+               "triggers":{
+                  "filters":{
+                     "test":"is_daytime",
+                     "value":false
+                  },
+                  "event":"ccl:wake_up_adult"
+               }
             }
          }
       },
       "components":{
          "minecraft:type_family":{
             "family":[
-               "kiwi",
-               "bird",
-               "mob"
+               "kiwi"
             ]
          },
          "minecraft:breathable":{
@@ -74,7 +226,7 @@
             "height":0.8
          },
          "minecraft:nameable":{
-
+            
          },
          "minecraft:health":{
             "value":4,
@@ -94,13 +246,13 @@
             "avoid_damage_blocks":true
          },
          "minecraft:movement.basic":{
-
+            
          },
          "minecraft:jump.static":{
-
+            
          },
          "minecraft:can_climb":{
-
+            
          },
          "minecraft:behavior.float":{
             "priority":0
@@ -138,7 +290,7 @@
             "priority":8
          },
          "minecraft:physics":{
-
+            
          }
       },
       "events":{
@@ -154,22 +306,22 @@
                {
                   "weight":95,
                   "remove":{
-
+                     
                   },
                   "add":{
                      "component_groups":[
-                        "kiwi_adult"
+                        "kiwi_adult_day"
                      ]
                   }
                },
                {
                   "weight":5,
                   "remove":{
-
+                     
                   },
                   "add":{
                      "component_groups":[
-                        "kiwi_baby"
+                        "kiwi_baby_day"
                      ]
                   }
                }
@@ -177,23 +329,71 @@
          },
          "entity_born":{
             "remove":{
-
+               
             },
             "add":{
                "component_groups":[
-                  "kiwi_baby"
+                  "kiwi_baby_day"
                ]
             }
          },
          "ageable_grow_up":{
             "remove":{
                "component_groups":[
-                  "kiwi_baby"
+                  "kiwi_baby_day"
                ]
             },
             "add":{
                "component_groups":[
-                  "kiwi_adult"
+                  "kiwi_adult_day"
+               ]
+            }
+         },
+         "ccl:wake_up_baby":{
+            "remove":{
+               "component_groups":[
+                  "kiwi_baby_day"
+               ]
+            },
+            "add":{
+               "component_groups":[
+                  "kiwi_baby_night"
+               ]
+            }
+         },
+         "ccl:sleep_baby":{
+            "remove":{
+               "component_groups":[
+                  "kiwi_baby_night"
+               ]
+            },
+            "add":{
+               "component_groups":[
+                  "kiwi_baby_day"
+               ]
+            }
+         },
+         "ccl:wake_up_adult":{
+            "remove":{
+               "component_groups":[
+                  "kiwi_adult_day"
+               ]
+            },
+            "add":{
+               "component_groups":[
+                  "kiwi_adult_night"
+               ]
+            }
+         },
+         "ccl:sleep_adult":{
+            "remove":{
+               "component_groups":[
+                  "kiwi_adult_night"
+               ]
+            },
+            "add":{
+               "component_groups":[
+                  "kiwi_adult_day"
                ]
             }
          }
