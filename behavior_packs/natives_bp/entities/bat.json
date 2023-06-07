@@ -102,9 +102,6 @@
             "total_supply":15,
             "suffocate_time":0
          },
-         "minecraft:movement.generic":{
-
-         },
          "minecraft:can_fly":{
             "value":true
          },

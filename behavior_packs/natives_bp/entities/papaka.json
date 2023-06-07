@@ -67,9 +67,6 @@
             "suffocate_time": 1000,
             "generates_bubbles":false
          },
-         "minecraft:movement.generic":{
-
-         },
          "minecraft:jump.static":{
 
          },

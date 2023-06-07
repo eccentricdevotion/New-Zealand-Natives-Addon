@@ -59,7 +59,7 @@
          "minecraft:breathable":{
             "totalSupply":15,
             "suffocateTime":0
-         }
+         },
          "minecraft:movement":{
             "value":0.05
          },

@@ -29,9 +29,6 @@
             "totalSupply":1500,
             "suffocateTime":0
          },
-         "minecraft:movement.fly":{
-
-         },
          "minecraft:movement.glide":{
             "start_speed":0.1,
             "speed_when_turning":0.2

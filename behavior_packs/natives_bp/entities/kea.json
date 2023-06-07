@@ -154,9 +154,6 @@
          "minecraft:fall_damage":{
             "value":0.0
          },
-         "minecraft:movement.generic":{
-
-         },
          "minecraft:behavior.random_stroll":{
             "priority":6,
             "speed_multiplier":0.8

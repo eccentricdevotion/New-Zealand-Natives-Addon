@@ -85,9 +85,6 @@
                "arthropod"
             ]
          },
-         "minecraft:movement.basic":{
-
-         },
          "minecraft:breathable":{
             "totalSupply":15,
             "suffocateTime":0

@@ -162,9 +162,6 @@
             "can_walk":true,
             "can_sink":true,
             "avoid_damage_blocks":true
-         },
-         "minecraft:movement.amphibious":{
-            "max_turn":5.0
          }
       },
       "events":{

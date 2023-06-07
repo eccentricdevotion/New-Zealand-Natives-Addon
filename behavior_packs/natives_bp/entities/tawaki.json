@@ -144,9 +144,6 @@
             "can_sink":false,
             "avoid_damage_blocks":true
          },
-         "minecraft:movement.amphibious":{
-            "max_turn":5.0
-         },
          "minecraft:jump.static":{
             "jump_power":0.6
          },
