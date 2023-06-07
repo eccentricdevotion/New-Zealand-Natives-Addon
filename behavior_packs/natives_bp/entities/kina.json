@@ -93,11 +93,6 @@
         "breathes_air": true,
         "generates_bubbles": false
       },
-      "minecraft:navigation.walk": {
-        "can_path_over_water": false,
-        "avoid_water": false,
-        "avoid_damage_blocks": true
-      },
       "minecraft:movement.generic": {
       },
       "minecraft:can_climb": {
@@ -223,4 +218,3 @@
     }
   }
 }
-	

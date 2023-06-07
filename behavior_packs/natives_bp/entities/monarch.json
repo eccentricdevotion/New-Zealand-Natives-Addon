@@ -42,11 +42,6 @@
             },
             "minecraft:movement.basic":{
 
-            },
-            "minecraft:navigation.walk":{
-               "can_path_over_water":false,
-               "avoid_water":true,
-               "avoid_damage_blocks":true
             }
          },
          "minecraft:adult":{
@@ -64,9 +59,6 @@
             },
             "minecraft:fall_damage":{
                "value":0.0
-            },
-            "minecraft:navigation.float":{
-               "can_path_over_water":false
             },
             "minecraft:jump.static":{
 

@@ -109,7 +109,9 @@
             "value":true
          },
          "minecraft:navigation.fly":{
-            "can_path_over_water":true
+            "can_path_over_water":true,
+            "avoid_water":true,
+            "avoid_damage_blocks":true
          },
          "minecraft:movement.fly":{
 
@@ -126,9 +128,6 @@
             "speed_multiplier":0.1,
             "target_dist":0.0,
             "track_target":true
-         },
-         "minecraft:navigation.walk":{
-            "avoid_water":true
          },
          "minecraft:collision_box":{
             "width":0.5,
@@ -172,9 +171,6 @@
          },
          "minecraft:can_fly":{
             "value":true
-         },
-         "minecraft:navigation.fly":{
-            "can_path_over_water":true
          },
          "minecraft:movement.fly":{
 

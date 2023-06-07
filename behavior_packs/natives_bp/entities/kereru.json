@@ -56,9 +56,6 @@
                "target_dist":0.0,
                "track_target":true
             },
-            "minecraft:navigation.walk":{
-               "avoid_water":true
-            },
             "minecraft:movement":{
                "value":0.1
             }

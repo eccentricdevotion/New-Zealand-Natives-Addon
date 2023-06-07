@@ -97,12 +97,6 @@
          "minecraft:physics":{
             "has_gravity":true
          },
-         "minecraft:navigation.walk":{
-            "avoid_damage_blocks":true
-         },
-         "minecraft:navigation.climb":{
-            "can_float":true
-         },
          "minecraft:can_climb":{
 
          },

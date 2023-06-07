@@ -69,9 +69,6 @@
             "minecraft:fall_damage":{
                "value":0.0
             },
-            "minecraft:navigation.float":{
-               "can_path_over_water":false
-            },
             "minecraft:jump.static":{
 
             },

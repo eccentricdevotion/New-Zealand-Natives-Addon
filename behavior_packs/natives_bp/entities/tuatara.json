@@ -90,9 +90,6 @@
          "minecraft:physics":{
             "has_gravity":true
          },
-         "minecraft:navigation.climb":{
-            "can_float":true
-         },
          "minecraft:can_climb":{
 
          },

@@ -13,6 +13,7 @@ Minecraft Bedrock behaviour and resource pack that adds various NZ native animal
 - Hoiho (yellow-eyed penguin)
 - Huhu Grubs / Beetles
 - Huia
+- Hura (giant centipede)
 - Ileodictyon cibarius (a basket fungus)
 - Kakapo
 - Katipo
