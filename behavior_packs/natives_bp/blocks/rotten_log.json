@@ -1,31 +1,28 @@
 {
-   "format_version":"1.12.0",
+   "format_version":"1.19.10",
    "minecraft:block":{
       "description":{
          "identifier":"ccl:rotten_log",
          "is_experimental":false,
-         "register_to_creative_menu":true
+         "register_to_creative_menu":true,
+         "menu_category":{
+            "category":"nature",
+            "group":"itemGroup.name.log"
+         }
       },
       "components":{
-         "minecraft:loot":{
-            "table":"loot_tables/rotten_log.json"
+         "minecraft:loot":"loot_tables/rotten_log.json",
+         "minecraft:destructible_by_mining":{
+            "seconds_to_destroy":0.5
          },
-         "minecraft:destroy_time":{
-            "value":0.5
-         },
-         "minecraft:explosion_resistance":{
-            "value":10
+         "minecraft:destructible_by_explosion":{
+            "explosion_resistance":10
          },
          "minecraft:flammable":{
-            "flame_odds":1,
-            "burn_odds":1
+            "destroy_chance_modifier":20,
+            "catch_chance_modifier":5
          },
-         "minecraft:block_light_absorption":{
-            "value":0
-         },
-         "minecraft:block_light_emission":{
-            "emission":0.0
-         }
+         "minecraft:map_color":"#886420"
       }
    }
 }
