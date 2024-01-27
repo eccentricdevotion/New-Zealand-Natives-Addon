@@ -27,7 +27,7 @@
             ]
          },
          "render_controllers":[
-            "controller.render.frog"
+            "controller.render.nz_frog"
          ],
          "spawn_egg":{
             "texture":"ccl_fern",
