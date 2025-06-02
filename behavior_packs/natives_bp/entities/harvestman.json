@@ -79,7 +79,7 @@
             "priority":4,
             "speed_multiplier":1.05,
             "items":[
-               "huhu_grub"
+               "ccl:huhu_grub"
             ]
          },
          "minecraft:behavior.follow_parent":{
