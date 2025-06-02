@@ -76,9 +76,6 @@
             "can_breach":true,
             "can_sink":false
          },
-         "minecraft:movement.generic":{
-            
-         },
          "minecraft:jump.static":{
             
          },

@@ -93,8 +93,6 @@
         "breathes_air": true,
         "generates_bubbles": false
       },
-      "minecraft:movement.generic": {
-      },
       "minecraft:can_climb": {
       },
       "minecraft:collision_box": {
