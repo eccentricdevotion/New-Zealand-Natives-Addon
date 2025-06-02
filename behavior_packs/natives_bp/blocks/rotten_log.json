@@ -11,7 +11,9 @@
          }
       },
       "components":{
-         "minecraft:loot":"loot_tables/rotten_log.json",
+         "minecraft:loot":{
+             "loot_table":"loot_tables/rotten_log.json"
+         },
          "minecraft:destructible_by_mining":{
             "seconds_to_destroy":0.5
          },
@@ -21,6 +23,9 @@
          "minecraft:flammable":{
             "destroy_chance_modifier":20,
             "catch_chance_modifier":5
+         },
+         "minecraft:destroy_time":{
+             "destroy_time":10
          },
          "minecraft:map_color":"#886420"
       }
