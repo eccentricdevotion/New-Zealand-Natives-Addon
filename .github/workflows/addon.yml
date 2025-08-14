@@ -36,31 +36,28 @@ jobs:
       - name: Zip behaviour pack
         uses: TheDoctor0/zip-release@0.7.6
         with:
-          directory: 'addon'
           path: 'behavior_packs/natives_bp/'
-          filename: 'natives_b.mcpack'
+          filename: 'addon/natives_b.mcpack'
 
       # Create resource pack file
       - name: Zip resource pack
         uses: TheDoctor0/zip-release@0.7.6
         with:
-          directory: 'addon'
           path: 'resource_packs/natives_rp/'
-          filename: 'natives_r.mcpack'
+          filename: 'addon/natives_r.mcpack'
 
       # Create skin pack file
       - name: Zip skin pack
         uses: TheDoctor0/zip-release@0.7.6
         with:
-          directory: 'addon'
           path: 'skin_packs/natives_sp/'
-          filename: 'natives_s.mcpack'
+          filename: 'addon/natives_s.mcpack'
 
       # Create addon file
       - name: Zip addon
         uses: TheDoctor0/zip-release@0.7.6
         with:
-          path: 'addon'
+          path: 'addon/'
           filename: 'NZNatives.mcaddon'
 
       - name: Add zip to release
