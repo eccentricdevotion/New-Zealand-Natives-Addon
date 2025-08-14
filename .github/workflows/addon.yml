@@ -37,7 +37,7 @@ jobs:
         uses: TheDoctor0/zip-release@0.7.6
         with:
           directory: 'addon'
-          path: 'behavior_packs/natives_bp'
+          path: '/behavior_packs/natives_bp'
           filename: 'natives_b.mcpack'
 
       # Create resource pack file
@@ -45,7 +45,7 @@ jobs:
         uses: TheDoctor0/zip-release@0.7.6
         with:
           directory: 'addon'
-          path: 'resource_packs/natives_rp'
+          path: '/resource_packs/natives_rp'
           filename: 'natives_r.mcpack'
 
       # Create skin pack file
@@ -53,7 +53,7 @@ jobs:
         uses: TheDoctor0/zip-release@0.7.6
         with:
           directory: 'addon'
-          path: 'skin_packs/natives_sp'
+          path: '/skin_packs/natives_sp'
           filename: 'natives_s.mcpack'
 
       # Create addon file
