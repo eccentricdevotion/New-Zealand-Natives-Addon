@@ -37,28 +37,28 @@ jobs:
         uses: TheDoctor0/zip-release@0.7.6
         with:
           directory: 'behavior_packs/natives_bp/'
-          filename: 'addon/natives_b.mcpack'
+          filename: '../../addon/natives_b.mcpack'
 
       # Create resource pack file
       - name: Zip resource pack
         uses: TheDoctor0/zip-release@0.7.6
         with:
           directory: 'resource_packs/natives_rp/'
-          filename: 'addon/natives_r.mcpack'
+          filename: '../../addon/natives_r.mcpack'
 
       # Create skin pack file
       - name: Zip skin pack
         uses: TheDoctor0/zip-release@0.7.6
         with:
           directory: 'skin_packs/natives_sp/'
-          filename: 'addon/natives_s.mcpack'
+          filename: '../../addon/natives_s.mcpack'
 
       # Create addon file
       - name: Zip addon
         uses: TheDoctor0/zip-release@0.7.6
         with:
           directory: 'addon/'
-          filename: 'NZNatives.mcaddon'
+          filename: '../NZNatives.mcaddon'
 
       - name: Add zip to release
         uses: softprops/action-gh-release@v2
