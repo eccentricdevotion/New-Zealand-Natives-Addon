@@ -25,17 +25,18 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
 
-      - name: Delete old addon file
-        uses: mknejp/delete-release-assets@v1
-        with:
-          assets: 'NZNatives.mcaddon' # Globs or specific names of assets to delete
-          tag: 'natives' # The tag of the release to modify
-          token: ${{ secrets.NATIVES_WORKFLOW }} # Required for authentication
+      #- name: Delete old addon file
+        #uses: mknejp/delete-release-assets@v1
+        #with:
+          #assets: 'NZNatives.mcaddon' # Globs or specific names of assets to delete
+          #tag: 'natives' # The tag of the release to modify
+          #token: ${{ secrets.NATIVES_WORKFLOW }} # Required for authentication
 
       # Create behaviour pack file
       - name: Zip behaviour pack
         uses: TheDoctor0/zip-release@0.7.6
         with:
+          command: 'cd behavior_packs/natives_bp'
           path: 'behavior_packs/natives_bp/'
           filename: 'addon/natives_b.mcpack'
 
@@ -43,6 +44,7 @@ jobs:
       - name: Zip resource pack
         uses: TheDoctor0/zip-release@0.7.6
         with:
+          command: 'cd resource_packs/natives_rp'
           path: 'resource_packs/natives_rp/'
           filename: 'addon/natives_r.mcpack'
 
@@ -50,6 +52,7 @@ jobs:
       - name: Zip skin pack
         uses: TheDoctor0/zip-release@0.7.6
         with:
+          command: 'cd skin_packs/natives_sp'
           path: 'skin_packs/natives_sp/'
           filename: 'addon/natives_s.mcpack'
 
@@ -57,7 +60,7 @@ jobs:
       - name: Zip addon
         uses: TheDoctor0/zip-release@0.7.6
         with:
-          directory: 'addon/'
+          command: 'cd addon'
           path: 'addon/'
           filename: 'NZNatives.mcaddon'
 
