@@ -34,27 +34,32 @@ jobs:
 
       # Create behaviour pack file
       - name: Zip behaviour pack
-        uses: TonyBogdanov/zip@1.0
+        uses: TheDoctor0/zip-release@0.7.6
         with:
-          args: zip -qq -r ./addon/natives_b.mcpack ./behavior_packs/natives_bp
+          path: 'behavior_packs/natives_bp/'
+          filename: 'addon/natives_b.mcpack'
 
       # Create resource pack file
       - name: Zip resource pack
-        uses: TonyBogdanov/zip@1.0
+        uses: TheDoctor0/zip-release@0.7.6
         with:
-          args: zip -qq -r ./addon/natives_r.mcpack ./resource_packs/natives_rp
+          path: 'resource_packs/natives_rp/'
+          filename: 'addon/natives_r.mcpack'
 
       # Create skin pack file
       - name: Zip skin pack
-        uses: TonyBogdanov/zip@1.0
+        uses: TheDoctor0/zip-release@0.7.6
         with:
-          args: zip -qq -r ./addon/natives_s.mcpack ./skin_packs/natives_sp
+          path: 'skin_packs/natives_sp/'
+          filename: 'addon/natives_s.mcpack'
 
       # Create addon file
       - name: Zip addon
-        uses: TonyBogdanov/zip@1.0
+        uses: TheDoctor0/zip-release@0.7.6
         with:
-          args: zip -qq -r ./NZNatives.mcaddon ./addon
+          directory: 'addon/'
+          path: 'addon/'
+          filename: 'NZNatives.mcaddon'
 
       - name: Add zip to release
         uses: softprops/action-gh-release@v2
