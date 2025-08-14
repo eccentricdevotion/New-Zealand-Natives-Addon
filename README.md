@@ -57,4 +57,4 @@ Minecraft Bedrock behaviour and resource pack that adds various NZ native animal
 - Wētā
 - Whio (Blue Duck)
 
-Downloads for Windows 10, Education Edition, MCPE and other Bedrock editions available at [http://tardisjenkins.duckdns.org:8080/job/New-Zealand-Natives-Addon/](http://tardisjenkins.duckdns.org:8080/job/New-Zealand-Natives-Addon/)
+Downloads for Windows 10, Education Edition, MCPE and other Bedrock editions available on the [Releases](https://github.com/eccentricdevotion/New-Zealand-Natives-Addon/releases) page.
