@@ -47,6 +47,9 @@
                "damage_multiplier":2000.0,
                "deals_damage":true
             }
+         },
+         "minecraft:water_movement": {
+            "drag_factor": 0.01
          }
       },
       "events":{
