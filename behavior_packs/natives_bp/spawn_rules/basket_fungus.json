@@ -29,12 +29,7 @@
                   {
                      "test":"has_biome_tag",
                      "operator":"==",
-                     "value":"river"
-                  },
-                  {
-                     "test":"has_biome_tag",
-                     "operator":"==",
-                     "value":"swamp"
+                     "value":"cherry_grove"
                   },
                   {
                      "test":"has_biome_tag",
@@ -50,6 +45,16 @@
                      "test":"has_biome_tag",
                      "operator":"==",
                      "value":"jungle"
+                  },
+                  {
+                     "test":"has_biome_tag",
+                     "operator":"==",
+                     "value":"birch"
+                  },
+                  {
+                     "test":"has_biome_tag",
+                     "operator":"==",
+                     "value":"flower_forest"
                   }
                ]
             }
